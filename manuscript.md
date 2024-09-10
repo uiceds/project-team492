@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: Air pollutants Analysis
 keywords:
 - markdown
 - publishing
@@ -7,8 +7,10 @@ keywords:
 lang: en-US
 date-meta: '2024-09-10'
 author-meta:
-- John Doe
-- Jane Roe
+- Siyoung Park
+- Tausif Elahi
+- Tabassum Nanzeeba
+- Rauf Momina
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -16,38 +18,42 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Air pollutants Analysis" />
+  <meta name="citation_title" content="Air pollutants Analysis" />
+  <meta property="og:title" content="Air pollutants Analysis" />
+  <meta property="twitter:title" content="Air pollutants Analysis" />
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T17:05:16+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T17:05:16+00:00" />
+  <meta name="dc.modified" content="2024-09-10T17:36:23+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T17:36:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Siyoung Park" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Tausif Elahi" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Tabassum Nanzeeba" />
+  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Rauf Momina" />
+  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_orcid" content="None" />
   <link rel="canonical" href="https://uiceds.github.io/project-team492/" />
   <meta property="og:url" content="https://uiceds.github.io/project-team492/" />
   <meta property="twitter:url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e93991376702589e1f8cb1d035ea46d8e95fca46/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e93991376702589e1f8cb1d035ea46d8e95fca46/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e93991376702589e1f8cb1d035ea46d8e95fca46/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/f045b4c3988a2614c8699f5a4398da959db5ea68/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/f045b4c3988a2614c8699f5a4398da959db5ea68/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/f045b4c3988a2614c8699f5a4398da959db5ea68/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/e93991376702589e1f8cb1d035ea46d8e95fca46/))
+([permalink](https://uiceds.github.io/project-team492/v/f045b4c3988a2614c8699f5a4398da959db5ea68/))
 was automatically generated
-from [uiceds/project-team492@e939913](https://github.com/uiceds/project-team492/tree/e93991376702589e1f8cb1d035ea46d8e95fca46)
+from [uiceds/project-team492@f045b4c](https://github.com/uiceds/project-team492/tree/f045b4c3988a2614c8699f5a4398da959db5ea68)
 on September 10, 2024.
 </em></small>
 
@@ -81,38 +87,41 @@ on September 10, 2024.
 
 
 
-+ **John Doe**
++ **Siyoung Park**
   <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)
-    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
-    [\@johndoe@mastodon.social](https://mastodon.social/@johndoe)
+    [siyoung3](https://github.com/siyoung3)
     <br>
   <small>
      Department of Something, University of Whatever
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Jane Roe**
++ **Tausif Elahi**
   ^[✉](#correspondence)^<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
-    <br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Something, University of Whatever
+  </small>
+
++ **Tabassum Nanzeeba**
+  ^[✉](#correspondence)^<br>
+  <small>
+     Department of Something, University of Whatever
+  </small>
+
++ **Rauf Momina**
+  ^[✉](#correspondence)^<br>
+  <small>
+     Department of Something, University of Whatever
   </small>
 
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team492/issues)
 or email to
-Jane Roe \<jane.roe@whatever.edu\>.
+Tausif Elahi \<None\>, 
+Tabassum Nanzeeba \<None\>, 
+Rauf Momina \<None\>.
 
 
 :::
