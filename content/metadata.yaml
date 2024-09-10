@@ -13,24 +13,23 @@ authors:
     orcid: 
     email: siyoung3@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
+      - Department Civil and Environmental Engineering, University of Illinois
   - github: 
-    name: Tausif Elahi
+    name: Tausif E Elahi
     initials: TE
     orcid: 
-    email: 
+    email: tausife2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
+      -PhD student
+      - Department of Civil ENgineering, University of Illinois
     corresponding: true
   - github: 
     name: Tabassum Nanzeeba
     initials: TN
     orcid: 
-    email: 
+    email: nt23@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - Department of Civil and Environmental Engineering, University of Illinois
     corresponding: true
   - github: 
     name: Rauf Momina
