@@ -14,7 +14,7 @@ authors:
     email: siyoung3@illinois.edu
     affiliations:
       - Department Civil and Environmental Engineering, University of Illinois
-  - github: 
+  - github: tausifeelahi
     name: Tausif E Elahi
     initials: TE
     orcid: 
@@ -23,7 +23,7 @@ authors:
       -PhD student
       - Department of Civil ENgineering, University of Illinois
     corresponding: true
-  - github: 
+  - github: nanxee492
     name: Tabassum Nanzeeba
     initials: TN
     orcid: 
@@ -31,11 +31,11 @@ authors:
     affiliations:
       - Department of Civil and Environmental Engineering, University of Illinois
     corresponding: true
-  - github: 
+  - github: MominaRauf
     name: Rauf Momina
     initials: RM
     orcid: 
     email: 
     affiliations:
-      - Department of Something, University of Whatever
+      - Department of Civil and Environmental Engineering, University of Illinois
     corresponding: true
