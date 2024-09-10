@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T17:46:17+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T17:46:17+00:00" />
+  <meta name="dc.modified" content="2024-09-10T18:11:33+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T18:11:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,7 +43,7 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Rauf Momina" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois" />
   <meta name="citation_author_orcid" content="None" />
   <link rel="canonical" href="https://uiceds.github.io/project-team492/" />
   <meta property="og:url" content="https://uiceds.github.io/project-team492/" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/54d5f3029a3cafcf0c91cb01226ff01f819059f5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/54d5f3029a3cafcf0c91cb01226ff01f819059f5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/54d5f3029a3cafcf0c91cb01226ff01f819059f5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/c13580bb10a7f54c2d789f5e99d2bfc464c19c9e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/c13580bb10a7f54c2d789f5e99d2bfc464c19c9e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/c13580bb10a7f54c2d789f5e99d2bfc464c19c9e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/54d5f3029a3cafcf0c91cb01226ff01f819059f5/))
+([permalink](https://uiceds.github.io/project-team492/v/c13580bb10a7f54c2d789f5e99d2bfc464c19c9e/))
 was automatically generated
-from [uiceds/project-team492@54d5f30](https://github.com/uiceds/project-team492/tree/54d5f3029a3cafcf0c91cb01226ff01f819059f5)
+from [uiceds/project-team492@c13580b](https://github.com/uiceds/project-team492/tree/c13580bb10a7f54c2d789f5e99d2bfc464c19c9e)
 on September 10, 2024.
 </em></small>
 
@@ -98,20 +98,29 @@ on September 10, 2024.
 
 + **Tausif E Elahi**
   ^[✉](#correspondence)^<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [tausifeelahi](https://github.com/tausifeelahi)
+    <br>
   <small>
      -PhD student - Department of Civil ENgineering, University of Illinois
   </small>
 
 + **Tabassum Nanzeeba**
   ^[✉](#correspondence)^<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [nanxee492](https://github.com/nanxee492)
+    <br>
   <small>
      Department of Civil and Environmental Engineering, University of Illinois
   </small>
 
 + **Rauf Momina**
   ^[✉](#correspondence)^<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [MominaRauf](https://github.com/MominaRauf)
+    <br>
   <small>
-     Department of Something, University of Whatever
+     Department of Civil and Environmental Engineering, University of Illinois
   </small>
 
 
