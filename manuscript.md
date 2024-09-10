@@ -8,7 +8,7 @@ lang: en-US
 date-meta: '2024-09-10'
 author-meta:
 - Siyoung Park
-- Tausif Elahi
+- Tausif E Elahi
 - Tabassum Nanzeeba
 - Rauf Momina
 header-includes: |
@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T17:36:23+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T17:36:23+00:00" />
+  <meta name="dc.modified" content="2024-09-10T17:46:17+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T17:46:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,13 +34,13 @@ header-includes: |
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Siyoung Park" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department Civil and Environmental Engineering, University of Illinois" />
   <meta name="citation_author_orcid" content="None" />
-  <meta name="citation_author" content="Tausif Elahi" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author" content="Tausif E Elahi" />
+  <meta name="citation_author_institution" content="-PhD student - Department of Civil ENgineering, University of Illinois" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Tabassum Nanzeeba" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Rauf Momina" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/f045b4c3988a2614c8699f5a4398da959db5ea68/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/f045b4c3988a2614c8699f5a4398da959db5ea68/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/f045b4c3988a2614c8699f5a4398da959db5ea68/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/54d5f3029a3cafcf0c91cb01226ff01f819059f5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/54d5f3029a3cafcf0c91cb01226ff01f819059f5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/54d5f3029a3cafcf0c91cb01226ff01f819059f5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/f045b4c3988a2614c8699f5a4398da959db5ea68/))
+([permalink](https://uiceds.github.io/project-team492/v/54d5f3029a3cafcf0c91cb01226ff01f819059f5/))
 was automatically generated
-from [uiceds/project-team492@f045b4c](https://github.com/uiceds/project-team492/tree/f045b4c3988a2614c8699f5a4398da959db5ea68)
+from [uiceds/project-team492@54d5f30](https://github.com/uiceds/project-team492/tree/54d5f3029a3cafcf0c91cb01226ff01f819059f5)
 on September 10, 2024.
 </em></small>
 
@@ -93,20 +93,19 @@ on September 10, 2024.
     [siyoung3](https://github.com/siyoung3)
     <br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Department Civil and Environmental Engineering, University of Illinois
   </small>
 
-+ **Tausif Elahi**
++ **Tausif E Elahi**
   ^[✉](#correspondence)^<br>
   <small>
-     Department of Something, University of Whatever
+     -PhD student - Department of Civil ENgineering, University of Illinois
   </small>
 
 + **Tabassum Nanzeeba**
   ^[✉](#correspondence)^<br>
   <small>
-     Department of Something, University of Whatever
+     Department of Civil and Environmental Engineering, University of Illinois
   </small>
 
 + **Rauf Momina**
@@ -119,8 +118,8 @@ on September 10, 2024.
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team492/issues)
 or email to
-Tausif Elahi \<None\>, 
-Tabassum Nanzeeba \<None\>, 
+Tausif E Elahi \<tausife2@illinois.edu\>, 
+Tabassum Nanzeeba \<nt23@illinois.edu\>, 
 Rauf Momina \<None\>.
 
 
