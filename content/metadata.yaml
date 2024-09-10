@@ -1,30 +1,41 @@
 ---
-title: "Manuscript Title"
-date: null  # Defaults to date generated, but can specify like '2022-10-31'.
+title: "Air pollutants Analysis"
+date: '2024-09-10'  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
+  - github: siyoung3
+    name: Siyoung Park
+    initials: SP
+    orcid: 
+    email: siyoung3@illinois.edu
+    affiliations:
+      - Department Civil and Environmental Engineering, University of Illinois
+  - github: tausifeelahi
+    name: Tausif E Elahi
+    initials: TE
+    orcid: 
+    email: tausife2@illinois.edu
+    affiliations:
+      -PhD student
+      - Department of Civil ENgineering, University of Illinois
+    corresponding: true
+  - github: nanxee492
+    name: Tabassum Nanzeeba
+    initials: TN
+    orcid: 
+    email: nt23@illinois.edu
+    affiliations:
+      - Department of Civil and Environmental Engineering, University of Illinois
+    corresponding: true
+  - github: 
+    name: Rauf Momina
+    initials: RM
+    orcid: 
+    email: 
     affiliations:
       - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
     corresponding: true
