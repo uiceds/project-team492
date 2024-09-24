@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-24T19:47:13+00:00" />
-  <meta property="article:modified_time" content="2024-09-24T19:47:13+00:00" />
+  <meta name="dc.modified" content="2024-09-24T19:53:19+00:00" />
+  <meta property="article:modified_time" content="2024-09-24T19:53:19+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/43281346e211f3583128fb3b36a140a73166ba6a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/43281346e211f3583128fb3b36a140a73166ba6a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/43281346e211f3583128fb3b36a140a73166ba6a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e546ba11dc47a6f853efba120e99792b02a5c381/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e546ba11dc47a6f853efba120e99792b02a5c381/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e546ba11dc47a6f853efba120e99792b02a5c381/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/43281346e211f3583128fb3b36a140a73166ba6a/))
+([permalink](https://uiceds.github.io/project-team492/v/e546ba11dc47a6f853efba120e99792b02a5c381/))
 was automatically generated
-from [uiceds/project-team492@4328134](https://github.com/uiceds/project-team492/tree/43281346e211f3583128fb3b36a140a73166ba6a)
+from [uiceds/project-team492@e546ba1](https://github.com/uiceds/project-team492/tree/e546ba11dc47a6f853efba120e99792b02a5c381)
 on September 24, 2024.
 </em></small>
 
@@ -170,7 +170,7 @@ https://www.caces.us/data [Accessed: 09/19/2024]
 In a CSV file
 
 
-{.page_break_before}
+# {.page_break_before}
 2.	Temperature variation of the above states over years (using NOAA, National Centers for Environmental Information dataset from 1991 to 2020).
 -	CSV file 1 (Bismarck 2.4 NNW, ND US)
 Rows: 13 // Cols: 313
@@ -196,7 +196,7 @@ _Dataset:_
 Palecki, Michael; Durre, Imke; Applequist, Scott; Arguez, Anothony; Lawrimore, Jay. 2021: U.S. Climate Normals 2020: U.S. Hourly Climate Normals (1991-2020). [indicate subset used]. NOAA National Centers for Environmental Information. https/doi.org/. Accessed [09/19/2024]
 In a CSV file
 
-{.page_break_before} 
+# {.page_break_before}
 __Proposal:__ 
 
 1.	In this research, our team will track the air pollutants in different states of the US. O3, CO, SO2, NO2, and PM10 are the subjects of the investigation. The five states of the US, North Dakota (north), Illinois (mid), Florida (south), and California (west) are the regions for measuring air pollutants.
