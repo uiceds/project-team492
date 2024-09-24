@@ -4,7 +4,7 @@ Applequist
 Arguez
 CSV
 Dacota
-Dataset
+dataset
 Durre
 Elahi
 Imke
@@ -20,7 +20,7 @@ Palecki
 ppb
 pred
 Rauf
-siyoung
+Siyoung
 Tabassum
 Tausif
 tausifeelahi

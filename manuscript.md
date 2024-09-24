@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-24T18:08:14+00:00" />
-  <meta property="article:modified_time" content="2024-09-24T18:08:14+00:00" />
+  <meta name="dc.modified" content="2024-09-24T18:18:12+00:00" />
+  <meta property="article:modified_time" content="2024-09-24T18:18:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/749058ac73d1207d02bd188abebed48eff61d76a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/749058ac73d1207d02bd188abebed48eff61d76a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/749058ac73d1207d02bd188abebed48eff61d76a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e24804bebde723e4fdcc0db2e96bc7784f6752c8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e24804bebde723e4fdcc0db2e96bc7784f6752c8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e24804bebde723e4fdcc0db2e96bc7784f6752c8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/749058ac73d1207d02bd188abebed48eff61d76a/))
+([permalink](https://uiceds.github.io/project-team492/v/e24804bebde723e4fdcc0db2e96bc7784f6752c8/))
 was automatically generated
-from [uiceds/project-team492@749058a](https://github.com/uiceds/project-team492/tree/749058ac73d1207d02bd188abebed48eff61d76a)
+from [uiceds/project-team492@e24804b](https://github.com/uiceds/project-team492/tree/e24804bebde723e4fdcc0db2e96bc7784f6752c8)
 on September 24, 2024.
 </em></small>
 
@@ -137,12 +137,11 @@ Rauf Momina \<momina2@illinois.edu\>.
 :::
 
 
-## Abstract {.page_break_before}
+## Project Description {.page_break_before}
 
-Title: Evaluation of air quality within different states in the US.
-Names: Siyoung Park, Tausif E Elahi, Nanzeeba Tabassum, Momina Rauf
+Description of data set: 
 
-Description of data set: The dataset consists of 
+The dataset consists of 
 1.	Air pollutants (O3, CO, SO2, NO2, PM10) in different states (Illinois, California, Florida, North Dacota). of the US:
 Rows: 463,218 // Cols: 7
 
