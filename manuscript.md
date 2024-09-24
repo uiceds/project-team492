@@ -1,5 +1,5 @@
 ---
-title: Air pollutants Analysis
+title: ' Evaluation of air quality within different states in the US'
 keywords:
 - markdown
 - publishing
@@ -18,15 +18,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Air pollutants Analysis" />
-  <meta name="citation_title" content="Air pollutants Analysis" />
-  <meta property="og:title" content="Air pollutants Analysis" />
-  <meta property="twitter:title" content="Air pollutants Analysis" />
+  <meta name="dc.title" content=" Evaluation of air quality within different states in the US" />
+  <meta name="citation_title" content=" Evaluation of air quality within different states in the US" />
+  <meta property="og:title" content=" Evaluation of air quality within different states in the US" />
+  <meta property="twitter:title" content=" Evaluation of air quality within different states in the US" />
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-24T16:32:13+00:00" />
-  <meta property="article:modified_time" content="2024-09-24T16:32:13+00:00" />
+  <meta name="dc.modified" content="2024-09-24T18:08:14+00:00" />
+  <meta property="article:modified_time" content="2024-09-24T18:08:14+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,10 +34,10 @@ header-includes: |
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Siyoung Park" />
-  <meta name="citation_author_institution" content="Department Civil and Environmental Engineering, University of Illinois" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Tausif E Elahi" />
-  <meta name="citation_author_institution" content="-PhD student - Department of Civil ENgineering, University of Illinois" />
+  <meta name="citation_author_institution" content="-Department of Civil and Environmental Engineering, University of Illinois" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Tabassum Nanzeeba" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/0d9752d2123f77c9b53b6cd931b97bc968402e50/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/0d9752d2123f77c9b53b6cd931b97bc968402e50/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/0d9752d2123f77c9b53b6cd931b97bc968402e50/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/749058ac73d1207d02bd188abebed48eff61d76a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/749058ac73d1207d02bd188abebed48eff61d76a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/749058ac73d1207d02bd188abebed48eff61d76a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/0d9752d2123f77c9b53b6cd931b97bc968402e50/))
+([permalink](https://uiceds.github.io/project-team492/v/749058ac73d1207d02bd188abebed48eff61d76a/))
 was automatically generated
-from [uiceds/project-team492@0d9752d](https://github.com/uiceds/project-team492/tree/0d9752d2123f77c9b53b6cd931b97bc968402e50)
+from [uiceds/project-team492@749058a](https://github.com/uiceds/project-team492/tree/749058ac73d1207d02bd188abebed48eff61d76a)
 on September 24, 2024.
 </em></small>
 
@@ -89,12 +89,12 @@ Published: September 10, 2024
 
 
 + **Siyoung Park**
-  <br>
+  ^[✉](#correspondence)^<br>
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [siyoung3](https://github.com/siyoung3)
     <br>
   <small>
-     Department Civil and Environmental Engineering, University of Illinois
+     Department of Civil and Environmental Engineering, University of Illinois
   </small>
 
 + **Tausif E Elahi**
@@ -103,7 +103,7 @@ Published: September 10, 2024
     [tausifeelahi](https://github.com/tausifeelahi)
     <br>
   <small>
-     -PhD student - Department of Civil ENgineering, University of Illinois
+     -Department of Civil and Environmental Engineering, University of Illinois
   </small>
 
 + **Tabassum Nanzeeba**
@@ -128,9 +128,10 @@ Published: September 10, 2024
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team492/issues)
 or email to
+Siyoung Park \<siyoung3@illinois.edu\>, 
 Tausif E Elahi \<tausife2@illinois.edu\>, 
 Tabassum Nanzeeba \<nt23@illinois.edu\>, 
-Rauf Momina \<None\>.
+Rauf Momina \<momina2@illinois.edu\>.
 
 
 :::
