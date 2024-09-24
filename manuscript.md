@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-24T15:18:22+00:00" />
-  <meta property="article:modified_time" content="2024-09-24T15:18:22+00:00" />
+  <meta name="dc.modified" content="2024-09-24T16:32:13+00:00" />
+  <meta property="article:modified_time" content="2024-09-24T16:32:13+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e159ee26d455f0e91c810051671d4d5baec7ef60/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e159ee26d455f0e91c810051671d4d5baec7ef60/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e159ee26d455f0e91c810051671d4d5baec7ef60/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/0d9752d2123f77c9b53b6cd931b97bc968402e50/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/0d9752d2123f77c9b53b6cd931b97bc968402e50/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/0d9752d2123f77c9b53b6cd931b97bc968402e50/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/e159ee26d455f0e91c810051671d4d5baec7ef60/))
+([permalink](https://uiceds.github.io/project-team492/v/0d9752d2123f77c9b53b6cd931b97bc968402e50/))
 was automatically generated
-from [uiceds/project-team492@e159ee2](https://github.com/uiceds/project-team492/tree/e159ee26d455f0e91c810051671d4d5baec7ef60)
+from [uiceds/project-team492@0d9752d](https://github.com/uiceds/project-team492/tree/0d9752d2123f77c9b53b6cd931b97bc968402e50)
 on September 24, 2024.
 </em></small>
 
@@ -204,7 +204,7 @@ Proposal:
 
 3.	The ultimate goal of this research will be to alert each investigated States of increasing air pollutant and to come up with ideas for mitigating them. Also, the monthly temperature and air pollutants will be compared to notice when the air pollutants are maximized with an understanding of their distribution. 
 
-![image](https://github.com/user-attachments/assets/34af33b6-1bd3-4d6b-8476-1f7d52e28a5e)
+
 
 
 
