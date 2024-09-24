@@ -1,6 +1,11 @@
 ---
 title: " Evaluation of air quality within different states in the US"
-
+date: '2024-09-10'  # Defaults to date generated, but can specify like '2022-10-31'.
+keywords:
+  - markdown
+  - publishing
+  - manubot
+lang: en-US
 authors:
   - github: siyoung3
     name: Siyoung Park
@@ -8,7 +13,7 @@ authors:
     orcid: 
     email: siyoung3@illinois.edu
     affiliations:
-      - Department Civil and Environmental Engineering, University of Illinois
+      - Department of Civil and Environmental Engineering, University of Illinois
       corresponding: true
   - github: tausifeelahi
     name: Tausif E Elahi
@@ -16,7 +21,7 @@ authors:
     orcid: 
     email: tausife2@illinois.edu
     affiliations:
-      -Department Civil and Environmental Engineering, University of Illinois
+      -Department of Civil and Environmental Engineering, University of Illinois
     corresponding: true
   - github: nanxee492
     name: Tabassum Nanzeeba
@@ -24,13 +29,13 @@ authors:
     orcid: 
     email: nt23@illinois.edu
     affiliations:
-      - Department Civil and Environmental Engineering, University of Illinois
+      - Department of Civil and Environmental Engineering, University of Illinois
     corresponding: true
   - github: MominaRauf
     name: Rauf Momina
     initials: RM
     orcid: 
-    email: 
+    email: momina2@illinois.edu
     affiliations:
-      - Department Civil and Environmental Engineering, University of Illinois
+      - Department of Civil and Environmental Engineering, University of Illinois
     corresponding: true
