@@ -1,11 +1,6 @@
 ---
-title: "Air pollutants Analysis"
-date: '2024-09-10'  # Defaults to date generated, but can specify like '2022-10-31'.
-keywords:
-  - markdown
-  - publishing
-  - manubot
-lang: en-US
+title: " Evaluation of air quality within different states in the US"
+
 authors:
   - github: siyoung3
     name: Siyoung Park
@@ -14,14 +9,14 @@ authors:
     email: siyoung3@illinois.edu
     affiliations:
       - Department Civil and Environmental Engineering, University of Illinois
+      corresponding: true
   - github: tausifeelahi
     name: Tausif E Elahi
     initials: TE
     orcid: 
     email: tausife2@illinois.edu
     affiliations:
-      -PhD student
-      - Department of Civil ENgineering, University of Illinois
+      -Department Civil and Environmental Engineering, University of Illinois
     corresponding: true
   - github: nanxee492
     name: Tabassum Nanzeeba
@@ -29,7 +24,7 @@ authors:
     orcid: 
     email: nt23@illinois.edu
     affiliations:
-      - Department of Civil and Environmental Engineering, University of Illinois
+      - Department Civil and Environmental Engineering, University of Illinois
     corresponding: true
   - github: MominaRauf
     name: Rauf Momina
@@ -37,5 +32,5 @@ authors:
     orcid: 
     email: 
     affiliations:
-      - Department of Civil and Environmental Engineering, University of Illinois
+      - Department Civil and Environmental Engineering, University of Illinois
     corresponding: true
