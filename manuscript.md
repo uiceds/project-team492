@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-24T19:53:19+00:00" />
-  <meta property="article:modified_time" content="2024-09-24T19:53:19+00:00" />
+  <meta name="dc.modified" content="2024-09-26T16:32:22+00:00" />
+  <meta property="article:modified_time" content="2024-09-26T16:32:22+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e546ba11dc47a6f853efba120e99792b02a5c381/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e546ba11dc47a6f853efba120e99792b02a5c381/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e546ba11dc47a6f853efba120e99792b02a5c381/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/f943d28f5339eeea75e60a3f894f4f60f766c2f6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/f943d28f5339eeea75e60a3f894f4f60f766c2f6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/f943d28f5339eeea75e60a3f894f4f60f766c2f6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/e546ba11dc47a6f853efba120e99792b02a5c381/))
+([permalink](https://uiceds.github.io/project-team492/v/f943d28f5339eeea75e60a3f894f4f60f766c2f6/))
 was automatically generated
-from [uiceds/project-team492@e546ba1](https://github.com/uiceds/project-team492/tree/e546ba11dc47a6f853efba120e99792b02a5c381)
-on September 24, 2024.
+from [uiceds/project-team492@f943d28](https://github.com/uiceds/project-team492/tree/f943d28f5339eeea75e60a3f894f4f60f766c2f6)
+on September 26, 2024.
 </em></small>
 
 Published: September 10, 2024
@@ -143,25 +143,23 @@ __Description of data set:__
 
 _The dataset consists of_ 
 
-1.	Air pollutants (O3, CO, SO2, NO2, PM10) in different states (Illinois, California, Florida, North Dacota). of the US
+1.	Air pollutants (O<sub>3</sub>, CO, SO<sub>2</sub>, NO<sub>2</sub>, PM10) in different states (Illinois, California, Florida, North Dakota). of the US
 - CSV file 1 Rows: 463,218 // Cols: 7
 
-A data set shows air pollutant concentrations for 5 criteria i.e. O3, CO, SO2, NO2, and PM10. The variable “pred_weight” shows concentrations of pollutants in µg/m³. The title lat and lon represent the latitude and longitude of the specific place where the data were measured and noted. O3 and CO are measured as parts per million (ppm). NO2, and SO2 are measured as parts per billion (ppb).
+A data set shows air pollutant concentrations for 5 criteria i.e. O<sub>3</sub>, CO, SO<sub>2</sub>, NO<sub>2</sub>, and PM10. The variable “pred_weight” shows concentrations of pollutants in µg/m³. The title lat and lon represent the latitude and longitude of the specific place where the data were measured and noted. O<sub>3</sub> and CO are measured as parts per million (ppm) whereas NO<sub>2</sub> and SO<sub>2</sub> are measured as parts per billion (ppb).
 
-_Info for Decision Making:_
+Threshold for pollutants:
 
-Threshold for pollutants
+O<sub>3</sub>, CO, SO<sub>2</sub>, NO<sub>2</sub> and PM10 concentration thresholds are based on standards set by WHO (World Health Organization) and EPA (Environmental Protection Agency).
 
-O3, CO. SO2, NO2, and PM10 concentration thresholds are based on standards set by WHO (World Health Organization) and EPA (Environmental Protection Agency).
-
--	O3: 0.070 ppm exposure for 8 hours.
+-	O<sub>3</sub>: 0.070 ppm exposure for 8 hours.
 
 -	CO: 9 ppm (8 hours) and 35 ppm (1 hour).
 > Not to be exceeded more than once per year
 
--	SO2: 75 ppb (1 hour, 3 years average) and 0.5 ppm (3 hours, year)
+-	SO<sub>2</sub>: 75 ppb (1 hour, 3 years average) and 0.5 ppm (3 hours, year)
 
--	NO2: 100 ppb (1 hour, 3 years average) and 53 ppb (year, annual mean)
+-	NO<sub>2</sub>: 100 ppb (1 hour, 3 years average) and 53 ppb (year, annual mean)
 
 -	PM10: 150 µg/m³ (24 hours, 3 years average)
 
@@ -174,11 +172,11 @@ In a CSV file
 2.	Temperature variation of the above states over years (using NOAA, National Centers for Environmental Information dataset from 1991 to 2020).
 -	CSV file 1 (Bismarck 2.4 NNW, ND US)
 Rows: 13 // Cols: 313
--	CSV file 2 (Springfield Capital AP, IL US)
+-	CSV file 2 (Springfield Capital AP, IL, US)
 Rows: 13 // Cols: 413
--	CSV file 3 (Tallahassee AP, FL US)
+-	CSV file 3 (Tallahassee AP, FL, US)
 Rows: 13 // Cols: 413
--	CSV file 4 (Sacramento, CA US)
+-	CSV file 4 (Sacramento, CA, US)
 Rows: 13 // Cols: 385
 
 _A data set of 4 cities i.e. capital cities of four selected states of the US. The information of capital cities of selected states is given below_ 
@@ -199,7 +197,7 @@ In a CSV file
 # {.page_break_before}
 __Proposal:__ 
 
-1.	In this research, our team will track the air pollutants in different states of the US. O3, CO, SO2, NO2, and PM10 are the subjects of the investigation. The five states of the US, North Dakota (north), Illinois (mid), Florida (south), and California (west) are the regions for measuring air pollutants.
+1.	In this research, our team will track the air pollutants in different states of the US. O<sub>3</sub>, CO, SO<sub>2</sub>, NO<sub>2</sub>, and PM10 are the subjects of the investigation. The five states of the US, North Dakota (north), Illinois (mid), Florida (south), and California (west) are the regions for measuring air pollutants.
   
 2.	The historical trend (temperature change) of the air pollutants will also be investigated along with the US State data. From 1991 to 2020, the variation of climate (such as mean temperature by months) and air pollutants will be compared to evaluate their correlation.
 
