@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-26T16:32:22+00:00" />
-  <meta property="article:modified_time" content="2024-09-26T16:32:22+00:00" />
+  <meta name="dc.modified" content="2024-09-26T16:44:00+00:00" />
+  <meta property="article:modified_time" content="2024-09-26T16:44:00+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/f943d28f5339eeea75e60a3f894f4f60f766c2f6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/f943d28f5339eeea75e60a3f894f4f60f766c2f6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/f943d28f5339eeea75e60a3f894f4f60f766c2f6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/75a8b051451b715db6e15e927738fc457f0771e6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/75a8b051451b715db6e15e927738fc457f0771e6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/75a8b051451b715db6e15e927738fc457f0771e6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/f943d28f5339eeea75e60a3f894f4f60f766c2f6/))
+([permalink](https://uiceds.github.io/project-team492/v/75a8b051451b715db6e15e927738fc457f0771e6/))
 was automatically generated
-from [uiceds/project-team492@f943d28](https://github.com/uiceds/project-team492/tree/f943d28f5339eeea75e60a3f894f4f60f766c2f6)
+from [uiceds/project-team492@75a8b05](https://github.com/uiceds/project-team492/tree/75a8b051451b715db6e15e927738fc457f0771e6)
 on September 26, 2024.
 </em></small>
 
@@ -170,7 +170,7 @@ In a CSV file
 
 # {.page_break_before}
 2.	Temperature variation of the above states over years (using NOAA, National Centers for Environmental Information dataset from 1991 to 2020).
--	CSV file 1 (Bismarck 2.4 NNW, ND US)
+-	CSV file 1 (Bismarck 2.4 NNW, ND, US)
 Rows: 13 // Cols: 313
 -	CSV file 2 (Springfield Capital AP, IL, US)
 Rows: 13 // Cols: 413
@@ -183,7 +183,7 @@ _A data set of 4 cities i.e. capital cities of four selected states of the US. T
 
 | *Regions* | State              | City        |
 |:----------|:-------------------|:------------|
-| 1         | North Dakota (DA)  | Bismarck    | 
+| 1         | North Dakota (ND)  | Bismarck    | 
 | 2         | Mid Illinois (IL)  | Springfield | 
 | 3         | South Florida (FL) | Tallahassee | 
 | 4         | California (CA)    | Sacramento  | 
