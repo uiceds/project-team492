@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-26" />
   <meta name="citation_publication_date" content="2024-09-26" />
   <meta property="article:published_time" content="2024-09-26" />
-  <meta name="dc.modified" content="2024-10-27T22:42:50+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T22:42:50+00:00" />
+  <meta name="dc.modified" content="2024-10-27T22:45:27+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T22:45:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/4d3eb24c18b31b6fb95cb194bcf7f8e554d04a19/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/4d3eb24c18b31b6fb95cb194bcf7f8e554d04a19/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/4d3eb24c18b31b6fb95cb194bcf7f8e554d04a19/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/7cb57793e3d410f109961621caa4a2b7403fcda4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/7cb57793e3d410f109961621caa4a2b7403fcda4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/7cb57793e3d410f109961621caa4a2b7403fcda4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/4d3eb24c18b31b6fb95cb194bcf7f8e554d04a19/))
+([permalink](https://uiceds.github.io/project-team492/v/7cb57793e3d410f109961621caa4a2b7403fcda4/))
 was automatically generated
-from [uiceds/project-team492@4d3eb24](https://github.com/uiceds/project-team492/tree/4d3eb24c18b31b6fb95cb194bcf7f8e554d04a19)
+from [uiceds/project-team492@7cb5779](https://github.com/uiceds/project-team492/tree/7cb57793e3d410f109961621caa4a2b7403fcda4)
 on October 27, 2024.
 </em></small>
 
@@ -219,7 +219,7 @@ Population_100: It denotes the population density within the 100-meter buffer ar
 1.2 Preliminary Analysis and Plots
 
 From the given dataset, we did some preliminary analysis to visualize the dataset and the summary of the observations are described briefly:
-First, we tried find out if there is any direct relationship between any of the land use characteristics and NO2 concentrations measured at the monitor station. For this preliminary analysis, we considered the effect of this land use pattern within 100m, 5000m and 10000m radius of the station. The reason for selecting these three radii was to cover short, medium and long-distance land use behavior around the station. Figure 1-6 presents the effect of different land-use characteristic on the NO2 concentration.
+First, we tried to find out if there is any direct relationship between any of the land use characteristics and NO2 concentrations measured at the monitor station. For this preliminary analysis, we considered the effect of this land use pattern within 100m, 5000m and 10000m radius of the station. The reason for selecting these three radii was to cover short, medium and long-distance land use behavior around the station. Figure 1-6 presents the effect of different land-use characteristic on the NO2 concentration.
 
 For impervious surfaces, for all three cases, we can clearly see there is a trend that with the increase of impervious surfaces around the station, the concentration of NO2 increases gradually (Figure 2). As the impervious surface increases, it indicates there is increase in roads, sidewalks, parking lots, buildings, traffic and also there is decrease in vegetation areas and soil surface. Therefore, all these impervious surfaces are kind of indicator of high volume of vehicles, high population density which contributes to high NO2 emission and also the absence of natural filtration effect with the absence of vegetation is another major source of NO2 emission.
 
