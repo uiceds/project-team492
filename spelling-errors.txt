@@ -2,10 +2,12 @@ abovementioned
 Anothony
 Applequist
 Arguez
+Bechle
 CSV
-Dataset
+dataset
 Durre
 Elahi
+GIS
 Imke
 Lawrimore
 Momina
@@ -19,7 +21,7 @@ Palecki
 ppb
 pred
 Rauf
-Siyoung
+siyoung
 Tabassum
 Tausif
 tausifeelahi
