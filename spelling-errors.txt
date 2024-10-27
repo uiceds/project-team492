@@ -4,7 +4,7 @@ Applequist
 Arguez
 Bechle
 CSV
-Dataset
+dataset
 Durre
 Elahi
 GIS
@@ -21,7 +21,7 @@ Palecki
 ppb
 pred
 Rauf
-Siyoung
+siyoung
 Tabassum
 Tausif
 tausifeelahi
