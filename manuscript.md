@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-26" />
   <meta name="citation_publication_date" content="2024-09-26" />
   <meta property="article:published_time" content="2024-09-26" />
-  <meta name="dc.modified" content="2024-10-27T22:45:27+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T22:45:27+00:00" />
+  <meta name="dc.modified" content="2024-10-27T22:53:36+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T22:53:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/7cb57793e3d410f109961621caa4a2b7403fcda4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/7cb57793e3d410f109961621caa4a2b7403fcda4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/7cb57793e3d410f109961621caa4a2b7403fcda4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/ed2a7e243e134d67c5a645a342e5d995594f3280/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/ed2a7e243e134d67c5a645a342e5d995594f3280/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/ed2a7e243e134d67c5a645a342e5d995594f3280/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/7cb57793e3d410f109961621caa4a2b7403fcda4/))
+([permalink](https://uiceds.github.io/project-team492/v/ed2a7e243e134d67c5a645a342e5d995594f3280/))
 was automatically generated
-from [uiceds/project-team492@7cb5779](https://github.com/uiceds/project-team492/tree/7cb57793e3d410f109961621caa4a2b7403fcda4)
+from [uiceds/project-team492@ed2a7e2](https://github.com/uiceds/project-team492/tree/ed2a7e243e134d67c5a645a342e5d995594f3280)
 on October 27, 2024.
 </em></small>
 
@@ -230,7 +230,7 @@ In case of population, it looked like an exponential curve which might describe 
 Figure 7 shows the relationship between NO2 concentration and the distance from the coast. In general, as the distance from the coast will be less, there should be lower concentration of NO2 due to the ventilation from the winds. However, in the figure we can clearly see higher concentration of NO2 in some of the places which are closest to coast. It indicates that although coastal distance have effect on NO2 but it should be analyzed in combination with other land use pattern because even if the place is closer to coast but if there is high population density and roads, it will have higher NO2. 
 Overall, all of these land-use characteristics have their own effect on the NO2 concentration and in some cases, there is strong relationship with NO2.
 
-https://raw.githubusercontent.com/uiceds/project-team492/refs/heads/main/content/images/Figure%201.png
+![Caption] https://raw.githubusercontent.com/uiceds/project-team492/refs/heads/main/content/images/Figure%201.png
 
 
 
