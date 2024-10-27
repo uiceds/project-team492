@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-26" />
   <meta name="citation_publication_date" content="2024-09-26" />
   <meta property="article:published_time" content="2024-09-26" />
-  <meta name="dc.modified" content="2024-10-27T22:28:50+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T22:28:50+00:00" />
+  <meta name="dc.modified" content="2024-10-27T22:32:10+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T22:32:10+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/436f12898a6f043a9b9da808ac2d9aaebce5fafd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/436f12898a6f043a9b9da808ac2d9aaebce5fafd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/436f12898a6f043a9b9da808ac2d9aaebce5fafd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/57c22b85cbb2be1e0057d17c327657d909ea05e8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/57c22b85cbb2be1e0057d17c327657d909ea05e8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/57c22b85cbb2be1e0057d17c327657d909ea05e8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/436f12898a6f043a9b9da808ac2d9aaebce5fafd/))
+([permalink](https://uiceds.github.io/project-team492/v/57c22b85cbb2be1e0057d17c327657d909ea05e8/))
 was automatically generated
-from [uiceds/project-team492@436f128](https://github.com/uiceds/project-team492/tree/436f12898a6f043a9b9da808ac2d9aaebce5fafd)
+from [uiceds/project-team492@57c22b8](https://github.com/uiceds/project-team492/tree/57c22b85cbb2be1e0057d17c327657d909ea05e8)
 on October 27, 2024.
 </em></small>
 
@@ -231,6 +231,7 @@ Figure 7 shows the relationship between NO2 concentration and the distance from 
 Overall, all of these land-use characteristics have their own effect on the NO2 concentration and in some cases, there is strong relationship with NO2.
 
 https://github.com/uiceds/project-team492/blob/main/content/images/Figure%201.png?raw=true
+Figure Caption
 
 
 ## References {.page_break_before}
