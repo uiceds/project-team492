@@ -35,5 +35,10 @@ content/02.EDA.md:5:dataset
 content/02.EDA.md:5:GIS
 content/02.EDA.md:5:ppb
 content/02.EDA.md:5:ppb
-content/02.EDA.md:15:dataset
-content/02.EDA.md:15:dataset
+content/02.EDA.md:20:dataset
+content/02.EDA.md:20:dataset
+content/02.EDA.md:62:dataset
+content/02.EDA.md:73:Heatmap
+content/02.EDA.md:85:Heatmap
+content/02.EDA.md:88:ppb
+content/02.EDA.md:88:ppb
