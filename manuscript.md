@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-26" />
   <meta name="citation_publication_date" content="2024-09-26" />
   <meta property="article:published_time" content="2024-09-26" />
-  <meta name="dc.modified" content="2024-10-28T00:55:59+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T00:55:59+00:00" />
+  <meta name="dc.modified" content="2024-10-28T01:02:46+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T01:02:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/c142bacbfb1ab20dc40ebcca6649d7f643468bb4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/c142bacbfb1ab20dc40ebcca6649d7f643468bb4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/c142bacbfb1ab20dc40ebcca6649d7f643468bb4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/a62b2549b58ae09a06639cc79108e254f46a5260/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/a62b2549b58ae09a06639cc79108e254f46a5260/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/a62b2549b58ae09a06639cc79108e254f46a5260/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/c142bacbfb1ab20dc40ebcca6649d7f643468bb4/))
+([permalink](https://uiceds.github.io/project-team492/v/a62b2549b58ae09a06639cc79108e254f46a5260/))
 was automatically generated
-from [uiceds/project-team492@c142bac](https://github.com/uiceds/project-team492/tree/c142bacbfb1ab20dc40ebcca6649d7f643468bb4)
+from [uiceds/project-team492@a62b254](https://github.com/uiceds/project-team492/tree/a62b2549b58ae09a06639cc79108e254f46a5260)
 on October 28, 2024.
 </em></small>
 
@@ -277,7 +277,7 @@ Overall, all of these land-use characteristics have their own effect on the NO2 
     <figcaption><strong>Figure 7:</strong> Variation of measured NO2 concentration with the distance to coast from the monitor station.</figcaption>
 </figure>
 
-# {.page_break_before}
+
 As a next step, we also investigated the scenario of NO2 concentration at individual state level and for the preliminary analysis we selected four states- IL, CA, FL and ND. The reason of selecting these four states was to capture the diverse representation of factors that might influence the NO2 level which might be helpful for generalizing our analysis in future. CA is a highly urbanized and densely populated state with around 94 station available at the given dataset which is the reason we considered CA for our analysis. IL offers a perspective in the NO2 pattern of Midwest’s urban and suburban areas whereas FL is a coastal state which might help to understand the effect of breeze and humidity on NO2. Lastly, ND is a low-population and rural environment with minimal urbanization which might help us to understand the effect of such characteristics on NO2. The effect of the land use characteristics described earlier on NO2 concentrations are summarized in Figure 8-15. Figure 16 presents the distribution of NO2 pollutants of these states by monitoring station.
 
 For CA state, visually we can clearly see there exists a correlation among impervious surface, population, length of the roads and NO2 concentration (Figure 8-9). Interesting to see, although some of the places are very closer to the coast but it has significant concentration of NO2. As discussed earlier, although the coastal distance is lower but other factors such as impervious area, population and length of the roads are so high that it affects the NO2 significantly compared to the coastal distance from measuring station. 
