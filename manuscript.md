@@ -1,5 +1,5 @@
 ---
-title: ' Evaluation of NO2 with different land-use pattern emission within different states in the US'
+title: ' Evaluation of NO2 emission with different land-use pattern within different states in the US'
 keywords:
 - markdown
 - publishing
@@ -18,15 +18,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content=" Evaluation of NO2 with different land-use pattern emission within different states in the US" />
-  <meta name="citation_title" content=" Evaluation of NO2 with different land-use pattern emission within different states in the US" />
-  <meta property="og:title" content=" Evaluation of NO2 with different land-use pattern emission within different states in the US" />
-  <meta property="twitter:title" content=" Evaluation of NO2 with different land-use pattern emission within different states in the US" />
+  <meta name="dc.title" content=" Evaluation of NO2 emission with different land-use pattern within different states in the US" />
+  <meta name="citation_title" content=" Evaluation of NO2 emission with different land-use pattern within different states in the US" />
+  <meta property="og:title" content=" Evaluation of NO2 emission with different land-use pattern within different states in the US" />
+  <meta property="twitter:title" content=" Evaluation of NO2 emission with different land-use pattern within different states in the US" />
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-28T01:39:23+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T01:39:23+00:00" />
+  <meta name="dc.modified" content="2024-10-28T01:45:58+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T01:45:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/6ce1948fdcdad13a0f361043e26a80c92c29f65e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/6ce1948fdcdad13a0f361043e26a80c92c29f65e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/6ce1948fdcdad13a0f361043e26a80c92c29f65e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e/))
+([permalink](https://uiceds.github.io/project-team492/v/6ce1948fdcdad13a0f361043e26a80c92c29f65e/))
 was automatically generated
-from [uiceds/project-team492@84d98fa](https://github.com/uiceds/project-team492/tree/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e)
+from [uiceds/project-team492@6ce1948](https://github.com/uiceds/project-team492/tree/6ce1948fdcdad13a0f361043e26a80c92c29f65e)
 on October 28, 2024.
 </em></small>
 
