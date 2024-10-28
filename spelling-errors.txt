@@ -4,7 +4,8 @@ Applequist
 Arguez
 Bechle
 CSV
-dataset
+Dataset
+dimensionality
 Durre
 Elahi
 GIS
@@ -19,10 +20,11 @@ NNW
 NOAA
 Normals
 Palecki
+PCA
 ppb
 pred
 Rauf
-siyoung
+Siyoung
 Tabassum
 Tausif
 tausifeelahi
