@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-26" />
   <meta name="citation_publication_date" content="2024-09-26" />
   <meta property="article:published_time" content="2024-09-26" />
-  <meta name="dc.modified" content="2024-10-28T01:23:01+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T01:23:01+00:00" />
+  <meta name="dc.modified" content="2024-10-28T01:31:15+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T01:31:15+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/049d0cddd7c2661a0ed19691c0530622be476db3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/049d0cddd7c2661a0ed19691c0530622be476db3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/049d0cddd7c2661a0ed19691c0530622be476db3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/552dd0873af25bbc5ea4b6de70ae5244537642ea/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/552dd0873af25bbc5ea4b6de70ae5244537642ea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/552dd0873af25bbc5ea4b6de70ae5244537642ea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/049d0cddd7c2661a0ed19691c0530622be476db3/))
+([permalink](https://uiceds.github.io/project-team492/v/552dd0873af25bbc5ea4b6de70ae5244537642ea/))
 was automatically generated
-from [uiceds/project-team492@049d0cd](https://github.com/uiceds/project-team492/tree/049d0cddd7c2661a0ed19691c0530622be476db3)
+from [uiceds/project-team492@552dd08](https://github.com/uiceds/project-team492/tree/552dd0873af25bbc5ea4b6de70ae5244537642ea)
 on October 28, 2024.
 </em></small>
 
@@ -358,6 +358,19 @@ Such a model has the potential to be instrumental for multiple applications. By 
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
--	https://www.epa.gov/criteria-air-pollutants/naaqs-table
--	https://www.eea.europa.eu/publications/status-of-air-quality-in-Europe-2022/europes-air-quality-status-2022/world-health-organization-who-air
+
+[1]	M.J. Bechle, D.B. Millet, J.D. Marshall, National Spatiotemporal Exposure Surface for NO2: Monthly Scaling of a Satellite-Derived Land-Use Regression, 2000–2010, Environ Sci \& Technol. 49 (2015) 12297–12305. doi:10.1021/acs.est.5b02882.
+
+
+[2]	L. Smith, S. Mukerjee, K. Kovalcik, E. Sams, C. Stallings, E. Hudgens, J. Scott, T. Krantz, L. Neas, Near-road measurements for nitrogen dioxide and its association with traffic exposure zones, Atmos Pollut Res. 6 (2015) 1082–1086. doi:https://doi.org/10.1016/j.apr.2015.06.005.
+
+[3]	G. Hoek, R. Beelen, K. de Hoogh, D. Vienneau, J. Gulliver, P. Fischer, D. Briggs, A review of land-use regression models to assess spatial variation of outdoor air pollution, Atmos Environ. 42 (2008) 7561–7578. doi:https://doi.org/10.1016/j.atmosenv.2008.05.057.
+
+[4]	E. V Novotny, M.J. Bechle, D.B. Millet, J.D. Marshall, National Satellite-Based Land-Use Regression: NO2 in the United States, Environ Sci \& Technol. 45 (2011) 4407–4414. doi:10.1021/es103578x.
+
+[5]	H. Saki, G. Goudarzi, S. Jalali, G. Barzegar, M. Farhadi, I. Parseh, S. Geravandi, S. Salmanzadeh, F. Yousefi, M.J. Mohammadi, Study of relationship between nitrogen dioxide and chronic obstructive pulmonary disease in Bushehr, Iran, Clin Epidemiol Glob Heal. 8 (2020) 446–449. doi:https://doi.org/10.1016/j.cegh.2019.10.006.
+
+[6]	J.E. Hart, J.D. Yanosky, R.C. Puett, L. Ryan, D.W. Dockery, T.J. Smith, E. Garshick, F. Laden, Spatial Modeling of PM10 and NO2 in the Continental United States, 1985\&\#x2013;2000, Environ Health Perspect. 117 (2009) 1690–1696. doi:10.1289/ehp.0900840.
+
+
 
