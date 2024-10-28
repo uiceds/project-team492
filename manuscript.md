@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-26" />
   <meta name="citation_publication_date" content="2024-09-26" />
   <meta property="article:published_time" content="2024-09-26" />
-  <meta name="dc.modified" content="2024-10-28T00:15:14+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T00:15:14+00:00" />
+  <meta name="dc.modified" content="2024-10-28T00:21:40+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T00:21:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/d9cab3e2d4a7ca8cf08c16bd1b736650ed8f6827/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/d9cab3e2d4a7ca8cf08c16bd1b736650ed8f6827/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/d9cab3e2d4a7ca8cf08c16bd1b736650ed8f6827/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/0a4055cae4c0965120ef7f1851e7e64fcda909cb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/0a4055cae4c0965120ef7f1851e7e64fcda909cb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/0a4055cae4c0965120ef7f1851e7e64fcda909cb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/d9cab3e2d4a7ca8cf08c16bd1b736650ed8f6827/))
+([permalink](https://uiceds.github.io/project-team492/v/0a4055cae4c0965120ef7f1851e7e64fcda909cb/))
 was automatically generated
-from [uiceds/project-team492@d9cab3e](https://github.com/uiceds/project-team492/tree/d9cab3e2d4a7ca8cf08c16bd1b736650ed8f6827)
+from [uiceds/project-team492@0a4055c](https://github.com/uiceds/project-team492/tree/0a4055cae4c0965120ef7f1851e7e64fcda909cb)
 on October 28, 2024.
 </em></small>
 
@@ -201,7 +201,7 @@ __Proposal:__
   
 2.	The historical trend (temperature change) of the air pollutants will also be investigated along with the US State data. From 1991 to 2020, the variation of climate (such as mean temperature by months) and air pollutants will be compared to evaluate their correlation.
 
-3.	The ultimate goal of this research will be to alert each investigated States of increasing air pollutant and to come up with ideas for mitigating them. Also, the monthly temperature and air pollutants will be compared to notice when the air pollutants are maximized with an understanding of their distribution. 
+3.	The ultimate goal of this research will be to alert each investigated States of increasing air pollutant and to come up with ideas for mitigating them. Also, the monthly temperature and air pollutants will be compared to notice when the air pollutants are maximized with an understanding of their distribution
 
 
 1. Exploratory Data Analysis
