@@ -1,11 +1,11 @@
 ---
-title: ' Evaluation of air quality within different states in the US'
+title: ' Evaluation of NO2 with different land-use pattern emission within different states in the US'
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-26'
+date-meta: '2024-10-27'
 author-meta:
 - Siyoung Park
 - Tausif E Elahi
@@ -18,15 +18,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content=" Evaluation of air quality within different states in the US" />
-  <meta name="citation_title" content=" Evaluation of air quality within different states in the US" />
-  <meta property="og:title" content=" Evaluation of air quality within different states in the US" />
-  <meta property="twitter:title" content=" Evaluation of air quality within different states in the US" />
-  <meta name="dc.date" content="2024-09-26" />
-  <meta name="citation_publication_date" content="2024-09-26" />
-  <meta property="article:published_time" content="2024-09-26" />
-  <meta name="dc.modified" content="2024-10-28T01:31:15+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T01:31:15+00:00" />
+  <meta name="dc.title" content=" Evaluation of NO2 with different land-use pattern emission within different states in the US" />
+  <meta name="citation_title" content=" Evaluation of NO2 with different land-use pattern emission within different states in the US" />
+  <meta property="og:title" content=" Evaluation of NO2 with different land-use pattern emission within different states in the US" />
+  <meta property="twitter:title" content=" Evaluation of NO2 with different land-use pattern emission within different states in the US" />
+  <meta name="dc.date" content="2024-10-27" />
+  <meta name="citation_publication_date" content="2024-10-27" />
+  <meta property="article:published_time" content="2024-10-27" />
+  <meta name="dc.modified" content="2024-10-28T01:39:23+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T01:39:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,16 +34,16 @@ header-includes: |
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Siyoung Park" />
-  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Tausif E Elahi" />
-  <meta name="citation_author_institution" content="-Department of Civil and Environmental Engineering, University of Illinois" />
+  <meta name="citation_author_institution" content="-Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Tabassum Nanzeeba" />
-  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Rauf Momina" />
-  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="None" />
   <link rel="canonical" href="https://uiceds.github.io/project-team492/" />
   <meta property="og:url" content="https://uiceds.github.io/project-team492/" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/552dd0873af25bbc5ea4b6de70ae5244537642ea/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/552dd0873af25bbc5ea4b6de70ae5244537642ea/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/552dd0873af25bbc5ea4b6de70ae5244537642ea/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,13 +75,13 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/552dd0873af25bbc5ea4b6de70ae5244537642ea/))
+([permalink](https://uiceds.github.io/project-team492/v/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e/))
 was automatically generated
-from [uiceds/project-team492@552dd08](https://github.com/uiceds/project-team492/tree/552dd0873af25bbc5ea4b6de70ae5244537642ea)
+from [uiceds/project-team492@84d98fa](https://github.com/uiceds/project-team492/tree/84d98fafc0fb4b69bf03846ed6d06cddde6fdd7e)
 on October 28, 2024.
 </em></small>
 
-Published: September 26, 2024
+Published: October 27, 2024
 
 
 ## Authors
@@ -94,7 +94,7 @@ Published: September 26, 2024
     [siyoung3](https://github.com/siyoung3)
     <br>
   <small>
-     Department of Civil and Environmental Engineering, University of Illinois
+     Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
   </small>
 
 + **Tausif E Elahi**
@@ -103,7 +103,7 @@ Published: September 26, 2024
     [tausifeelahi](https://github.com/tausifeelahi)
     <br>
   <small>
-     -Department of Civil and Environmental Engineering, University of Illinois
+     -Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
   </small>
 
 + **Tabassum Nanzeeba**
@@ -112,7 +112,7 @@ Published: September 26, 2024
     [nanxee492](https://github.com/nanxee492)
     <br>
   <small>
-     Department of Civil and Environmental Engineering, University of Illinois
+     Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
   </small>
 
 + **Rauf Momina**
@@ -121,7 +121,7 @@ Published: September 26, 2024
     [MominaRauf](https://github.com/MominaRauf)
     <br>
   <small>
-     Department of Civil and Environmental Engineering, University of Illinois
+     Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
   </small>
 
 
