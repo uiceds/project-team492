@@ -1,6 +1,6 @@
 ---
-title: " Evaluation of air quality within different states in the US"
-date: '2024-09-26'  # Defaults to date generated, but can specify like '2022-10-31'.
+title: " Evaluation of NO2 with different land-use pattern emission within different states in the US"
+date: '2024-10-27'  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
   - publishing
@@ -13,7 +13,7 @@ authors:
     orcid: 
     email: siyoung3@illinois.edu
     affiliations:
-      - Department of Civil and Environmental Engineering, University of Illinois
+      - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
     corresponding: true
   - github: tausifeelahi
     name: Tausif E Elahi
@@ -21,7 +21,7 @@ authors:
     orcid: 
     email: tausife2@illinois.edu
     affiliations:
-      -Department of Civil and Environmental Engineering, University of Illinois
+      -Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
     corresponding: true
   - github: nanxee492
     name: Tabassum Nanzeeba
@@ -29,7 +29,7 @@ authors:
     orcid: 
     email: nt23@illinois.edu
     affiliations:
-      - Department of Civil and Environmental Engineering, University of Illinois
+      - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
     corresponding: true
   - github: MominaRauf
     name: Rauf Momina
@@ -37,5 +37,5 @@ authors:
     orcid: 
     email: momina2@illinois.edu
     affiliations:
-      - Department of Civil and Environmental Engineering, University of Illinois
+      - Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign
     corresponding: true
