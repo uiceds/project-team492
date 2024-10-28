@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-28T02:32:02+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T02:32:02+00:00" />
+  <meta name="dc.modified" content="2024-10-28T03:10:37+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T03:10:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/c7bea2b2e8a57a08b39982c02d0565f24aa6461e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/c7bea2b2e8a57a08b39982c02d0565f24aa6461e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/c7bea2b2e8a57a08b39982c02d0565f24aa6461e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/b403115c9595d02d64b5bb8913096a1bb525dc87/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/b403115c9595d02d64b5bb8913096a1bb525dc87/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/b403115c9595d02d64b5bb8913096a1bb525dc87/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/c7bea2b2e8a57a08b39982c02d0565f24aa6461e/))
+([permalink](https://uiceds.github.io/project-team492/v/b403115c9595d02d64b5bb8913096a1bb525dc87/))
 was automatically generated
-from [uiceds/project-team492@c7bea2b](https://github.com/uiceds/project-team492/tree/c7bea2b2e8a57a08b39982c02d0565f24aa6461e)
+from [uiceds/project-team492@b403115](https://github.com/uiceds/project-team492/tree/b403115c9595d02d64b5bb8913096a1bb525dc87)
 on October 28, 2024.
 </em></small>
 
@@ -207,7 +207,9 @@ __Proposal:__
 ## Exploratory Data Analysis {.page_break_before}
    
 __Description and Characterization of Dataset__ 
-   
+
+<p style="text-align:justify;">
+
 The dataset we are going to use is obtained from Bechle et al. [1] which was used for estimating air pollution in terms of NO<sub>2</sub> from 2000 to 2010. The dataset contains spatial and temporal concentration of NO<sub>2</sub> in ppb at different locations of the different states in US. It also contains Geographic Information System (GIS) data on land-use features such as impervious surfaces, population density, length of different types of roads-residential, major and total etc. These are commonly used as proxies for different pollution sources [2-4]. Based on the dataset, NO<sub>2</sub> concentration varies significantly from state to state depending on different land-use pattern and the value range between 0.31~34.21 ppb for different states. The distribution of the NO<sub>2</sub> pollutants across the US based on location are shown in Figure 1. Some of the explanations of the dataset are provided below:
 
 Impervious_100: This represents the percentage of impervious surfaces such as roads, buildings etc. within a 100-meter buffer around the measuring station.
@@ -352,6 +354,7 @@ Based on the preliminary analysis of our dataset, it is evident that all these l
 Building on these findings, we will develop a predictive regression model capable of estimating NO₂ concentrations across different states in the U.S., factoring in the varying land-use patterns with high accuracy. For developing this model, we will consider interaction terms such as population density x road, impervious surface x major roads etc to capture the combined effects of multiple variables. We will do further correlation analysis to identify strong predictors of NO<sub>2</sub> emissions. Using PCA, we will try to reduce dimensionality if there are many correlated features simplifying the model without losing the predictive capacity. Then, we will explore different machine learning algorithms to find out which one works better for our purpose, followed by model training and cross-validation. We will consider different performance metrics like R-square, Root mean squared error values etc. to evaluate the model accuracy. Eventually, we will apply the model to predict NO<sub>2</sub> levels in regions that do not have measured data on NO<sub>2</sub> but have land-use information.  
 
 Such a model has the potential to be instrumental for multiple applications. By assessing long-term health impacts associated with chronic exposure to pollutants, it can provide insights into the risk of respiratory and cardiovascular conditions associated with NO₂. This type of analysis is invaluable to public health agencies tasked with identifying regions and populations at greater risk of pollutant-related diseases [5-6]. Moreover, predictive modeling of NO₂ concentrations can guide policymakers and city planners in designing urban environments with better air quality. By predicting pollutant dispersion, decision-makers can strategically zone residential areas, schools, and recreational spaces away from high pollution zones, thus enhancing community health and safety. Finally, our model will help highlight areas where pollution levels are worsening, providing actionable insights for immediate interventions. This capability will empower environmental agencies to prioritize regions for pollution control efforts, thus contributing to a healthier and more sustainable living environment for all residents. 
+</p>
 
 
 ## References {.page_break_before}
