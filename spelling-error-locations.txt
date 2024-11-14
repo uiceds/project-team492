@@ -47,16 +47,10 @@ content/02.EDA.md:134:Heatmap
 content/02.EDA.md:146:dataset
 content/02.EDA.md:148:dimensionality
 content/02.EDA.md:148:PCA
-content/03.Predictive Modeling.md:7:Bechle
 content/03.Predictive Modeling.md:7:dataset
-content/03.Predictive Modeling.md:7:dataset
-content/03.Predictive Modeling.md:7:dataset
-content/03.Predictive Modeling.md:7:dataset
-content/03.Predictive Modeling.md:7:GIS
-content/03.Predictive Modeling.md:7:ppb
-content/03.Predictive Modeling.md:7:ppb
-content/03.Predictive Modeling.md:18:dataset
-content/03.Predictive Modeling.md:18:dataset
+content/03.Predictive Modeling.md:7:Regularizatioon
+content/03.Predictive Modeling.md:12:dataset
+content/03.Predictive Modeling.md:12:introducedd
 content/2.back-matter.md:6:Bechle
 content/2.back-matter.md:6:Environ
 content/2.back-matter.md:6:Spatiotemporal
