@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-14T00:34:03+00:00" />
-  <meta property="article:modified_time" content="2024-11-14T00:34:03+00:00" />
+  <meta name="dc.modified" content="2024-11-14T00:35:14+00:00" />
+  <meta property="article:modified_time" content="2024-11-14T00:35:14+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/f59714c01b198016b3e38c4abc61564a7ac4fb13/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/f59714c01b198016b3e38c4abc61564a7ac4fb13/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/f59714c01b198016b3e38c4abc61564a7ac4fb13/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/00635dedbe7adf0af6b554a5271b3b16e4496eae/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/00635dedbe7adf0af6b554a5271b3b16e4496eae/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/00635dedbe7adf0af6b554a5271b3b16e4496eae/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/f59714c01b198016b3e38c4abc61564a7ac4fb13/))
+([permalink](https://uiceds.github.io/project-team492/v/00635dedbe7adf0af6b554a5271b3b16e4496eae/))
 was automatically generated
-from [uiceds/project-team492@f59714c](https://github.com/uiceds/project-team492/tree/f59714c01b198016b3e38c4abc61564a7ac4fb13)
+from [uiceds/project-team492@00635de](https://github.com/uiceds/project-team492/tree/00635dedbe7adf0af6b554a5271b3b16e4496eae)
 on November 14, 2024.
 </em></small>
 
@@ -372,8 +372,8 @@ First, the data was sorted by using the correlation plot. Since there were numer
  
 
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%202.PNG?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 2:</strong> Variation of measured NO<sub>2</sub> concentration with the impervious surface at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_1.jpg?raw=true" alt="Sample Image">
+    <figcaption><strong>Figure 1:</strong> Correlations of each dependent variables</figcaption>
 </figure>
 
 
