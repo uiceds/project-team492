@@ -10,7 +10,7 @@ Bushehr
 Champaign
 Clin
 CSV
-Dataset
+dataset
 dimensionality
 Dockery
 Durre
@@ -55,7 +55,7 @@ Rauf
 Regularizatioon
 Salmanzadeh
 Sams
-Siyoung
+siyoung
 Spatiotemporal
 Stallings
 Tabassum
