@@ -50,7 +50,11 @@ content/02.EDA.md:148:PCA
 content/03.Predictive Modeling.md:7:dataset
 content/03.Predictive Modeling.md:7:Regularizatioon
 content/03.Predictive Modeling.md:12:dataset
-content/03.Predictive Modeling.md:12:introducedd
+content/03.Predictive Modeling.md:28:dataframe
+content/03.Predictive Modeling.md:28:ppb
+content/03.Predictive Modeling.md:40:dataset
+content/03.Predictive Modeling.md:40:dataset
+content/03.Predictive Modeling.md:40:pre
 content/2.back-matter.md:6:Bechle
 content/2.back-matter.md:6:Environ
 content/2.back-matter.md:6:Spatiotemporal

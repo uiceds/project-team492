@@ -10,6 +10,7 @@ Bushehr
 Champaign
 Clin
 CSV
+dataframe
 Dataset
 dimensionality
 Dockery
@@ -27,7 +28,6 @@ Hoek
 Hoogh
 Hudgens
 Imke
-introducedd
 Jalali
 Kovalcik
 Krantz
@@ -49,13 +49,14 @@ PCA
 Perspect
 Pollut
 ppb
+pre
 pred
 Puett
 Rauf
 Regularizatioon
 Salmanzadeh
 Sams
-siyoung
+Siyoung
 Spatiotemporal
 Stallings
 Tabassum
