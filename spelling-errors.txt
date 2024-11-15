@@ -11,7 +11,7 @@ Champaign
 Clin
 CSV
 dataframe
-Dataset
+dataset
 dimensionality
 Dockery
 Durre
