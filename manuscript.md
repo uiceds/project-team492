@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-15T01:08:44+00:00" />
-  <meta property="article:modified_time" content="2024-11-15T01:08:44+00:00" />
+  <meta name="dc.modified" content="2024-11-16T23:10:11+00:00" />
+  <meta property="article:modified_time" content="2024-11-16T23:10:11+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/d239cd1a1b6a30df6e8618980694e7aae0e7c708/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/d239cd1a1b6a30df6e8618980694e7aae0e7c708/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/d239cd1a1b6a30df6e8618980694e7aae0e7c708/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/8a4c5d5c51b573db3615a0488f96534135042012/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/8a4c5d5c51b573db3615a0488f96534135042012/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/8a4c5d5c51b573db3615a0488f96534135042012/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/d239cd1a1b6a30df6e8618980694e7aae0e7c708/))
+([permalink](https://uiceds.github.io/project-team492/v/8a4c5d5c51b573db3615a0488f96534135042012/))
 was automatically generated
-from [uiceds/project-team492@d239cd1](https://github.com/uiceds/project-team492/tree/d239cd1a1b6a30df6e8618980694e7aae0e7c708)
-on November 15, 2024.
+from [uiceds/project-team492@8a4c5d5](https://github.com/uiceds/project-team492/tree/8a4c5d5c51b573db3615a0488f96534135042012)
+on November 16, 2024.
 </em></small>
 
 Published: October 27, 2024
@@ -402,6 +402,17 @@ Figure 3 is training dataset and figure 4 is testing dataset. As more data are u
 __Machine learning__
 
 Machine learning was performed in five different methods: linear regression, decision tree, k-means clustering, neural network, [].
+
+1. Linear regression
+   
+The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. THe dataset shown in Figure 3 was used as a training set and dataset shown in Figure 4 was used as a testing set. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shown the main flow of the coding.
+
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_4.jpg?raw=true" alt="Sample Image">
+    <figcaption><strong>Figure 4:</strong> Training data </figcaption>
+</figure>
+
+
 
 
 ## References {.page_break_before}
