@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-16T23:10:11+00:00" />
-  <meta property="article:modified_time" content="2024-11-16T23:10:11+00:00" />
+  <meta name="dc.modified" content="2024-11-16T23:52:00+00:00" />
+  <meta property="article:modified_time" content="2024-11-16T23:52:00+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/8a4c5d5c51b573db3615a0488f96534135042012/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/8a4c5d5c51b573db3615a0488f96534135042012/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/8a4c5d5c51b573db3615a0488f96534135042012/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/de36adf95c83394a9a6d269bd902300d4a6be6fa/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/de36adf95c83394a9a6d269bd902300d4a6be6fa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/de36adf95c83394a9a6d269bd902300d4a6be6fa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/8a4c5d5c51b573db3615a0488f96534135042012/))
+([permalink](https://uiceds.github.io/project-team492/v/de36adf95c83394a9a6d269bd902300d4a6be6fa/))
 was automatically generated
-from [uiceds/project-team492@8a4c5d5](https://github.com/uiceds/project-team492/tree/8a4c5d5c51b573db3615a0488f96534135042012)
+from [uiceds/project-team492@de36adf](https://github.com/uiceds/project-team492/tree/de36adf95c83394a9a6d269bd902300d4a6be6fa)
 on November 16, 2024.
 </em></small>
 
@@ -408,11 +408,36 @@ Machine learning was performed in five different methods: linear regression, dec
 The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. THe dataset shown in Figure 3 was used as a training set and dataset shown in Figure 4 was used as a testing set. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shown the main flow of the coding.
 
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_4.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 4:</strong> Training data </figcaption>
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_5_1.jpg?raw=true" alt="Sample Image">
+    <figcaption><strong>Figure 5:</strong> Linear regression code flow </figcaption>
 </figure>
 
+After training, the dataset was trained as shown in Figure 6. By performing root mean square error, the scoring was 4.3. Still, it is not as low as expected. For future modeling, more dataset could be used for higher accuracy, polymodel rather than linear model can be tried.
 
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_5.jpg?raw=true" alt="Sample Image">
+    <figcaption><strong>Figure 6:</strong> Linear regression result </figcaption>
+</figure>
+
+2. Decision tree
+
+Decision tree was also used for predicting the dataset. Six variables that were assigned in the dataset selection, each were gini plotted for setting up the baselines. Figure 7 shows the code flow and Figure 8 shows the gini plot with each variable. Dependeing on the ppb value, <10 was decided to be low, >20 was decided to be high, and between that was decided to be medium. These values are the dominant range of ppb level in all states.
+
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_6_1.jpg?raw=true" alt="Sample Image">
+    <figcaption><strong>Figure 7:</strong> Decision tree code flow </figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_6.jpg?raw=true" alt="Sample Image">
+    <figcaption><strong>Figure 8:</strong> Gini plot for six variables </figcaption>
+</figure>
+
+With comparing all plots, the cutting points were decided as: 1) Distance to coast (km) > 1500 : low, Distance to coast (km) < 100 : high, Impervious_100 < 20 : low, Impervious 100 > 60 : high, Major 5000 > 200 : high, Major 5000 < 50 : low, Resident 5000 < 200 : low, else : medium (Figure 7).
+
+The model's precision was calculated by measuring recall divided by the average of the prevision and recall, which got value of 0.078. Decision tree method was proven to be quite accurate is classifying NO2 pollutant value in high, medium, and low range.
+
+3.
 
 
 ## References {.page_break_before}

@@ -11,7 +11,8 @@ Champaign
 Clin
 CSV
 dataframe
-dataset
+Dataset
+Dependeing
 dimensionality
 Dockery
 Durre
@@ -21,6 +22,7 @@ Epidemiol
 Farhadi
 Garshick
 Geravandi
+Gini
 GIS
 Goudarzi
 Heatmap
@@ -48,6 +50,7 @@ Parseh
 PCA
 Perspect
 Pollut
+polymodel
 ppb
 pre
 pred
@@ -56,7 +59,7 @@ Rauf
 Regularizatioon
 Salmanzadeh
 Sams
-siyoung
+Siyoung
 Spatiotemporal
 Stallings
 Tabassum

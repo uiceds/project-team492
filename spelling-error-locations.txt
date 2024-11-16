@@ -57,6 +57,17 @@ content/03.Predictive Modeling.md:40:dataset
 content/03.Predictive Modeling.md:40:pre
 content/03.Predictive Modeling.md:49:dataset
 content/03.Predictive Modeling.md:49:dataset
+content/03.Predictive Modeling.md:56:dataset
+content/03.Predictive Modeling.md:56:dataset
+content/03.Predictive Modeling.md:56:polymodel
+content/03.Predictive Modeling.md:65:dataset
+content/03.Predictive Modeling.md:65:dataset
+content/03.Predictive Modeling.md:65:Dependeing
+content/03.Predictive Modeling.md:65:gini
+content/03.Predictive Modeling.md:65:gini
+content/03.Predictive Modeling.md:65:ppb
+content/03.Predictive Modeling.md:65:ppb
+content/03.Predictive Modeling.md:74:Gini
 content/2.back-matter.md:6:Bechle
 content/2.back-matter.md:6:Environ
 content/2.back-matter.md:6:Spatiotemporal
