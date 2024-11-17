@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-16T23:52:00+00:00" />
-  <meta property="article:modified_time" content="2024-11-16T23:52:00+00:00" />
+  <meta name="dc.modified" content="2024-11-17T01:05:15+00:00" />
+  <meta property="article:modified_time" content="2024-11-17T01:05:15+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/de36adf95c83394a9a6d269bd902300d4a6be6fa/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/de36adf95c83394a9a6d269bd902300d4a6be6fa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/de36adf95c83394a9a6d269bd902300d4a6be6fa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/ef34b26b0b122a4855f29f65a1009cc1d41944b1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/ef34b26b0b122a4855f29f65a1009cc1d41944b1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/ef34b26b0b122a4855f29f65a1009cc1d41944b1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/de36adf95c83394a9a6d269bd902300d4a6be6fa/))
+([permalink](https://uiceds.github.io/project-team492/v/ef34b26b0b122a4855f29f65a1009cc1d41944b1/))
 was automatically generated
-from [uiceds/project-team492@de36adf](https://github.com/uiceds/project-team492/tree/de36adf95c83394a9a6d269bd902300d4a6be6fa)
-on November 16, 2024.
+from [uiceds/project-team492@ef34b26](https://github.com/uiceds/project-team492/tree/ef34b26b0b122a4855f29f65a1009cc1d41944b1)
+on November 17, 2024.
 </em></small>
 
 Published: October 27, 2024
@@ -365,7 +365,6 @@ __Description and Characterization of Dataset__
 
 In the predictive modeling, machine learning was used to make a predictive model of the dataset. The sequence of this project was as follows: 1. Data selection and clearing 2. Machine learning - 2.1 Normalization and Regularizatioon, 2.2 Perform analysis 2.3 Check the validity. In conclusion, all machine learning techniques were compared in terms of accuracy, speed, and simplicity. 
 
-# {.page_break_before}
 __Data selection and coordinate transform__
 
 First, the data was sorted by using the correlation plot. Since there were numerous variables in the dataset, selective dependent variables introduced in the exploratory data analysis section were also used for the machine learning. This contains distance to coast, Impervious 100, Impervious 5000, Impervious 10000, Population 100, Population 5000, Population 10000, Major 100, Major 5000, Major 10000, Residential 100, Residential 5000, Residential 10000, Total 100, Total 5000, Total 10000.
@@ -398,7 +397,6 @@ Finally, Distance to coast, Impervious 100, Major 100, Major 5000, Resident 100,
 
 Figure 3 is training dataset and figure 4 is testing dataset. As more data are used in analysis, the training gets more accurate. Thus, all state information with pre-selected variables were used for training. After machine learning, each results were compared to the four states information and/or all states information.
 
-# {.page_break_before}
 __Machine learning__
 
 Machine learning was performed in five different methods: linear regression, decision tree, k-means clustering, neural network, [].

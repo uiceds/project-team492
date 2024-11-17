@@ -49,25 +49,25 @@ content/02.EDA.md:148:dimensionality
 content/02.EDA.md:148:PCA
 content/03.Predictive Modeling.md:7:dataset
 content/03.Predictive Modeling.md:7:Regularizatioon
-content/03.Predictive Modeling.md:12:dataset
-content/03.Predictive Modeling.md:28:dataframe
-content/03.Predictive Modeling.md:28:ppb
-content/03.Predictive Modeling.md:40:dataset
-content/03.Predictive Modeling.md:40:dataset
-content/03.Predictive Modeling.md:40:pre
-content/03.Predictive Modeling.md:49:dataset
-content/03.Predictive Modeling.md:49:dataset
-content/03.Predictive Modeling.md:56:dataset
-content/03.Predictive Modeling.md:56:dataset
-content/03.Predictive Modeling.md:56:polymodel
-content/03.Predictive Modeling.md:65:dataset
-content/03.Predictive Modeling.md:65:dataset
-content/03.Predictive Modeling.md:65:Dependeing
-content/03.Predictive Modeling.md:65:gini
-content/03.Predictive Modeling.md:65:gini
-content/03.Predictive Modeling.md:65:ppb
-content/03.Predictive Modeling.md:65:ppb
-content/03.Predictive Modeling.md:74:Gini
+content/03.Predictive Modeling.md:11:dataset
+content/03.Predictive Modeling.md:27:dataframe
+content/03.Predictive Modeling.md:27:ppb
+content/03.Predictive Modeling.md:39:dataset
+content/03.Predictive Modeling.md:39:dataset
+content/03.Predictive Modeling.md:39:pre
+content/03.Predictive Modeling.md:47:dataset
+content/03.Predictive Modeling.md:47:dataset
+content/03.Predictive Modeling.md:54:dataset
+content/03.Predictive Modeling.md:54:dataset
+content/03.Predictive Modeling.md:54:polymodel
+content/03.Predictive Modeling.md:63:dataset
+content/03.Predictive Modeling.md:63:dataset
+content/03.Predictive Modeling.md:63:Dependeing
+content/03.Predictive Modeling.md:63:gini
+content/03.Predictive Modeling.md:63:gini
+content/03.Predictive Modeling.md:63:ppb
+content/03.Predictive Modeling.md:63:ppb
+content/03.Predictive Modeling.md:72:Gini
 content/2.back-matter.md:6:Bechle
 content/2.back-matter.md:6:Environ
 content/2.back-matter.md:6:Spatiotemporal
