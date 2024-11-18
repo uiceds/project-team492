@@ -21,7 +21,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-Gini
+gini
 GIS
 Goudarzi
 Heatmap
@@ -56,7 +56,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-Siyoung
+siyoung
 Sl
 Spatiotemporal
 Stallings
