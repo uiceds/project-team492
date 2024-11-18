@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T07:24:56+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T07:24:56+00:00" />
+  <meta name="dc.modified" content="2024-11-18T07:42:23+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T07:42:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/c421118eb9cc85c92739e933270eef7571127111/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/c421118eb9cc85c92739e933270eef7571127111/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/c421118eb9cc85c92739e933270eef7571127111/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/b6f5c025f7dceaa49e81dd68c911f23440fd7752/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/b6f5c025f7dceaa49e81dd68c911f23440fd7752/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/b6f5c025f7dceaa49e81dd68c911f23440fd7752/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/c421118eb9cc85c92739e933270eef7571127111/))
+([permalink](https://uiceds.github.io/project-team492/v/b6f5c025f7dceaa49e81dd68c911f23440fd7752/))
 was automatically generated
-from [uiceds/project-team492@c421118](https://github.com/uiceds/project-team492/tree/c421118eb9cc85c92739e933270eef7571127111)
+from [uiceds/project-team492@b6f5c02](https://github.com/uiceds/project-team492/tree/b6f5c025f7dceaa49e81dd68c911f23440fd7752)
 on November 18, 2024.
 </em></small>
 
@@ -407,8 +407,7 @@ Lasso Regression along with cross-validation was applied that performs k-fold cr
 |   11   |               total_5000             |    0.175802    | 
 |   12   |             Population_10000         |    0.076178    | 
 
-
-Finally, Distance to coast, Impervious 100, Major 100, Major 5000, Resident 100, and Resident 5000 were selected as dependent variables. The dataframe consists of 369 rows and 8 columns (including state information and independent variable - Observed NO2 ppb).
+For training and test data distribution, 80/20 ratio was followed where 80% of data points were considered training data and rest of the data points were test data. Out of 369 observations in the dataset, first 300 points were training data and rest of the data points were testing data. Model was first trained on training data and then the model was applied on testing data to find the efficiency of the predictive model.
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_3.jpg?raw=true" alt="Sample Image">
