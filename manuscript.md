@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T06:00:17+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T06:00:17+00:00" />
+  <meta name="dc.modified" content="2024-11-18T06:21:03+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T06:21:03+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/))
+([permalink](https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/))
 was automatically generated
-from [uiceds/project-team492@4b8e7a1](https://github.com/uiceds/project-team492/tree/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe)
+from [uiceds/project-team492@527ccc6](https://github.com/uiceds/project-team492/tree/527ccc6b6d792fa76df40ae76ce7f9cc24711929)
 on November 18, 2024.
 </em></small>
 
@@ -449,7 +449,7 @@ d) min_samples_leaf: The minimum number of samples required to be at a leaf node
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/RF%20code.png?raw=true">
-    <figcaption><strong>Figure 9:</strong> Random Forest Regressor code that is used for the predictive model </figcaption>
+    <figcaption><strong>Figure 9:</strong> Random Forest Regressor code that is used for devloping the predictive model </figcaption>
 </figure>
 
 Firstly, the features were standardized by subtracting the mean and dividing by the standard deviation for each column. This ensures that all features are on the same scale, preventing dominance of features with large numerical ranges during model training. For the analysis, DecisionTree package of Julia was used A typical 80/20 split for training and testing is used to evaluate the model’s generalization on unseen data. As an evaluation metric, means squared error (MSE), root mean squared error (RMSE) and R2 score was used for assessing the accuracy of the predictive modelling.
@@ -469,8 +469,17 @@ The main neural network architecture has been defined using the chain structure 
 
 The training process is conducted updating the model’s weights to minimize the loss function where descent optimizer was used to update the model’s weights using gradient descent with a fixed learning rate of 0.001. The model is set for 500 epochs and Flux.train! has been used to compute the loss function with respect to model weights. The Flux package in Julia has been utilized for this modelling.
 
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/nn%20code.png?raw=true">
+    <figcaption><strong>Figure 11:</strong> Neural Network Model code that is used for devloping the predictive model </figcaption>
+</figure>
 
 For this predictive model, MSE value was 10.61, RMSE value was 3.12 and R2 value of 0.61 was obtained. Although the R2 value increased compared to other predictive models, it is still very low compared to the predicted accuracy for neural network model. Potential improvement scope would be to tune the number of layers, neurons and learning rates. Adding additional L2 penalty might be helpful to optimize the model. Evaluating the model’s generalizability with k-fold cross validation might be another option to fine tune the model. But most importantly, selecting the proper input feature might be the most important one which would determine the better prediction accuracy. While revising and optimizing the predictive model, we will try to use feature importance, PCA and other methods to select the proper input features for modelling.
+
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Neural%20Network.png?raw=true">
+    <figcaption><strong>Figure 12:</strong> Comparison between the NO2 values predicted from Neural Network model and the observed NO2 values for all the training and test data. </figcaption>
+</figure>
 
 
 
