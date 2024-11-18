@@ -89,6 +89,9 @@ content/03.Predictive Modeling.md:135:generalizability
 content/03.Predictive Modeling.md:135:MSE
 content/03.Predictive Modeling.md:135:PCA
 content/03.Predictive Modeling.md:135:RMSE
+content/03.Predictive Modeling.md:144:MSE
+content/03.Predictive Modeling.md:144:RMSE
+content/03.Predictive Modeling.md:144:Sl
 content/2.back-matter.md:6:Bechle
 content/2.back-matter.md:6:Environ
 content/2.back-matter.md:6:Spatiotemporal

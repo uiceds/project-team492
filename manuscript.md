@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T07:47:38+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T07:47:38+00:00" />
+  <meta name="dc.modified" content="2024-11-18T16:02:57+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T16:02:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/bf4626377d4525aa81b88ff3ca987fe35a94a61f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/bf4626377d4525aa81b88ff3ca987fe35a94a61f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/bf4626377d4525aa81b88ff3ca987fe35a94a61f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/0e92d6324c54d0c79f6aece942f0e8cda5df1855/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/0e92d6324c54d0c79f6aece942f0e8cda5df1855/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/0e92d6324c54d0c79f6aece942f0e8cda5df1855/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/bf4626377d4525aa81b88ff3ca987fe35a94a61f/))
+([permalink](https://uiceds.github.io/project-team492/v/0e92d6324c54d0c79f6aece942f0e8cda5df1855/))
 was automatically generated
-from [uiceds/project-team492@bf46263](https://github.com/uiceds/project-team492/tree/bf4626377d4525aa81b88ff3ca987fe35a94a61f)
+from [uiceds/project-team492@0e92d63](https://github.com/uiceds/project-team492/tree/0e92d6324c54d0c79f6aece942f0e8cda5df1855)
 on November 18, 2024.
 </em></small>
 
@@ -498,6 +498,14 @@ For this predictive model, MSE value was 10.61, RMSE value was 3.12 and R2 value
     <figcaption><strong>Figure 12:</strong> Comparison between the NO2 values predicted from Neural Network model and the observed NO2 values for all the training and test data. </figcaption>
 </figure>
 
+
+
+| Sl. No |   Technique of the Predictive Model  |   MSE/Precision | RMSE | R2 |
+|:-------|:-------------------------------------|:----------------|:-----|:---|
+|    1   |            Linear Regression         |      18.49      | 4.30 |0.41|
+|    2   |             Decision Tree            |       0.08      |  --  | -- |
+|    3   |        Random Forest Regression      |      12.82      | 3.58 |0.54| 
+|    4   |             Neural Network           |      10.61      | 3.12 |0.61|
 
 
 ## References {.page_break_before}

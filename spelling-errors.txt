@@ -10,7 +10,7 @@ Bushehr
 Champaign
 Clin
 CSV
-dataset
+Dataset
 DecisionTree
 Dependeing
 devloping
@@ -24,7 +24,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-gini
+Gini
 GIS
 Goudarzi
 Heatmap
