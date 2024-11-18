@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T17:11:31+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T17:11:31+00:00" />
+  <meta name="dc.modified" content="2024-11-18T17:29:35+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T17:29:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/3f80e01824d034a84a4157a76050236d059443ed/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/3f80e01824d034a84a4157a76050236d059443ed/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/3f80e01824d034a84a4157a76050236d059443ed/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07/))
+([permalink](https://uiceds.github.io/project-team492/v/3f80e01824d034a84a4157a76050236d059443ed/))
 was automatically generated
-from [uiceds/project-team492@73b0e63](https://github.com/uiceds/project-team492/tree/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07)
+from [uiceds/project-team492@3f80e01](https://github.com/uiceds/project-team492/tree/3f80e01824d034a84a4157a76050236d059443ed)
 on November 18, 2024.
 </em></small>
 
@@ -367,7 +367,7 @@ The main objective of this project is to develop a predictive model to predict t
 
 __Data selection and Feature Engineering__
 <p style="text-align:justify;">
-To find out the correlation bewteen different independent variables, the data was sorted by using the correlation plot. Since there were numerous variables in the dataset, initially selective dependent variables introduced in the exploratory data analysis were considered whic are_distance to coast, Impervious 100, Impervious 5000, Impervious 10000, Population 100, Population 5000, Population 10000, Major 100, Major 5000, Major 10000, Residential 100, Residential 5000, Residential 10000, Total 100, Total 5000, Total 10000.
+To find out the correlation bewteen different independent variables, the data was sorted by using the correlation plot. Since there were numerous variables in the dataset, initially selective dependent variables introduced in the exploratory data analysis were considered which are_distance to coast, Impervious 100, Impervious 5000, Impervious 10000, Population 100, Population 5000, Population 10000, Major 100, Major 5000, Major 10000, Residential 100, Residential 5000, Residential 10000, Total 100, Total 5000, Total 10000.
 </p>
 <p style="text-align:justify;">
 The correlation analysis was initially divided into five distinct groups to facilitate comparison, as visually inspecting all features simultaneously was impractical. This segmentation also allowed for classification of the data based on different features, aiding in the identification of relevant variables. Figure 1 presents the correlation plots for each group, illustrating the relationships between features.
@@ -421,7 +421,7 @@ __Predictive Modeling: Machine learning__
 <p style="text-align:justify;">
 Four different machine learning analysis was performed to build a predictive model: linear regression, decision tree, random forest regression and neural network.
 </p>
-1. Linear regression
+__1. Linear regression__  
 <p style="text-align:justify;">
 The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shows the main flow of the coding.
 </p>
@@ -437,7 +437,7 @@ After training, the dataset was trained as shown in Figure 6. By performing root
     <figcaption><strong>Figure 6:</strong> Linear regression result </figcaption>
 </figure>
 
-2. Decision tree
+__2. Decision tree__
 <p style="text-align:justify;">
 Decision tree was also used for predicting the dataset. Six variables that were assigned in the dataset selection, each were gini plotted for setting up the baselines. Figure 7 shows the code flow and Figure 8 shows the gini plot with each variable. Dependeing on the ppb value, <10 was decided to be low, >20 was decided to be high, and between that was decided to be medium. These values are the dominant range of ppb level in all states.
 </p>
@@ -456,7 +456,7 @@ With comparing all plots, the cutting points were decided as: 1) Distance to coa
 <p style="text-align:justify;">
 The model's precision was calculated by measuring recall divided by the average of the prevision and recall, which got value of 0.078. Decision tree method was proven to be quite accurate is classifying NO2 pollutant value in high, medium, and low range.
 </p>
-3. Random forest Regressor
+__3. Random forest Regressor__
 <p style="text-align:justify;">   
 Random forest is an ensemble learning method that aggregates predictions from multiple decision trees to reduce overfitting and improve generalization. Some key parameters of this algorithm are:
 </p>
@@ -486,7 +486,7 @@ Firstly, the features were standardized by subtracting the mean and dividing by 
 <p style="text-align:justify;">  
 For this predictive model, MSE value was 12.82, RMSE value was 3.58 and R2 value of 0.54 was obtained. While R2 value of ~0.54 suggests moderate predictive ability, the remaining 40% of the unexplained variance indicates the room for improvement. Potential area for optimizing and improving the models are optimizing the Random Forest hyperparameteres, using alternative and strong algorithms like Gradient Boosting etc. Moreover, Since there were quite a large number of independent variables, feature selection also needs to be analyzed more cautiously. However, given the complexity of the given environmental data, R2 value of 0.54 can be considered a moderate one.
 </p>
-4. Neural Network Algorithm
+__4. Neural Network Algorithm__
 <p style="text-align:justify;">     
 A neural network is a computational model which is inspired by the human brain, consists of layers of interconnected neurons. It is commonly used to learn patterns and relationships in a dataset. This model has been applied to explore its predictive capability compared to other techniques used. 
 </p>
