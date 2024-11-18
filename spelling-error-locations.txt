@@ -35,9 +35,11 @@ content/03.Predictive Modeling.md:28:dataset
 content/03.Predictive Modeling.md:38:Sl
 content/03.Predictive Modeling.md:54:dataset
 content/03.Predictive Modeling.md:58:Dataset
+content/03.Predictive Modeling.md:71:devloping
 content/03.Predictive Modeling.md:74:dataset
 content/03.Predictive Modeling.md:74:dataset
 content/03.Predictive Modeling.md:74:polymodel
+content/03.Predictive Modeling.md:78:omparison
 content/03.Predictive Modeling.md:83:dataset
 content/03.Predictive Modeling.md:83:dataset
 content/03.Predictive Modeling.md:83:Dependeing

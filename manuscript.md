@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T18:23:46+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T18:23:46+00:00" />
+  <meta name="dc.modified" content="2024-11-18T18:28:17+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T18:28:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/7d65a3ebcb9da5e72bc096f26a89171340405c15/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/7d65a3ebcb9da5e72bc096f26a89171340405c15/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/7d65a3ebcb9da5e72bc096f26a89171340405c15/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/a22918ed347d6100edbfae50d25a3409a29cc437/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/a22918ed347d6100edbfae50d25a3409a29cc437/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/a22918ed347d6100edbfae50d25a3409a29cc437/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/7d65a3ebcb9da5e72bc096f26a89171340405c15/))
+([permalink](https://uiceds.github.io/project-team492/v/a22918ed347d6100edbfae50d25a3409a29cc437/))
 was automatically generated
-from [uiceds/project-team492@7d65a3e](https://github.com/uiceds/project-team492/tree/7d65a3ebcb9da5e72bc096f26a89171340405c15)
+from [uiceds/project-team492@a22918e](https://github.com/uiceds/project-team492/tree/a22918ed347d6100edbfae50d25a3409a29cc437)
 on November 18, 2024.
 </em></small>
 
@@ -379,14 +379,14 @@ The first method used for prediction was linear regression model. This method is
 </p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_5_1.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 5:</strong> Linear regression code flow </figcaption>
+    <figcaption><strong>Figure 5:</strong> Linear Regression model code that is used for devloping the predictive model. </figcaption>
 </figure>
 <p style="text-align:justify;">
 After training, the dataset was trained as shown in Figure 6. By performing root mean square error, the scoring was 4.3. Still, it is not as low as expected. For future modeling, more dataset could be used for higher accuracy, polymodel rather than linear model can be tried.
 </p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_5.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 6:</strong> Linear regression result </figcaption>
+    <figcaption><strong>Figure 6:</strong> omparison between the NO2 values predicted from Linear Regression model and the observed NO2 values for all the data. </figcaption>
 </figure>
 
 __2. Decision tree__
@@ -400,7 +400,7 @@ Decision tree was also used for predicting the dataset. Six variables that were 
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_6.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 8:</strong> Gini plot for six variables </figcaption>
+    <figcaption><strong>Figure 8:</strong> Gini plot shown for selected six variables </figcaption>
 </figure>
 <p style="text-align:justify;">
 With comparing all plots, the cutting points were decided as: 1) Distance to coast (km) > 1500 : low, Distance to coast (km) < 100 : high, Impervious_100 < 20 : low, Impervious 100 > 60 : high, Major 5000 > 200 : high, Major 5000 < 50 : low, Resident 5000 < 200 : low, else : medium (Figure 7).

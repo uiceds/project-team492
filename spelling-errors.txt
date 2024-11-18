@@ -42,6 +42,7 @@ nanxee
 Nanzeeba
 Neas
 Novotny
+omparison
 overfitting
 Parseh
 PCA
