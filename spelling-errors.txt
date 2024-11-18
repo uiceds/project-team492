@@ -21,7 +21,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-gini
+Gini
 GIS
 Goudarzi
 Heatmap

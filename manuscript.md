@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:25:38+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:25:38+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:42:27+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:42:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/1425cf329343b78882bb502eb10a5d7a42ca3014/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/1425cf329343b78882bb502eb10a5d7a42ca3014/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/1425cf329343b78882bb502eb10a5d7a42ca3014/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/2fa9c172f45f41c381111726a1e23578b1e02aee/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/2fa9c172f45f41c381111726a1e23578b1e02aee/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/2fa9c172f45f41c381111726a1e23578b1e02aee/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/1425cf329343b78882bb502eb10a5d7a42ca3014/))
+([permalink](https://uiceds.github.io/project-team492/v/2fa9c172f45f41c381111726a1e23578b1e02aee/))
 was automatically generated
-from [uiceds/project-team492@1425cf3](https://github.com/uiceds/project-team492/tree/1425cf329343b78882bb502eb10a5d7a42ca3014)
+from [uiceds/project-team492@2fa9c17](https://github.com/uiceds/project-team492/tree/2fa9c172f45f41c381111726a1e23578b1e02aee)
 on November 18, 2024.
 </em></small>
 
@@ -151,7 +151,7 @@ The dataset is a CSV file that contains 370 rows and 134 column which can be acc
 
 __Proposal:__ 
 <p style="text-align:justify;">
-The main goal of this project will be to develop a predictive model which will predict the NO2 concentration of any location of US from different land use variables given in the dataset. It would be very useful to predict the concentrations of NO2 in any given location which will help to identify locations which needs immediate preventive measures and taking necessary actions.
+The main goal of this project will be to develop a predictive model which will predict the NO2 concentration of any location of US from different land use variables given in the dataset. It would be very useful to predict the concentrations of NO2 in any given location which will be helpful in identifying locations that immediate preventive measures and taking necessary actions.
 </p>
 
 
