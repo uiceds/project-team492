@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T18:13:58+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T18:13:58+00:00" />
+  <meta name="dc.modified" content="2024-11-18T18:22:41+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T18:22:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/05534fecc3bc4afc9fc9876187e43aec94ee1081/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/05534fecc3bc4afc9fc9876187e43aec94ee1081/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/05534fecc3bc4afc9fc9876187e43aec94ee1081/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/c2e3efd112c38e259fd8a361b48da93a36d12258/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/c2e3efd112c38e259fd8a361b48da93a36d12258/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/c2e3efd112c38e259fd8a361b48da93a36d12258/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/05534fecc3bc4afc9fc9876187e43aec94ee1081/))
+([permalink](https://uiceds.github.io/project-team492/v/c2e3efd112c38e259fd8a361b48da93a36d12258/))
 was automatically generated
-from [uiceds/project-team492@05534fe](https://github.com/uiceds/project-team492/tree/05534fecc3bc4afc9fc9876187e43aec94ee1081)
+from [uiceds/project-team492@c2e3efd](https://github.com/uiceds/project-team492/tree/c2e3efd112c38e259fd8a361b48da93a36d12258)
 on November 18, 2024.
 </em></small>
 
@@ -366,7 +366,7 @@ For training and test data distribution, 75/25 ratio was followed where 75% of d
 </p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_3.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 4:</strong> Dataset used in this project: first 277 rows were considered as training data and rest of the 69 points were testing data. </figcaption>
+    <figcaption><strong>Figure 4:</strong> Dataset used in this project: first 277 rows were considered as training data and rest of the points were testing data. </figcaption>
 </figure>
 
 __Predictive Modeling: Machine learning__
