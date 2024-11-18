@@ -56,7 +56,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-siyoung
+Siyoung
 Sl
 Spatiotemporal
 Stallings

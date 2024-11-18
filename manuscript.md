@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T18:12:18+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T18:12:18+00:00" />
+  <meta name="dc.modified" content="2024-11-18T18:13:58+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T18:13:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/747ca2458dec7db8926323acc0a525a928470daf/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/747ca2458dec7db8926323acc0a525a928470daf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/747ca2458dec7db8926323acc0a525a928470daf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/05534fecc3bc4afc9fc9876187e43aec94ee1081/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/05534fecc3bc4afc9fc9876187e43aec94ee1081/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/05534fecc3bc4afc9fc9876187e43aec94ee1081/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/747ca2458dec7db8926323acc0a525a928470daf/))
+([permalink](https://uiceds.github.io/project-team492/v/05534fecc3bc4afc9fc9876187e43aec94ee1081/))
 was automatically generated
-from [uiceds/project-team492@747ca24](https://github.com/uiceds/project-team492/tree/747ca2458dec7db8926323acc0a525a928470daf)
+from [uiceds/project-team492@05534fe](https://github.com/uiceds/project-team492/tree/05534fecc3bc4afc9fc9876187e43aec94ee1081)
 on November 18, 2024.
 </em></small>
 
@@ -362,11 +362,11 @@ Lasso Regression along with cross-validation was applied that performs k-fold cr
 |   12   |             Population_10000         |    0.076178    | 
 
 <p style="text-align:justify;">
-For training and test data distribution, 80/20 ratio was followed where 80% of data points were considered training data and rest of the data points were test data. Out of 369 observations in the dataset, first 300 points were training data and rest of the data points were testing data. Model was first trained on training data and then the model was applied on testing data to find the efficiency of the predictive model.
+For training and test data distribution, 75/25 ratio was followed where 75% of data points were considered training data and rest of the data points were test data. Out of 369 observations in the dataset, first 277 points were training data and rest of the data points were testing data. Model was first trained on training data and then the model was applied on testing data to find the efficiency of the predictive model.
 </p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_3.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 4:</strong> Dataset used in this project: first 300 rows were considered as training data and rest of the 69 points were testing data. </figcaption>
+    <figcaption><strong>Figure 4:</strong> Dataset used in this project: first 277 rows were considered as training data and rest of the 69 points were testing data. </figcaption>
 </figure>
 
 __Predictive Modeling: Machine learning__
@@ -449,7 +449,7 @@ The main neural network architecture has been defined using the chain structure 
 The training process is conducted updating the model’s weights to minimize the loss function where descent optimizer was used to update the model’s weights using gradient descent with a fixed learning rate of 0.001. The model is set for 500 epochs and Flux.train! has been used to compute the loss function with respect to model weights. The Flux package in Julia has been utilized for this modelling.
 </p>
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/nn%20code.png?raw=true">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/nn%20code_new.png?raw=true">
     <figcaption><strong>Figure 11:</strong> Neural Network Model code that is used for devloping the predictive model </figcaption>
 </figure>
 <p style="text-align:justify;">  
