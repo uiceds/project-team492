@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T06:21:03+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T06:21:03+00:00" />
+  <meta name="dc.modified" content="2024-11-18T06:50:38+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T06:50:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/2e0a43d6317220aaff2ce520d6d202ee62bb4c43/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/2e0a43d6317220aaff2ce520d6d202ee62bb4c43/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/2e0a43d6317220aaff2ce520d6d202ee62bb4c43/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/))
+([permalink](https://uiceds.github.io/project-team492/v/2e0a43d6317220aaff2ce520d6d202ee62bb4c43/))
 was automatically generated
-from [uiceds/project-team492@527ccc6](https://github.com/uiceds/project-team492/tree/527ccc6b6d792fa76df40ae76ce7f9cc24711929)
+from [uiceds/project-team492@2e0a43d](https://github.com/uiceds/project-team492/tree/2e0a43d6317220aaff2ce520d6d202ee62bb4c43)
 on November 18, 2024.
 </em></small>
 
@@ -382,6 +382,14 @@ As per the correlation plots, it was assumed that as the color of the curves get
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_2.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 2:</strong> Reanalyze and final correlation checking </figcaption>
 </figure>
+
+For selecting the most relevant features to predict observed NO2 concentrations, Lasso Regression (Least Absolute Shrinkage and Selection Operator) was applied to the dataset to reduce complexity by shrinking less important feature coefficient to zero. The reason of selecting Lasso was as it performs both feature selection and regularization, simplifying the model by irrelevant and redundant features.
+
+
+
+Lasso Regression along with cross-validation was applied that performs k-fold cross-validation (which is by default 10) to find the optimal regularization parameter, lambda. Alpha value of 1.0 specifies exactly Lasso regularization rather than Ridge or elastic net. Thereafter, using the best lambda value, a new Lasso model was fit which enable the model to learn the optimal coefficient for selected features. Finally, coefficient of features was evaluated and non-zero coefficients were calculated by Lasso for using the selected features for further modelling. 
+
+
 
 Finally, Distance to coast, Impervious 100, Major 100, Major 5000, Resident 100, and Resident 5000 were selected as dependent variables. The dataframe consists of 369 rows and 8 columns (including state information and independent variable - Observed NO2 ppb).
 
