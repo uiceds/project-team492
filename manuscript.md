@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T16:53:09+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T16:53:09+00:00" />
+  <meta name="dc.modified" content="2024-11-18T16:56:43+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T16:56:43+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/0513b922f3305cfee041027f81a882c1c9306abc/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/0513b922f3305cfee041027f81a882c1c9306abc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/0513b922f3305cfee041027f81a882c1c9306abc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/926ab3364baf30792d5da5d8a496a8e9230f249f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/926ab3364baf30792d5da5d8a496a8e9230f249f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/926ab3364baf30792d5da5d8a496a8e9230f249f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/0513b922f3305cfee041027f81a882c1c9306abc/))
+([permalink](https://uiceds.github.io/project-team492/v/926ab3364baf30792d5da5d8a496a8e9230f249f/))
 was automatically generated
-from [uiceds/project-team492@0513b92](https://github.com/uiceds/project-team492/tree/0513b922f3305cfee041027f81a882c1c9306abc)
+from [uiceds/project-team492@926ab33](https://github.com/uiceds/project-team492/tree/926ab3364baf30792d5da5d8a496a8e9230f249f)
 on November 18, 2024.
 </em></small>
 
@@ -362,8 +362,8 @@ Such a model has the potential to be instrumental for multiple applications. By 
 __Introduction__ 
 
 <p style="text-align:justify;">
-
-The main objective of this project is to develop a predictive model to predict the NO2 concentration accurately based on the land use pattern of a particular location. The dataset contained around 370 observations and 128 land use pattern variables such as Impervious_100, major_100, Population_100, Resident_100, total_100, distance_to_coast etc. Therefore, first important step of developing a predictive model was to select the important features required for the model where correlation plot and Lasso regularization techniques were utilized. Once the feature selection was done, different machine learning models were trained and used for predicting the NO2 concentrations in test data. The model accuracy was evaluated in terms of three metrics-Mean Squared Error (MSE), Root Means Squared Error (RMSE) and R2 value. FInally, a comparative analysis has been done to find out the accuracy of different models used for prediction in this study. 
+The main objective of this project is to develop a predictive model to predict the NO2 concentration accurately based on the land use pattern of a particular location. The dataset contained around 370 observations and 128 land use pattern variables such as Impervious_100, major_100, Population_100, Resident_100, total_100, distance_to_coast etc. Therefore, first important step of developing a predictive model was to select the important features required for the model where correlation plot and Lasso regularization techniques were utilized. Once the feature selection was done, different machine learning models were trained and used for predicting the NO2 concentrations in test data. The model accuracy was evaluated in terms of three metrics-Mean Squared Error (MSE), Root Means Squared Error (RMSE) and R2 value. FInally, a comparative analysis has been done to find out the accuracy of different models used for prediction in this study.
+</p>
 
 __Data selection and Feature Engineering__
 

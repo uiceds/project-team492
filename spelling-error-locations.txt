@@ -47,9 +47,9 @@ content/02.EDA.md:134:Heatmap
 content/02.EDA.md:146:dataset
 content/02.EDA.md:148:dimensionality
 content/02.EDA.md:148:PCA
-content/03.Predictive Modeling.md:7:dataset
-content/03.Predictive Modeling.md:7:MSE
-content/03.Predictive Modeling.md:7:RMSE
+content/03.Predictive Modeling.md:6:dataset
+content/03.Predictive Modeling.md:6:MSE
+content/03.Predictive Modeling.md:6:RMSE
 content/03.Predictive Modeling.md:11:bewteen
 content/03.Predictive Modeling.md:11:dataset
 content/03.Predictive Modeling.md:11:whic
