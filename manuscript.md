@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T05:52:46+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T05:52:46+00:00" />
+  <meta name="dc.modified" content="2024-11-18T06:00:17+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T06:00:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/f4ddec02c3099cca9c48eff097473a9518a178af/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/f4ddec02c3099cca9c48eff097473a9518a178af/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/f4ddec02c3099cca9c48eff097473a9518a178af/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/f4ddec02c3099cca9c48eff097473a9518a178af/))
+([permalink](https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/))
 was automatically generated
-from [uiceds/project-team492@f4ddec0](https://github.com/uiceds/project-team492/tree/f4ddec02c3099cca9c48eff097473a9518a178af)
+from [uiceds/project-team492@4b8e7a1](https://github.com/uiceds/project-team492/tree/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe)
 on November 18, 2024.
 </em></small>
 
@@ -447,7 +447,17 @@ c) min_samples_split: It is the value of minimum number of samples that are requ
 
 d) min_samples_leaf: The minimum number of samples required to be at a leaf node which ensures that leaf nodes represent significant data, improving model generalization. 
 
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/RF%20code.png?raw=true">
+    <figcaption><strong>Figure 9:</strong> Random Forest Regressor code that is used for the predictive model </figcaption>
+</figure>
+
 Firstly, the features were standardized by subtracting the mean and dividing by the standard deviation for each column. This ensures that all features are on the same scale, preventing dominance of features with large numerical ranges during model training. For the analysis, DecisionTree package of Julia was used A typical 80/20 split for training and testing is used to evaluate the model’s generalization on unseen data. As an evaluation metric, means squared error (MSE), root mean squared error (RMSE) and R2 score was used for assessing the accuracy of the predictive modelling.
+
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Random%20Forest%201.png?raw=true">
+    <figcaption><strong>Figure 10:</strong> Comparison between the NO2 values predicted from Random Forest Regressor model and the observed NO2 values for all the training and test data.  </figcaption>
+</figure>
 
 For this predictive model, MSE value was 12.82, RMSE value was 3.58 and R2 value of 0.54 was obtained. While R2 value of ~0.54 suggests moderate predictive ability, the remaining 40% of the unexplained variance indicates the room for improvement. Potential area for optimizing and improving the models are optimizing the Random Forest hyperparameteres, using alternative and strong algorithms like Gradient Boosting etc. Moreover, Since there were quite a large number of independent variables, feature selection also needs to be analyzed more cautiously. However, given the complexity of the given environmental data, R2 value of 0.54 can be considered a moderate one.
 
