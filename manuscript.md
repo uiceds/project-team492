@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T16:56:43+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T16:56:43+00:00" />
+  <meta name="dc.modified" content="2024-11-18T17:11:31+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T17:11:31+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/926ab3364baf30792d5da5d8a496a8e9230f249f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/926ab3364baf30792d5da5d8a496a8e9230f249f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/926ab3364baf30792d5da5d8a496a8e9230f249f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/926ab3364baf30792d5da5d8a496a8e9230f249f/))
+([permalink](https://uiceds.github.io/project-team492/v/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07/))
 was automatically generated
-from [uiceds/project-team492@926ab33](https://github.com/uiceds/project-team492/tree/926ab3364baf30792d5da5d8a496a8e9230f249f)
+from [uiceds/project-team492@73b0e63](https://github.com/uiceds/project-team492/tree/73b0e6353009cf54c5ebf6d66f84d9f125a2bb07)
 on November 18, 2024.
 </em></small>
 
@@ -366,31 +366,33 @@ The main objective of this project is to develop a predictive model to predict t
 </p>
 
 __Data selection and Feature Engineering__
-
+<p style="text-align:justify;">
 To find out the correlation bewteen different independent variables, the data was sorted by using the correlation plot. Since there were numerous variables in the dataset, initially selective dependent variables introduced in the exploratory data analysis were considered whic are_distance to coast, Impervious 100, Impervious 5000, Impervious 10000, Population 100, Population 5000, Population 10000, Major 100, Major 5000, Major 10000, Residential 100, Residential 5000, Residential 10000, Total 100, Total 5000, Total 10000.
-
+</p>
+<p style="text-align:justify;">
 The correlation analysis was initially divided into five distinct groups to facilitate comparison, as visually inspecting all features simultaneously was impractical. This segmentation also allowed for classification of the data based on different features, aiding in the identification of relevant variables. Figure 1 presents the correlation plots for each group, illustrating the relationships between features.
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_1.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 1:</strong> Correlations of each dependent variables</figcaption>
 </figure>
-
+<p style="text-align:justify;">
 <p>Based on the correlation plots, it was observed that as the color of the curves became darker, the degree of correlation appeared to decrease. By comparing all plots, it was concluded that features such as distance to coast, impervious 100, major 100, major 5000, resident 100, resident 5000, total 100, and total 5000 exhibited lower inter correlations among themselves. To ensure greater accuracy, these findings were reanalyzed through detailed correlation plotting, as illustrated in Figure 2.</p>
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_2.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 2:</strong> Reanalyze and final correlation checking </figcaption>
 </figure>
-
+<p style="text-align:justify;">
 To aid this feature selection process with correlation plot, Lasso Regression (Least Absolute Shrinkage and Selection Operator) was applied to the dataset for selecting the most relevant features to predict observed NO2 concentrations. The main advantage of Lasso regression is that it reduces complexity by shrinking less important feature coefficient to zero. The reason of selecting Lasso was as it performs both feature selection and regularization, simplifying the model by irrelevant and redundant features.
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Lasso%20Code.png?raw=true">
     <figcaption><strong>Figure 3:</strong> Lasso Regression code used for selecting the input features for predictive modeling.</figcaption>
 </figure>
-
-Lasso Regression along with cross-validation was applied that performs k-fold cross-validation (which is by default 10) to find the optimal regularization parameter, lambda. Alpha value of 1.0 specifies exactly Lasso regularization rather than Ridge or elastic net. Thereafter, using the best lambda value, a new Lasso model was fit which enable the model to learn the optimal coefficient for selected features. Finally, coefficient of features was evaluated and non-zero coefficients were calculated by Lasso for using the selected features for further modelling. 
+<p style="text-align:justify;">
+Lasso Regression along with cross-validation was applied that performs k-fold cross-validation (which is by default 10) to find the optimal regularization parameter, lambda. Alpha value of 1.0 specifies exactly Lasso regularization rather than Ridge or elastic net. Thereafter, using the best lambda value, a new Lasso model was fit which enable the model to learn the optimal coefficient for selected features. Finally, coefficient of features was evaluated and non-zero coefficients were calculated by Lasso for using the selected features for further modelling.
+</p>
 
 | Sl. No |           Selected Features          |  Coefficients  |
 |:-------|:-------------------------------------|:---------------|
@@ -407,37 +409,38 @@ Lasso Regression along with cross-validation was applied that performs k-fold cr
 |   11   |               total_5000             |    0.175802    | 
 |   12   |             Population_10000         |    0.076178    | 
 
+<p style="text-align:justify;">
 For training and test data distribution, 80/20 ratio was followed where 80% of data points were considered training data and rest of the data points were test data. Out of 369 observations in the dataset, first 300 points were training data and rest of the data points were testing data. Model was first trained on training data and then the model was applied on testing data to find the efficiency of the predictive model.
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_3.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 4:</strong> Dataset used in this project: first 300 rows were considered as training data and rest of the 69 points were testing data. </figcaption>
 </figure>
 
 __Predictive Modeling: Machine learning__
-
+<p style="text-align:justify;">
 Four different machine learning analysis was performed to build a predictive model: linear regression, decision tree, random forest regression and neural network.
-
+</p>
 1. Linear regression
-   
-The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shown the main flow of the coding.
-
+<p style="text-align:justify;">
+The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shows the main flow of the coding.
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_5_1.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 5:</strong> Linear regression code flow </figcaption>
 </figure>
-
+<p style="text-align:justify;">
 After training, the dataset was trained as shown in Figure 6. By performing root mean square error, the scoring was 4.3. Still, it is not as low as expected. For future modeling, more dataset could be used for higher accuracy, polymodel rather than linear model can be tried.
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_5.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 6:</strong> Linear regression result </figcaption>
 </figure>
 
 2. Decision tree
-
+<p style="text-align:justify;">
 Decision tree was also used for predicting the dataset. Six variables that were assigned in the dataset selection, each were gini plotted for setting up the baselines. Figure 7 shows the code flow and Figure 8 shows the gini plot with each variable. Dependeing on the ppb value, <10 was decided to be low, >20 was decided to be high, and between that was decided to be medium. These values are the dominant range of ppb level in all states.
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_6_1.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 7:</strong> Decision tree code flow </figcaption>
@@ -447,60 +450,68 @@ Decision tree was also used for predicting the dataset. Six variables that were 
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_6.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 8:</strong> Gini plot for six variables </figcaption>
 </figure>
-
+<p style="text-align:justify;">
 With comparing all plots, the cutting points were decided as: 1) Distance to coast (km) > 1500 : low, Distance to coast (km) < 100 : high, Impervious_100 < 20 : low, Impervious 100 > 60 : high, Major 5000 > 200 : high, Major 5000 < 50 : low, Resident 5000 < 200 : low, else : medium (Figure 7).
-
+</p>
+<p style="text-align:justify;">
 The model's precision was calculated by measuring recall divided by the average of the prevision and recall, which got value of 0.078. Decision tree method was proven to be quite accurate is classifying NO2 pollutant value in high, medium, and low range.
-
+</p>
 3. Random forest Regressor
-   
+<p style="text-align:justify;">   
 Random forest is an ensemble learning method that aggregates predictions from multiple decision trees to reduce overfitting and improve generalization. Some key parameters of this algorithm are:
-
+</p>
+<p style="text-align:justify;">    
 a) n_trees: It specifies the number of trees in the forest. A large number improves the stability and reduces variance but increases computational cost. Considering all these factors, the value of n_trees were considered 200 in this project.
-
+</p>
+<p style="text-align:justify;">  
 b) max_depth: It limits the minimum number of samples required to split and internal node. A depth of 20 is considered in this study which is suitable for capturing complex pattern of land use pattern and correlation with NO2 data without overfitting.
-
+</p>
+<p style="text-align:justify;">  
 c) min_samples_split: It is the value of minimum number of samples that are required to split an internal node. The large values prevent overfitting by avoiding overly specific splits. A value of 15 was considered in the model.
-
+</p>
+<p style="text-align:justify;">  
 d) min_samples_leaf: The minimum number of samples required to be at a leaf node which ensures that leaf nodes represent significant data, improving model generalization. 
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/RF%20code.png?raw=true">
     <figcaption><strong>Figure 9:</strong> Random Forest Regressor code that is used for devloping the predictive model </figcaption>
 </figure>
-
+<p style="text-align:justify;">  
 Firstly, the features were standardized by subtracting the mean and dividing by the standard deviation for each column. This ensures that all features are on the same scale, preventing dominance of features with large numerical ranges during model training. For the analysis, DecisionTree package of Julia was used A typical 80/20 split for training and testing is used to evaluate the model’s generalization on unseen data. As an evaluation metric, means squared error (MSE), root mean squared error (RMSE) and R2 score was used for assessing the accuracy of the predictive modelling.
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Random%20Forest%201.png?raw=true">
     <figcaption><strong>Figure 10:</strong> Comparison between the NO2 values predicted from Random Forest Regressor model and the observed NO2 values for all the training and test data.  </figcaption>
 </figure>
-
+<p style="text-align:justify;">  
 For this predictive model, MSE value was 12.82, RMSE value was 3.58 and R2 value of 0.54 was obtained. While R2 value of ~0.54 suggests moderate predictive ability, the remaining 40% of the unexplained variance indicates the room for improvement. Potential area for optimizing and improving the models are optimizing the Random Forest hyperparameteres, using alternative and strong algorithms like Gradient Boosting etc. Moreover, Since there were quite a large number of independent variables, feature selection also needs to be analyzed more cautiously. However, given the complexity of the given environmental data, R2 value of 0.54 can be considered a moderate one.
-
+</p>
 4. Neural Network Algorithm
-   
+<p style="text-align:justify;">     
 A neural network is a computational model which is inspired by the human brain, consists of layers of interconnected neurons. It is commonly used to learn patterns and relationships in a dataset. This model has been applied to explore its predictive capability compared to other techniques used. 
-
+</p>
+<p style="text-align:justify;">  
 The main neural network architecture has been defined using the chain structure which takes 12 features as input and passes them to first hidden layer. Three hidden layers have been added with 128, 64 and 32 neurons along with ReLU activation. Dropout of 0.5 has been kept to drop 50% of the neuron randomly to prevent overfitting. A single neuron outputs the predicted NO2 value. To minimize the loss function, MSE and L1 regularization has been incorporated in the code. L1 regularization penalty adds a penalty proportional to the absolute values of the model’s weights.
-
+</p>
+<p style="text-align:justify;">  
 The training process is conducted updating the model’s weights to minimize the loss function where descent optimizer was used to update the model’s weights using gradient descent with a fixed learning rate of 0.001. The model is set for 500 epochs and Flux.train! has been used to compute the loss function with respect to model weights. The Flux package in Julia has been utilized for this modelling.
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/nn%20code.png?raw=true">
     <figcaption><strong>Figure 11:</strong> Neural Network Model code that is used for devloping the predictive model </figcaption>
 </figure>
-
+<p style="text-align:justify;">  
 For this predictive model, MSE value was 10.61, RMSE value was 3.12 and R2 value of 0.61 was obtained. Although the R2 value increased compared to other predictive models, it is still very low compared to the predicted accuracy for neural network model. Potential improvement scope would be to tune the number of layers, neurons and learning rates. Adding additional L2 penalty might be helpful to optimize the model. Evaluating the model’s generalizability with k-fold cross validation might be another option to fine tune the model. But most importantly, selecting the proper input feature might be the most important one which would determine the better prediction accuracy. While revising and optimizing the predictive model, we will try to use feature importance, PCA and other methods to select the proper input features for modelling.
-
+</p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Neural%20Network.png?raw=true">
     <figcaption><strong>Figure 12:</strong> Comparison between the NO2 values predicted from Neural Network model and the observed NO2 values for all the training and test data. </figcaption>
 </figure>
 
 __Comparison Among Different Predictive Models__
-
-The analysis utilized four predictive modeling techniques to predict NO2 concentrations using a dataset of various land use pattern in different locations across US. The evaluation metrics of all the predictive models used in the analysis are summarized in the table below. The accuracy of the predictive model is as follows: Neural Network model > Random Forest Regression > Linear Regression. A decision tree classifying technique has been also explored which had a precision of 0.08 indicating the effectiveness of this technique in classifying the NO2 concentrations into three categories-high, medium and low. It is expected that linear regression will be poor fit for this dataset because of the complexity of the dataset and non-linear correlation between the independent variables and NO2 concentrations. Random Forest model with R2 value of 0.54 suggested a moderate predictive capability whereas R2 value of Neural Network model indicates that it explained 61% of the variance in NO2 concentration. These results highlight the importance of accounting for the non-linear interactions and feature complexities  when modeling NO2 concentrations, with Neural Network demonstratiing their strength in capturing such patterns. In the current analysis, Neural network model did not enhance the predictive capability that much and the reason could be due to highly non-linear relationships between the features which reduced the advantage of applying neural network model. Moreover, the number of observation ~370 might not be enough data to effectively learn complex patterns and even with L1 penalties, overfitting might be an issue. However, further improvements could be made in optimizing the predictive model specially in terms of feature selections and explore other advanced ensemble methods to enhance predictive accuracy and generalizability.  
+<p style="text-align:justify;">  
+The analysis utilized four predictive modeling techniques to predict NO2 concentrations using a dataset of various land use pattern in different locations across US. The evaluation metrics of all the predictive models used in the analysis are summarized in the table below. The accuracy of the predictive model is as follows: Neural Network model > Random Forest Regression > Linear Regression. A decision tree classifying technique has been also explored which had a precision of 0.08 indicating the effectiveness of this technique in classifying the NO2 concentrations into three categories-high, medium and low. It is expected that linear regression will be poor fit for this dataset because of the complexity of the dataset and non-linear correlation between the independent variables and NO2 concentrations. Random Forest model with R2 value of 0.54 suggested a moderate predictive capability whereas R2 value of Neural Network model indicates that it explained 61% of the variance in NO2 concentration. These results highlight the importance of accounting for the non-linear interactions and feature complexities  when modeling NO2 concentrations, with Neural Network demonstratiing their strength in capturing such patterns. In the current analysis, Neural network model did not enhance the predictive capability that much and the reason could be due to highly non-linear relationships between the features which reduced the advantage of applying neural network model. Moreover, the number of observation ~370 might not be enough data to effectively learn complex patterns and even with L1 penalties, overfitting might be an issue. However, further improvements could be made in optimizing the predictive model specially in terms of feature selections and explore other advanced ensemble methods to enhance predictive accuracy and generalizability.
+</p>
 
 | Sl. No |   Technique of the Predictive Model  |   MSE/Precision | RMSE | R2 |
 |:-------|:-------------------------------------|:----------------|:-----|:---|

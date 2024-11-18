@@ -11,7 +11,7 @@ Bushehr
 Champaign
 Clin
 CSV
-Dataset
+dataset
 DecisionTree
 demonstratiing
 Dependeing
@@ -67,7 +67,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-Siyoung
+siyoung
 Sl
 Spatiotemporal
 Stallings
