@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/uiceds/project-team492/tree/gh-pages) branch hosts the contents of this directory at <https://uiceds.github.io/project-team492/>.
-The permalink for this webpage version is <https://uiceds.github.io/project-team492/v/0513b922f3305cfee041027f81a882c1c9306abc/>.
+The permalink for this webpage version is <https://uiceds.github.io/project-team492/v/926ab3364baf30792d5da5d8a496a8e9230f249f/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiceds.github.io/project-team492/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`0513b922f3305cfee041027f81a882c1c9306abc`](https://github.com/uiceds/project-team492/commit/0513b922f3305cfee041027f81a882c1c9306abc).
+[`926ab3364baf30792d5da5d8a496a8e9230f249f`](https://github.com/uiceds/project-team492/commit/926ab3364baf30792d5da5d8a496a8e9230f249f).
