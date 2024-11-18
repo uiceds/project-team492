@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T16:50:04+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T16:50:04+00:00" />
+  <meta name="dc.modified" content="2024-11-18T16:53:09+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T16:53:09+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/50bb1cd5e895bcaebc7d7f0c65d6139065858b75/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/50bb1cd5e895bcaebc7d7f0c65d6139065858b75/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/50bb1cd5e895bcaebc7d7f0c65d6139065858b75/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/0513b922f3305cfee041027f81a882c1c9306abc/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/0513b922f3305cfee041027f81a882c1c9306abc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/0513b922f3305cfee041027f81a882c1c9306abc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/50bb1cd5e895bcaebc7d7f0c65d6139065858b75/))
+([permalink](https://uiceds.github.io/project-team492/v/0513b922f3305cfee041027f81a882c1c9306abc/))
 was automatically generated
-from [uiceds/project-team492@50bb1cd](https://github.com/uiceds/project-team492/tree/50bb1cd5e895bcaebc7d7f0c65d6139065858b75)
+from [uiceds/project-team492@0513b92](https://github.com/uiceds/project-team492/tree/0513b922f3305cfee041027f81a882c1c9306abc)
 on November 18, 2024.
 </em></small>
 
@@ -376,7 +376,7 @@ The correlation analysis was initially divided into five distinct groups to faci
     <figcaption><strong>Figure 1:</strong> Correlations of each dependent variables</figcaption>
 </figure>
 
-Based on the correlation plots, it was observed that as the color of the curves became darker, the degree of correlation appeared to decrease. By comparing all plots, it was concluded that features such as distance to coast, impervious 100, major 100, major 5000, resident 100, resident 5000, total 100, and total 5000 exhibited lower inter correlations among themselves. To ensure greater accuracy, these findings were reanalyzed through detailed correlation plotting, as illustrated in Figure 2.
+<p>Based on the correlation plots, it was observed that as the color of the curves became darker, the degree of correlation appeared to decrease. By comparing all plots, it was concluded that features such as distance to coast, impervious 100, major 100, major 5000, resident 100, resident 5000, total 100, and total 5000 exhibited lower inter correlations among themselves. To ensure greater accuracy, these findings were reanalyzed through detailed correlation plotting, as illustrated in Figure 2.</p>
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_2.jpg?raw=true" alt="Sample Image">
