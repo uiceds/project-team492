@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-17T01:05:15+00:00" />
-  <meta property="article:modified_time" content="2024-11-17T01:05:15+00:00" />
+  <meta name="dc.modified" content="2024-11-18T05:45:24+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T05:45:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/ef34b26b0b122a4855f29f65a1009cc1d41944b1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/ef34b26b0b122a4855f29f65a1009cc1d41944b1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/ef34b26b0b122a4855f29f65a1009cc1d41944b1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/80afaef35a98f7187fb59a95af0cde1286e007a7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/80afaef35a98f7187fb59a95af0cde1286e007a7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/80afaef35a98f7187fb59a95af0cde1286e007a7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/ef34b26b0b122a4855f29f65a1009cc1d41944b1/))
+([permalink](https://uiceds.github.io/project-team492/v/80afaef35a98f7187fb59a95af0cde1286e007a7/))
 was automatically generated
-from [uiceds/project-team492@ef34b26](https://github.com/uiceds/project-team492/tree/ef34b26b0b122a4855f29f65a1009cc1d41944b1)
-on November 17, 2024.
+from [uiceds/project-team492@80afaef](https://github.com/uiceds/project-team492/tree/80afaef35a98f7187fb59a95af0cde1286e007a7)
+on November 18, 2024.
 </em></small>
 
 Published: October 27, 2024
@@ -435,7 +435,33 @@ With comparing all plots, the cutting points were decided as: 1) Distance to coa
 
 The model's precision was calculated by measuring recall divided by the average of the prevision and recall, which got value of 0.078. Decision tree method was proven to be quite accurate is classifying NO2 pollutant value in high, medium, and low range.
 
-3.
+3. Random forest Regressor
+   
+Random forest is an ensemble learning method that aggregates predictions from multiple decision trees to reduce overfitting and improve generalization. Some key parameters of this algorithm are:
+
+a) n_trees: It specifies the number of trees in the forest. A large number improves the stability and reduces variance but increases computational cost. Considering all these factors, the value of n_trees were considered 200 in this project.
+
+b) max_depth: It limits the minimum number of samples required to split and internal node. A depth of 20 is considered in this study which is suitable for capturing complex pattern of land use pattern and correlation with NO2 data without overfitting.
+
+c) min_samples_split: It is the value of minimum number of samples that are required to split an internal node. The large values prevent overfitting by avoiding overly specific splits. A value of 15 was considered in the model.
+
+d) min_samples_leaf: The minimum number of samples required to be at a leaf node which ensures that leaf nodes represent significant data, improving model generalization. 
+
+Firstly, the features were standardized by subtracting the mean and dividing by the standard deviation for each column. This ensures that all features are on the same scale, preventing dominance of features with large numerical ranges during model training. For the analysis, DecisionTree package of Julia was used A typical 80/20 split for training and testing is used to evaluate the model’s generalization on unseen data. As an evaluation metric, means squared error (MSE), root mean squared error (RMSE) and R2 score was used for assessing the accuracy of the predictive modelling.
+
+For this predictive model, MSE value was 12.82, RMSE value was 3.58 and R2 value of 0.54 was obtained. While R2 value of ~0.54 suggests moderate predictive ability, the remaining 40% of the unexplained variance indicates the room for improvement. Potential area for optimizing and improving the models are optimizing the Random Forest hyperparameteres, using alternative and strong algorithms like Gradient Boosting etc. Moreover, Since there were quite a large number of independent variables, feature selection also needs to be analyzed more cautiously. However, given the complexity of the given environmental data, R2 value of 0.54 can be considered a moderate one.
+
+4. Neural Network Algorithm
+   
+A neural network is a computational model which is inspired by the human brain, consists of layers of interconnected neurons. It is commonly used to learn patterns and relationships in a dataset. This model has been applied to explore its predictive capability compared to other techniques used. 
+
+The main neural network architecture has been defined using the chain structure which takes 12 features as input and passes them to first hidden layer. Three hidden layers have been added with 128, 64 and 32 neurons along with ReLU activation. Dropout of 0.5 has been kept to drop 50% of the neuron randomly to prevent overfitting. A single neuron outputs the predicted NO2 value. To minimize the loss function, MSE and L1 regularization has been incorporated in the code. L1 regularization penalty adds a penalty proportional to the absolute values of the model’s weights.
+
+The training process is conducted updating the model’s weights to minimize the loss function where descent optimizer was used to update the model’s weights using gradient descent with a fixed learning rate of 0.001. The model is set for 500 epochs and Flux.train! has been used to compute the loss function with respect to model weights. The Flux package in Julia has been utilized for this modelling.
+
+
+For this predictive model, MSE value was 10.61, RMSE value was 3.12 and R2 value of 0.61 was obtained. Although the R2 value increased compared to other predictive models, it is still very low compared to the predicted accuracy for neural network model. Potential improvement scope would be to tune the number of layers, neurons and learning rates. Adding additional L2 penalty might be helpful to optimize the model. Evaluating the model’s generalizability with k-fold cross validation might be another option to fine tune the model. But most importantly, selecting the proper input feature might be the most important one which would determine the better prediction accuracy. While revising and optimizing the predictive model, we will try to use feature importance, PCA and other methods to select the proper input features for modelling.
+
 
 
 ## References {.page_break_before}
