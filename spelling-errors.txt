@@ -68,7 +68,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-Siyoung
+siyoung
 Spatiotemporal
 Stallings
 Tabassum
