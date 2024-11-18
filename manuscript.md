@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T18:35:50+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T18:35:50+00:00" />
+  <meta name="dc.modified" content="2024-11-18T18:43:35+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T18:43:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/9f245a88f18773dcc1c873ca70d330d9f4ab9676/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/9f245a88f18773dcc1c873ca70d330d9f4ab9676/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/9f245a88f18773dcc1c873ca70d330d9f4ab9676/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/9cc882a672d5f103a603ebfbc63a96724209a00a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/9cc882a672d5f103a603ebfbc63a96724209a00a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/9cc882a672d5f103a603ebfbc63a96724209a00a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/9f245a88f18773dcc1c873ca70d330d9f4ab9676/))
+([permalink](https://uiceds.github.io/project-team492/v/9cc882a672d5f103a603ebfbc63a96724209a00a/))
 was automatically generated
-from [uiceds/project-team492@9f245a8](https://github.com/uiceds/project-team492/tree/9f245a88f18773dcc1c873ca70d330d9f4ab9676)
+from [uiceds/project-team492@9cc882a](https://github.com/uiceds/project-team492/tree/9cc882a672d5f103a603ebfbc63a96724209a00a)
 on November 18, 2024.
 </em></small>
 
@@ -163,7 +163,8 @@ __Characterization of Dataset__
 <p style="text-align:justify;">
 
 The dataset we are going to use is obtained from Bechle et al. [1] which was used for estimating air pollution in terms of NO<sub>2</sub> from 2000 to 2010. The dataset contains spatial and temporal concentration of NO<sub>2</sub> in ppb at different locations of the different states in US. It also contains Geographic Information System (GIS) data on land-use features such as impervious surfaces, population density, length of different types of roads-residential, major and total etc. These are commonly used as proxies for different pollution sources [2-4]. Based on the dataset, NO<sub>2</sub> concentration varies significantly from state to state depending on different land-use pattern and the value range between 0.31~34.21 ppb for different states. The distribution of the NO<sub>2</sub> pollutants across the US based on location are shown in Figure 1. Some of the explanations of the dataset are provided below:
-
+</p>
+<p style="text-align:justify;">
 Impervious_100: This represents the percentage of impervious surfaces such as roads, buildings etc. within a 100-meter buffer around the measuring station.
 Major_1000: It refers to the length of the major roads within a 1-kilometer radius around the measuring location.
 Resident_500: This indicates length of the roads within 500-meter radius of the monitoring station.
