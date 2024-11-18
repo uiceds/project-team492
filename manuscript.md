@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T07:04:42+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T07:04:42+00:00" />
+  <meta name="dc.modified" content="2024-11-18T07:07:30+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T07:07:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/bf84bd72fdf623dd9e8411280e5c1099ff4c3d24/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/bf84bd72fdf623dd9e8411280e5c1099ff4c3d24/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/bf84bd72fdf623dd9e8411280e5c1099ff4c3d24/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/b0b391cea9287e5390ff89ac5e7b5fbb71037dcd/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/b0b391cea9287e5390ff89ac5e7b5fbb71037dcd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/b0b391cea9287e5390ff89ac5e7b5fbb71037dcd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/bf84bd72fdf623dd9e8411280e5c1099ff4c3d24/))
+([permalink](https://uiceds.github.io/project-team492/v/b0b391cea9287e5390ff89ac5e7b5fbb71037dcd/))
 was automatically generated
-from [uiceds/project-team492@bf84bd7](https://github.com/uiceds/project-team492/tree/bf84bd72fdf623dd9e8411280e5c1099ff4c3d24)
+from [uiceds/project-team492@b0b391c](https://github.com/uiceds/project-team492/tree/b0b391cea9287e5390ff89ac5e7b5fbb71037dcd)
 on November 18, 2024.
 </em></small>
 
@@ -385,7 +385,10 @@ As per the correlation plots, it was assumed that as the color of the curves get
 
 For selecting the most relevant features to predict observed NO2 concentrations, Lasso Regression (Least Absolute Shrinkage and Selection Operator) was applied to the dataset to reduce complexity by shrinking less important feature coefficient to zero. The reason of selecting Lasso was as it performs both feature selection and regularization, simplifying the model by irrelevant and redundant features.
 
-
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Lasso%20Code.png?raw=true">
+    <figcaption><strong>Figure 3:</strong> Lasso Regression code used for selecting the input features for predictive modeling.</figcaption>
+</figure>
 
 Lasso Regression along with cross-validation was applied that performs k-fold cross-validation (which is by default 10) to find the optimal regularization parameter, lambda. Alpha value of 1.0 specifies exactly Lasso regularization rather than Ridge or elastic net. Thereafter, using the best lambda value, a new Lasso model was fit which enable the model to learn the optimal coefficient for selected features. Finally, coefficient of features was evaluated and non-zero coefficients were calculated by Lasso for using the selected features for further modelling. 
 
