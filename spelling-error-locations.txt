@@ -16,16 +16,16 @@ content/02.EDA.md:7:ppb
 content/02.EDA.md:16:CSV
 content/02.EDA.md:29:dataset
 content/02.EDA.md:29:dataset
-content/02.EDA.md:77:dataset
-content/02.EDA.md:89:Heatmap
-content/02.EDA.md:104:Heatmap
-content/02.EDA.md:108:ppb
-content/02.EDA.md:108:ppb
-content/02.EDA.md:119:Heatmap
-content/02.EDA.md:134:Heatmap
-content/02.EDA.md:146:dataset
-content/02.EDA.md:148:dimensionality
-content/02.EDA.md:148:PCA
+content/02.EDA.md:79:dataset
+content/02.EDA.md:92:Heatmap
+content/02.EDA.md:107:Heatmap
+content/02.EDA.md:111:ppb
+content/02.EDA.md:111:ppb
+content/02.EDA.md:122:Heatmap
+content/02.EDA.md:137:Heatmap
+content/02.EDA.md:149:dataset
+content/02.EDA.md:152:dimensionality
+content/02.EDA.md:152:PCA
 content/03.Predictive Modeling.md:6:dataset
 content/03.Predictive Modeling.md:6:MSE
 content/03.Predictive Modeling.md:6:RMSE
