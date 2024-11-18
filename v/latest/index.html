@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T06:00:17+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T06:00:17+00:00" />
+  <meta name="dc.modified" content="2024-11-18T06:21:03+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T06:21:03+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -82,9 +82,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,9 +101,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team492/v/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team492/v/527ccc6b6d792fa76df40ae76ce7f9cc24711929/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team492/tree/4b8e7a1ce15ef114ac8ed9633237a462e7fe38fe">uiceds/project-team492@4b8e7a1</a>
+from <a href="https://github.com/uiceds/project-team492/tree/527ccc6b6d792fa76df40ae76ce7f9cc24711929">uiceds/project-team492@527ccc6</a>
 on November 18, 2024.
 </em></small></p>
 <p>Published: October 27, 2024</p>
@@ -441,7 +441,7 @@ Such a model has the potential to be instrumental for multiple applications. By 
 <figure style="text-align: center;">
 <img src="https://github.com/uiceds/project-team492/blob/main/content/images/RF%20code.png?raw=true">
 <figcaption>
-<strong>Figure 9:</strong> Random Forest Regressor code that is used for the predictive model
+<strong>Figure 9:</strong> Random Forest Regressor code that is used for devloping the predictive model
 </figcaption>
 </figure>
 <p>Firstly, the features were standardized by subtracting the mean and dividing by the standard deviation for each column. This ensures that all features are on the same scale, preventing dominance of features with large numerical ranges during model training. For the analysis, DecisionTree package of Julia was used A typical 80/20 split for training and testing is used to evaluate the model’s generalization on unseen data. As an evaluation metric, means squared error (MSE), root mean squared error (RMSE) and R2 score was used for assessing the accuracy of the predictive modelling.</p>
@@ -458,7 +458,19 @@ Such a model has the potential to be instrumental for multiple applications. By 
 <p>A neural network is a computational model which is inspired by the human brain, consists of layers of interconnected neurons. It is commonly used to learn patterns and relationships in a dataset. This model has been applied to explore its predictive capability compared to other techniques used.</p>
 <p>The main neural network architecture has been defined using the chain structure which takes 12 features as input and passes them to first hidden layer. Three hidden layers have been added with 128, 64 and 32 neurons along with ReLU activation. Dropout of 0.5 has been kept to drop 50% of the neuron randomly to prevent overfitting. A single neuron outputs the predicted NO2 value. To minimize the loss function, MSE and L1 regularization has been incorporated in the code. L1 regularization penalty adds a penalty proportional to the absolute values of the model’s weights.</p>
 <p>The training process is conducted updating the model’s weights to minimize the loss function where descent optimizer was used to update the model’s weights using gradient descent with a fixed learning rate of 0.001. The model is set for 500 epochs and Flux.train! has been used to compute the loss function with respect to model weights. The Flux package in Julia has been utilized for this modelling.</p>
+<figure style="text-align: center;">
+<img src="https://github.com/uiceds/project-team492/blob/main/content/images/nn%20code.png?raw=true">
+<figcaption>
+<strong>Figure 11:</strong> Neural Network Model code that is used for devloping the predictive model
+</figcaption>
+</figure>
 <p>For this predictive model, MSE value was 10.61, RMSE value was 3.12 and R2 value of 0.61 was obtained. Although the R2 value increased compared to other predictive models, it is still very low compared to the predicted accuracy for neural network model. Potential improvement scope would be to tune the number of layers, neurons and learning rates. Adding additional L2 penalty might be helpful to optimize the model. Evaluating the model’s generalizability with k-fold cross validation might be another option to fine tune the model. But most importantly, selecting the proper input feature might be the most important one which would determine the better prediction accuracy. While revising and optimizing the predictive model, we will try to use feature importance, PCA and other methods to select the proper input features for modelling.</p>
+<figure style="text-align: center;">
+<img src="https://github.com/uiceds/project-team492/blob/main/content/images/Neural%20Network.png?raw=true">
+<figcaption>
+<strong>Figure 12:</strong> Comparison between the NO2 values predicted from Neural Network model and the observed NO2 values for all the training and test data.
+</figcaption>
+</figure>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
