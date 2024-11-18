@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T16:02:57+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T16:02:57+00:00" />
+  <meta name="dc.modified" content="2024-11-18T16:22:39+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T16:22:39+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/0e92d6324c54d0c79f6aece942f0e8cda5df1855/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/0e92d6324c54d0c79f6aece942f0e8cda5df1855/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/0e92d6324c54d0c79f6aece942f0e8cda5df1855/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/9f2e5a41ead6b30e0e5ae344a7bbc7e618248638/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/9f2e5a41ead6b30e0e5ae344a7bbc7e618248638/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/9f2e5a41ead6b30e0e5ae344a7bbc7e618248638/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/0e92d6324c54d0c79f6aece942f0e8cda5df1855/))
+([permalink](https://uiceds.github.io/project-team492/v/9f2e5a41ead6b30e0e5ae344a7bbc7e618248638/))
 was automatically generated
-from [uiceds/project-team492@0e92d63](https://github.com/uiceds/project-team492/tree/0e92d6324c54d0c79f6aece942f0e8cda5df1855)
+from [uiceds/project-team492@9f2e5a4](https://github.com/uiceds/project-team492/tree/9f2e5a41ead6b30e0e5ae344a7bbc7e618248638)
 on November 18, 2024.
 </em></small>
 
@@ -499,6 +499,9 @@ For this predictive model, MSE value was 10.61, RMSE value was 3.12 and R2 value
 </figure>
 
 
+__Comparison Among Different Predictive Models__
+
+The analysis utilized four predictive modeling techniques to predict NO2 concentrations using a dataset of various land use pattern in different locations across US. The evaluation metrics of all the predictive models used in the analysis are summarized in the table below. The accuracy of the predictive model is as follows: Neural Network model > Random Forest Regression > Linear Regression. It is expected that linear regression will be poor fit for this dataset because of the complexity of the dataset and non-linear correlation between the independent variables and NO2 concentrations. Random Forest model with R2 value of 0.54 suggested a moderate predictive capability whereas R2 value of Neural Network model indicates that it explained 61% of the variance in NO2 concentration. These results highlight the importance of accounting for the non-linear interactions and feature complexities  when modeling NO2 concentrations, with Neural Network demonstratiing their strength in capturing such patterns. In the current analysis, Neural network model did not enhance the predictive capability that much and the reason could be due to highly non-linear relationships between the features which reduced the advantage of applying neural network model. Moreover, the number of observation ~370 might not be enough data to effectively learn complex patterns and even with L1 penalties, overfitting might be an issue. However, further improvements could be made in optimizing the predictive model specially in terms of feature selections and explore other advanced ensemble methods to enhance predictive accuracy and generalizability.  
 
 | Sl. No |   Technique of the Predictive Model  |   MSE/Precision | RMSE | R2 |
 |:-------|:-------------------------------------|:----------------|:-----|:---|
