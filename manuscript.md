@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-11-18T16:26:38+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T16:26:38+00:00" />
+  <meta name="dc.modified" content="2024-11-18T16:50:04+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T16:50:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/0aa8b2929ed64a242b6e17a7fa3e51857bb86665/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/0aa8b2929ed64a242b6e17a7fa3e51857bb86665/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/0aa8b2929ed64a242b6e17a7fa3e51857bb86665/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/50bb1cd5e895bcaebc7d7f0c65d6139065858b75/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/50bb1cd5e895bcaebc7d7f0c65d6139065858b75/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/50bb1cd5e895bcaebc7d7f0c65d6139065858b75/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/0aa8b2929ed64a242b6e17a7fa3e51857bb86665/))
+([permalink](https://uiceds.github.io/project-team492/v/50bb1cd5e895bcaebc7d7f0c65d6139065858b75/))
 was automatically generated
-from [uiceds/project-team492@0aa8b29](https://github.com/uiceds/project-team492/tree/0aa8b2929ed64a242b6e17a7fa3e51857bb86665)
+from [uiceds/project-team492@50bb1cd](https://github.com/uiceds/project-team492/tree/50bb1cd5e895bcaebc7d7f0c65d6139065858b75)
 on November 18, 2024.
 </em></small>
 
@@ -359,31 +359,31 @@ Such a model has the potential to be instrumental for multiple applications. By 
 
 ## Predictive Modeling {.page_break_before}
    
-__Description and Characterization of Dataset__ 
+__Introduction__ 
 
 <p style="text-align:justify;">
 
-In the predictive modeling, machine learning was used to make a predictive model of the dataset. The sequence of this project was as follows: 1. Data selection and clearing 2. Machine learning - 2.1 Normalization and Regularizatioon, 2.2 Perform analysis 2.3 Check the validity. In conclusion, all machine learning techniques were compared in terms of accuracy, speed, and simplicity. 
+The main objective of this project is to develop a predictive model to predict the NO2 concentration accurately based on the land use pattern of a particular location. The dataset contained around 370 observations and 128 land use pattern variables such as Impervious_100, major_100, Population_100, Resident_100, total_100, distance_to_coast etc. Therefore, first important step of developing a predictive model was to select the important features required for the model where correlation plot and Lasso regularization techniques were utilized. Once the feature selection was done, different machine learning models were trained and used for predicting the NO2 concentrations in test data. The model accuracy was evaluated in terms of three metrics-Mean Squared Error (MSE), Root Means Squared Error (RMSE) and R2 value. FInally, a comparative analysis has been done to find out the accuracy of different models used for prediction in this study. 
 
-__Data selection and coordinate transform__
+__Data selection and Feature Engineering__
 
-First, the data was sorted by using the correlation plot. Since there were numerous variables in the dataset, selective dependent variables introduced in the exploratory data analysis section were also used for the machine learning. This contains distance to coast, Impervious 100, Impervious 5000, Impervious 10000, Population 100, Population 5000, Population 10000, Major 100, Major 5000, Major 10000, Residential 100, Residential 5000, Residential 10000, Total 100, Total 5000, Total 10000.
+To find out the correlation bewteen different independent variables, the data was sorted by using the correlation plot. Since there were numerous variables in the dataset, initially selective dependent variables introduced in the exploratory data analysis were considered whic are_distance to coast, Impervious 100, Impervious 5000, Impervious 10000, Population 100, Population 5000, Population 10000, Major 100, Major 5000, Major 10000, Residential 100, Residential 5000, Residential 10000, Total 100, Total 5000, Total 10000.
 
-The correlation comparison was segmented into five different groups at first, since to visually inspect, it was impossible to compare all. Also, depending on the naming (i.e. impervious), this process was expected to classify necessary data. Figure 1 shows the results of each correlation plot.
+The correlation analysis was initially divided into five distinct groups to facilitate comparison, as visually inspecting all features simultaneously was impractical. This segmentation also allowed for classification of the data based on different features, aiding in the identification of relevant variables. Figure 1 presents the correlation plots for each group, illustrating the relationships between features.
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_1.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 1:</strong> Correlations of each dependent variables</figcaption>
 </figure>
 
-As per the correlation plots, it was assumed that as the color of the curves get darker. By comparing all, it was concluded that distance to coast, impervious 100, major 100, major 5000, resident 100, resident 5000, total 100, and total 5000 have less correlation. This was reanalyzed through correlation plotting as shown in figure 2 to be more accurate.
+Based on the correlation plots, it was observed that as the color of the curves became darker, the degree of correlation appeared to decrease. By comparing all plots, it was concluded that features such as distance to coast, impervious 100, major 100, major 5000, resident 100, resident 5000, total 100, and total 5000 exhibited lower inter correlations among themselves. To ensure greater accuracy, these findings were reanalyzed through detailed correlation plotting, as illustrated in Figure 2.
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_2.jpg?raw=true" alt="Sample Image">
     <figcaption><strong>Figure 2:</strong> Reanalyze and final correlation checking </figcaption>
 </figure>
 
-For selecting the most relevant features to predict observed NO2 concentrations, Lasso Regression (Least Absolute Shrinkage and Selection Operator) was applied to the dataset to reduce complexity by shrinking less important feature coefficient to zero. The reason of selecting Lasso was as it performs both feature selection and regularization, simplifying the model by irrelevant and redundant features.
+To aid this feature selection process with correlation plot, Lasso Regression (Least Absolute Shrinkage and Selection Operator) was applied to the dataset for selecting the most relevant features to predict observed NO2 concentrations. The main advantage of Lasso regression is that it reduces complexity by shrinking less important feature coefficient to zero. The reason of selecting Lasso was as it performs both feature selection and regularization, simplifying the model by irrelevant and redundant features.
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Lasso%20Code.png?raw=true">
@@ -420,7 +420,7 @@ Four different machine learning analysis was performed to build a predictive mod
 
 1. Linear regression
    
-The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. THe dataset shown in Figure 3 was used as a training set and dataset shown in Figure 4 was used as a testing set. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shown the main flow of the coding.
+The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shown the main flow of the coding.
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_5_1.jpg?raw=true" alt="Sample Image">

@@ -48,14 +48,15 @@ content/02.EDA.md:146:dataset
 content/02.EDA.md:148:dimensionality
 content/02.EDA.md:148:PCA
 content/03.Predictive Modeling.md:7:dataset
-content/03.Predictive Modeling.md:7:Regularizatioon
+content/03.Predictive Modeling.md:7:MSE
+content/03.Predictive Modeling.md:7:RMSE
+content/03.Predictive Modeling.md:11:bewteen
 content/03.Predictive Modeling.md:11:dataset
+content/03.Predictive Modeling.md:11:whic
 content/03.Predictive Modeling.md:27:dataset
 content/03.Predictive Modeling.md:36:Sl
 content/03.Predictive Modeling.md:51:dataset
 content/03.Predictive Modeling.md:55:Dataset
-content/03.Predictive Modeling.md:64:dataset
-content/03.Predictive Modeling.md:64:dataset
 content/03.Predictive Modeling.md:71:dataset
 content/03.Predictive Modeling.md:71:dataset
 content/03.Predictive Modeling.md:71:polymodel
