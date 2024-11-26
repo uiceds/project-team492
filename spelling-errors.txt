@@ -2,11 +2,12 @@ Atmos
 Barzegar
 Bechle
 Beelen
+bewteen
 Bushehr
 Champaign
 Clin
 CSV
-Dataset
+dataset
 DecisionTree
 demonstratiing
 Dependeing
@@ -20,7 +21,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-gini
+Gini
 GIS
 Goudarzi
 Heatmap
@@ -56,7 +57,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-siyoung
+Siyoung
 Sl
 Spatiotemporal
 Stallings
