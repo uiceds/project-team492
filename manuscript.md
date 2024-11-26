@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-26T19:43:03+00:00" />
-  <meta property="article:modified_time" content="2024-11-26T19:43:03+00:00" />
+  <meta name="dc.modified" content="2024-11-26T19:46:51+00:00" />
+  <meta property="article:modified_time" content="2024-11-26T19:46:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/cb218e70deca78360f04841bd460d287ad2b2b51/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/cb218e70deca78360f04841bd460d287ad2b2b51/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/cb218e70deca78360f04841bd460d287ad2b2b51/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/7b1b182ecb3d655696e49bb153b9974ae8bbc0db/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/7b1b182ecb3d655696e49bb153b9974ae8bbc0db/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/7b1b182ecb3d655696e49bb153b9974ae8bbc0db/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/cb218e70deca78360f04841bd460d287ad2b2b51/))
+([permalink](https://uiceds.github.io/project-team492/v/7b1b182ecb3d655696e49bb153b9974ae8bbc0db/))
 was automatically generated
-from [uiceds/project-team492@cb218e7](https://github.com/uiceds/project-team492/tree/cb218e70deca78360f04841bd460d287ad2b2b51)
+from [uiceds/project-team492@7b1b182](https://github.com/uiceds/project-team492/tree/7b1b182ecb3d655696e49bb153b9974ae8bbc0db)
 on November 26, 2024.
 </em></small>
 
@@ -313,63 +313,10 @@ Such a model has the potential to be instrumental for multiple applications. By 
 
 ## Predictive Modeling {.page_break_before}
    
-__Introduction__ 
+__Machine learning methods__ 
 
 <p style="text-align:justify;">
-The main objective of this project is to develop a predictive model to predict the NO2 concentration accurately based on the land use pattern of a particular location. The dataset contained around 370 observations and 128 land use pattern variables such as Impervious_100, major_100, Population_100, Resident_100, total_100, distance_to_coast etc. Therefore, first important step of developing a predictive model was to select the important features required for the model where correlation plot and Lasso regularization techniques were utilized. Once the feature selection was done, different machine learning models were trained and used for predicting the NO2 concentrations in test data. The model accuracy was evaluated in terms of three metrics-Mean Squared Error (MSE), Root Means Squared Error (RMSE) and R2 value. FInally, a comparative analysis has been done to find out the accuracy of different models used for prediction in this study.
-</p>
-
-__Data selection and Feature Engineering__
-<p style="text-align:justify;">
-To find out the correlation bewteen different independent variables, the data was sorted by using the correlation plot. Since there were numerous variables in the dataset, initially selective dependent variables introduced in the exploratory data analysis were considered which are_distance to coast, Impervious 100, Impervious 5000, Impervious 10000, Population 100, Population 5000, Population 10000, Major 100, Major 5000, Major 10000, Residential 100, Residential 5000, Residential 10000, Total 100, Total 5000, Total 10000.
-</p>
-<p style="text-align:justify;">
-The correlation analysis was initially divided into five distinct groups to facilitate comparison, as visually inspecting all features simultaneously was impractical. This segmentation also allowed for classification of the data based on different features, aiding in the identification of relevant variables. Figure 1 presents the correlation plots for each group, illustrating the relationships between features.
-</p>
-<figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_1.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 1:</strong> Correlations of each dependent variables</figcaption>
-</figure>
-<p style="text-align:justify;">
-<p>Based on the correlation plots, it was observed that as the color of the curves became darker, the degree of correlation appeared to decrease. By comparing all plots, it was concluded that features such as distance to coast, impervious 100, major 100, major 5000, resident 100, resident 5000, total 100, and total 5000 exhibited lower inter correlations among themselves. To ensure greater accuracy, these findings were reanalyzed through detailed correlation plotting, as illustrated in Figure 2.</p>
-</p>
-<figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_2.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 2:</strong> Reanalyze and final correlation checking </figcaption>
-</figure>
-<p style="text-align:justify;">
-To aid this feature selection process with correlation plot, Lasso Regression (Least Absolute Shrinkage and Selection Operator) was applied to the dataset for selecting the most relevant features to predict observed NO2 concentrations. The main advantage of Lasso regression is that it reduces complexity by shrinking less important feature coefficient to zero. The reason of selecting Lasso was as it performs both feature selection and regularization, simplifying the model by irrelevant and redundant features.
-</p>
-<figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Lasso%20Code.png?raw=true">
-    <figcaption><strong>Figure 3:</strong> Lasso Regression code used for selecting the input features for predictive modeling.</figcaption>
-</figure>
-<p style="text-align:justify;">
-Lasso Regression along with cross-validation was applied that performs k-fold cross-validation (which is by default 10) to find the optimal regularization parameter, lambda. Alpha value of 1.0 specifies exactly Lasso regularization rather than Ridge or elastic net. Thereafter, using the best lambda value, a new Lasso model was fit which enable the model to learn the optimal coefficient for selected features. Finally, coefficient of features was evaluated and non-zero coefficients were calculated by Lasso for using the selected features for further modelling.
-</p>
-
-| Sl. No |           Selected Features          |  Coefficients  |
-|:-------|:-------------------------------------|:---------------|
-|    1   |         Distance_to_coast_km         |    1.035150    | 
-|    2   |            Impervious_100            |    1.396751    | 
-|    3   |            Impervious_1800           |    0.919251    | 
-|    4   |            Impervious_10000          |    0.510092    | 
-|    5   |        Elevation_truncated_km        |    1.123214    | 
-|    6   |               Major_100              |    0.298449    | 
-|    7   |               Major_5000             |    0.324849    | 
-|    8   |              Resident_100            |    1.082713    | 
-|    9   |              Resident_5000           |    1.235198    | 
-|   10   |                total_100             |    0.112781    | 
-|   11   |               total_5000             |    0.175802    | 
-|   12   |             Population_10000         |    0.076178    | 
-
-<p style="text-align:justify;">
-For training and test data distribution, 75/25 ratio was followed where 75% of data points were considered training data and rest of the data points were test data. Out of 369 observations in the dataset, first 277 points were training data and rest of the data points were testing data. Model was first trained on training data and then the model was applied on testing data to find the efficiency of the predictive model.
-</p>
-<figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_3.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 4:</strong> Dataset used in this project: first 277 rows were considered as training data and rest of the points were testing data. </figcaption>
-</figure>
+a
 
 __Predictive Modeling: Machine learning__
 <p style="text-align:justify;">

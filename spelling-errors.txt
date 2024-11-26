@@ -2,7 +2,6 @@ Atmos
 Barzegar
 Bechle
 Beelen
-bewteen
 Bushehr
 Champaign
 Clin
@@ -21,7 +20,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-Gini
+gini
 GIS
 Goudarzi
 Heatmap
