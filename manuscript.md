@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-26T19:52:38+00:00" />
-  <meta property="article:modified_time" content="2024-11-26T19:52:38+00:00" />
+  <meta name="dc.modified" content="2024-11-26T20:06:13+00:00" />
+  <meta property="article:modified_time" content="2024-11-26T20:06:13+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/d8642381e7efecfad38f0f629877705e102ebdaa/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/d8642381e7efecfad38f0f629877705e102ebdaa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/d8642381e7efecfad38f0f629877705e102ebdaa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/344a172015e0e901a24c76ec0c568031a55359cc/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/344a172015e0e901a24c76ec0c568031a55359cc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/344a172015e0e901a24c76ec0c568031a55359cc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/d8642381e7efecfad38f0f629877705e102ebdaa/))
+([permalink](https://uiceds.github.io/project-team492/v/344a172015e0e901a24c76ec0c568031a55359cc/))
 was automatically generated
-from [uiceds/project-team492@d864238](https://github.com/uiceds/project-team492/tree/d8642381e7efecfad38f0f629877705e102ebdaa)
+from [uiceds/project-team492@344a172](https://github.com/uiceds/project-team492/tree/344a172015e0e901a24c76ec0c568031a55359cc)
 on November 26, 2024.
 </em></small>
 
@@ -372,12 +372,9 @@ For training and test data distribution, 75/25 ratio was followed where 75% of d
    
 __Machine learning methods__ 
 <p style="text-align:justify;">
- The predictive modeling using the machine learning was performed in four different methods: linear regression, decision tree, random forest regression, and neural network. The training was done with the aforementioned dataset. In total of 369 stations, 
+   Predictive modeling using machine learning was performed using four methods: linear regression, decision tree, random forest regression, and neural network. The dataset, which has 369 stations and eight variables, was used for training. The validity of the model was confirmed visually by plotting it linearly and checking the RMSE and R2 values.
+   RMSE is a root mean square error, in which the best value is 0 and the worst value is near infinite [7-8]. As the range of the criteria is infinite, it is difficult to say at which point the data has a good prediction. However, the data is well-trained when the value is near 0. R2 is the proportion of the variance in the dependent variable that is predictable from the independent variables [7-8]. R2 is best when close to 1 and worst in - infinite. Each machine learning method was compared with these criteria to show their effectiveness.
 
-__Predictive Modeling: Machine learning__
-<p style="text-align:justify;">
-Four different machine learning analysis was performed to build a predictive model: linear regression, decision tree, random forest regression and neural network.
-</p>
 __1. Linear regression__  
 <p style="text-align:justify;">
 The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shows the main flow of the coding.
