@@ -7,7 +7,7 @@ Bushehr
 Champaign
 Clin
 CSV
-dataset
+Dataset
 DecisionTree
 demonstratiing
 Dependeing

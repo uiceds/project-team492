@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-26T17:54:47+00:00" />
-  <meta property="article:modified_time" content="2024-11-26T17:54:47+00:00" />
+  <meta name="dc.modified" content="2024-11-26T19:43:03+00:00" />
+  <meta property="article:modified_time" content="2024-11-26T19:43:03+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/9638b8b6cb710029dc6b52e53a678987adf86e38/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/9638b8b6cb710029dc6b52e53a678987adf86e38/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/9638b8b6cb710029dc6b52e53a678987adf86e38/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/cb218e70deca78360f04841bd460d287ad2b2b51/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/cb218e70deca78360f04841bd460d287ad2b2b51/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/cb218e70deca78360f04841bd460d287ad2b2b51/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/9638b8b6cb710029dc6b52e53a678987adf86e38/))
+([permalink](https://uiceds.github.io/project-team492/v/cb218e70deca78360f04841bd460d287ad2b2b51/))
 was automatically generated
-from [uiceds/project-team492@9638b8b](https://github.com/uiceds/project-team492/tree/9638b8b6cb710029dc6b52e53a678987adf86e38)
+from [uiceds/project-team492@cb218e7](https://github.com/uiceds/project-team492/tree/cb218e70deca78360f04841bd460d287ad2b2b51)
 on November 26, 2024.
 </em></small>
 
@@ -177,13 +177,6 @@ Population_100: It denotes the population density within the 100-meter buffer ar
 
 _Dataset CSV file:_
 https://docs.google.com/spreadsheets/d/1yo3cL23279-qwrjHSDbHc1e4t_8yl6h8CfVrMX-PIS4/edit?usp=drive_web&ouid=116140173519287299300
-
-
-<figure style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/uiceds/project-team492/refs/heads/main/content/images/Figure%201.png" alt="Sample Image">
-    <figcaption><strong>Figure 1:</strong> Distribution of NO<sub>2</sub> pollutants across the US based on latitude and longitude of monitoring stations.</figcaption>
-</figure>
-
 
 # {.page_break_before}
 __Preliminary Analysis and Plots__ 
@@ -485,9 +478,6 @@ The analysis utilized four predictive modeling techniques to predict NO2 concent
 
 
 
-
-
-
 ## References {.page_break_before}
 
 <!-- Explicitly insert bibliography here -->
@@ -505,6 +495,9 @@ The analysis utilized four predictive modeling techniques to predict NO2 concent
 [5]	H. Saki, G. Goudarzi, S. Jalali, G. Barzegar, M. Farhadi, I. Parseh, S. Geravandi, S. Salmanzadeh, F. Yousefi, M.J. Mohammadi, Study of relationship between nitrogen dioxide and chronic obstructive pulmonary disease in Bushehr, Iran, Clin Epidemiol Glob Heal. 8 (2020) 446–449. doi:https://doi.org/10.1016/j.cegh.2019.10.006.
 
 [6]	J.E. Hart, J.D. Yanosky, R.C. Puett, L. Ryan, D.W. Dockery, T.J. Smith, E. Garshick, F. Laden, Spatial Modeling of PM10 and NO2 in the Continental United States, 1985\&\#x2013;2000, Environ Health Perspect. 117 (2009) 1690–1696. doi:10.1289/ehp.0900840.
+
+
+
 
 
 
