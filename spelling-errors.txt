@@ -14,7 +14,6 @@ dataset
 DecisionTree
 demonstratiing
 Dependeing
-devloping
 dimensionality
 Dockery
 Elahi
@@ -24,7 +23,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-Gini
+gini
 GIS
 Goudarzi
 Gurel

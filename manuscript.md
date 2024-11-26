@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-26T20:49:43+00:00" />
-  <meta property="article:modified_time" content="2024-11-26T20:49:43+00:00" />
+  <meta name="dc.modified" content="2024-11-26T20:53:57+00:00" />
+  <meta property="article:modified_time" content="2024-11-26T20:53:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/12b90a1234c4c2a7461cb459dfd3951b3b18e4b0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/12b90a1234c4c2a7461cb459dfd3951b3b18e4b0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/12b90a1234c4c2a7461cb459dfd3951b3b18e4b0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/12b90a1234c4c2a7461cb459dfd3951b3b18e4b0/))
+([permalink](https://uiceds.github.io/project-team492/v/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d/))
 was automatically generated
-from [uiceds/project-team492@12b90a1](https://github.com/uiceds/project-team492/tree/12b90a1234c4c2a7461cb459dfd3951b3b18e4b0)
+from [uiceds/project-team492@96a2ab7](https://github.com/uiceds/project-team492/tree/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d)
 on November 26, 2024.
 </em></small>
 
@@ -378,11 +378,7 @@ __Machine learning methods__
 __1. Linear regression__  
 <p style="text-align:justify;">
 The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shows the main flow of the coding.
-</p>
-<figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_5_1.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 5:</strong> Linear Regression model code that is used for devloping the predictive model. </figcaption>
-</figure>
+
 <p style="text-align:justify;">
 After training, the dataset was trained as shown in Figure 6. By performing root mean square error, the scoring was 4.3. Still, it is not as low as expected. For future modeling, more dataset could be used for higher accuracy, polymodel rather than linear model can be tried.
 </p>
@@ -394,11 +390,6 @@ After training, the dataset was trained as shown in Figure 6. By performing root
 __2. Decision tree__
 <p style="text-align:justify;">
 Decision tree was also used for predicting the dataset. Six variables that were assigned in the dataset selection, each were gini plotted for setting up the baselines. Figure 7 shows the code flow and Figure 8 shows the gini plot with each variable. Dependeing on the ppb value, <10 was decided to be low, >20 was decided to be high, and between that was decided to be medium. These values are the dominant range of ppb level in all states.
-</p>
-<figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_6_1.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 7:</strong> Decision tree code flow </figcaption>
-</figure>
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_6.jpg?raw=true" alt="Sample Image">
@@ -425,11 +416,7 @@ c) min_samples_split: It is the value of minimum number of samples that are requ
 </p>
 <p style="text-align:justify;">  
 d) min_samples_leaf: The minimum number of samples required to be at a leaf node which ensures that leaf nodes represent significant data, improving model generalization. 
-</p>
-<figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/RF%20code.png?raw=true">
-    <figcaption><strong>Figure 9:</strong> Random Forest Regressor code that is used for devloping the predictive model </figcaption>
-</figure>
+
 <p style="text-align:justify;">  
 Firstly, the features were standardized by subtracting the mean and dividing by the standard deviation for each column. This ensures that all features are on the same scale, preventing dominance of features with large numerical ranges during model training. For the analysis, DecisionTree package of Julia was used A typical 80/20 split for training and testing is used to evaluate the model’s generalization on unseen data. As an evaluation metric, means squared error (MSE), root mean squared error (RMSE) and R2 score was used for assessing the accuracy of the predictive modelling.
 </p>
@@ -449,11 +436,7 @@ The main neural network architecture has been defined using the chain structure 
 </p>
 <p style="text-align:justify;">  
 The training process is conducted updating the model’s weights to minimize the loss function where descent optimizer was used to update the model’s weights using gradient descent with a fixed learning rate of 0.001. The model is set for 500 epochs and Flux.train! has been used to compute the loss function with respect to model weights. The Flux package in Julia has been utilized for this modelling.
-</p>
-<figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/nn%20code_new.png?raw=true">
-    <figcaption><strong>Figure 11:</strong> Neural Network Model code that is used for devloping the predictive model </figcaption>
-</figure>
+
 <p style="text-align:justify;">  
 For this predictive model, MSE value was 10.61, RMSE value was 3.12 and R2 value of 0.61 was obtained. Although the R2 value increased compared to other predictive models, it is still very low compared to the predicted accuracy for neural network model. Potential improvement scope would be to tune the number of layers, neurons and learning rates. Adding additional L2 penalty might be helpful to optimize the model. Evaluating the model’s generalizability with k-fold cross validation might be another option to fine tune the model. But most importantly, selecting the proper input feature might be the most important one which would determine the better prediction accuracy. While revising and optimizing the predictive model, we will try to use feature importance, PCA and other methods to select the proper input features for modelling.
 </p>
