@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-26T17:53:22+00:00" />
-  <meta property="article:modified_time" content="2024-11-26T17:53:22+00:00" />
+  <meta name="dc.modified" content="2024-11-26T17:54:47+00:00" />
+  <meta property="article:modified_time" content="2024-11-26T17:54:47+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/6d63aadb83c1ed32bcc3dc6924aa21b16b09db98/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/6d63aadb83c1ed32bcc3dc6924aa21b16b09db98/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/6d63aadb83c1ed32bcc3dc6924aa21b16b09db98/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/9638b8b6cb710029dc6b52e53a678987adf86e38/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/9638b8b6cb710029dc6b52e53a678987adf86e38/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/9638b8b6cb710029dc6b52e53a678987adf86e38/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/6d63aadb83c1ed32bcc3dc6924aa21b16b09db98/))
+([permalink](https://uiceds.github.io/project-team492/v/9638b8b6cb710029dc6b52e53a678987adf86e38/))
 was automatically generated
-from [uiceds/project-team492@6d63aad](https://github.com/uiceds/project-team492/tree/6d63aadb83c1ed32bcc3dc6924aa21b16b09db98)
+from [uiceds/project-team492@9638b8b](https://github.com/uiceds/project-team492/tree/9638b8b6cb710029dc6b52e53a678987adf86e38)
 on November 26, 2024.
 </em></small>
 
@@ -135,6 +135,28 @@ Rauf Momina \<momina2@illinois.edu\>.
 
 
 :::
+
+
+
+
+
+## Project Description {.page_break_before}
+
+__Description of data set:__ 
+<p style="text-align:justify;">
+The dataset used for this project focused on modeling NO2 concentrations in different locations of the different states of US using a Land-Use Regression (LUR) approach [1]. The data was collected from U.S Environmental Protection Agency (EPA) regulatory monitoring stations between 2000 and 2010. This NO2 concentration measurement in different location is the dependent variable of the dataset. 
+</p>
+<p style="text-align:justify;">
+The dataset contained different Land-Use geographic variables which are considered as the independent variables. These variables include impervious surface area (%coverage), population density, road lengths(major, residential, total), elevation of the location, distance to coast etc. These variables were evaluated over 22 buffers ranging from 100 m to 10 km to capture the local and regional land use pattern.
+</p>
+<p style="text-align:justify;">
+The dataset is a CSV file that contains 370 rows and 134 column which can be accessed from this link: https://drive.google.com/file/d/1dCy4GJo4pk0tVJMhmtnC5ZF12hiWM91q/view [Accessed 10/15/2024]
+</p>
+
+__Proposal:__ 
+<p style="text-align:justify;">
+The main goal of this project will be to develop a predictive model which will predict the NO2 concentration of any location of US from different land use variables given in the dataset. It would be very useful to predict the concentrations of NO2 in any given location which will be helpful in identifying locations that immediate preventive measures and taking necessary actions.
+</p>
 
 
 ## Exploratory Data Analysis {.page_break_before}
@@ -293,25 +315,6 @@ Building on these findings, we will develop a predictive regression model capabl
 </p>
 <p style="text-align:justify;">
 Such a model has the potential to be instrumental for multiple applications. By assessing long-term health impacts associated with chronic exposure to pollutants, it can provide insights into the risk of respiratory and cardiovascular conditions associated with NO₂. This type of analysis is invaluable to public health agencies tasked with identifying regions and populations at greater risk of pollutant-related diseases [5-6]. Moreover, predictive modeling of NO₂ concentrations can guide policymakers and city planners in designing urban environments with better air quality. By predicting pollutant dispersion, decision-makers can strategically zone residential areas, schools, and recreational spaces away from high pollution zones, thus enhancing community health and safety. Finally, our model will help highlight areas where pollution levels are worsening, providing actionable insights for immediate interventions. This capability will empower environmental agencies to prioritize regions for pollution control efforts, thus contributing to a healthier and more sustainable living environment for all residents. 
-</p>
-
-
-## Project Description {.page_break_before}
-
-__Description of data set:__ 
-<p style="text-align:justify;">
-The dataset used for this project focused on modeling NO2 concentrations in different locations of the different states of US using a Land-Use Regression (LUR) approach [1]. The data was collected from U.S Environmental Protection Agency (EPA) regulatory monitoring stations between 2000 and 2010. This NO2 concentration measurement in different location is the dependent variable of the dataset. 
-</p>
-<p style="text-align:justify;">
-The dataset contained different Land-Use geographic variables which are considered as the independent variables. These variables include impervious surface area (%coverage), population density, road lengths(major, residential, total), elevation of the location, distance to coast etc. These variables were evaluated over 22 buffers ranging from 100 m to 10 km to capture the local and regional land use pattern.
-</p>
-<p style="text-align:justify;">
-The dataset is a CSV file that contains 370 rows and 134 column which can be accessed from this link: https://drive.google.com/file/d/1dCy4GJo4pk0tVJMhmtnC5ZF12hiWM91q/view [Accessed 10/15/2024]
-</p>
-
-__Proposal:__ 
-<p style="text-align:justify;">
-The main goal of this project will be to develop a predictive model which will predict the NO2 concentration of any location of US from different land use variables given in the dataset. It would be very useful to predict the concentrations of NO2 in any given location which will be helpful in identifying locations that immediate preventive measures and taking necessary actions.
 </p>
 
 
@@ -477,6 +480,12 @@ The analysis utilized four predictive modeling techniques to predict NO2 concent
 |    2   |             Decision Tree            |       0.08      |  --  | -- |
 |    3   |        Random Forest Regression      |      12.82      | 3.58 |0.54| 
 |    4   |             Neural Network           |      10.61      | 3.12 |0.61|
+
+
+
+
+
+
 
 
 ## References {.page_break_before}

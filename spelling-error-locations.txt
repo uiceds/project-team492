@@ -1,24 +1,3 @@
-content/02.EDA.md:7:Bechle
-content/02.EDA.md:7:dataset
-content/02.EDA.md:7:dataset
-content/02.EDA.md:7:dataset
-content/02.EDA.md:7:dataset
-content/02.EDA.md:7:GIS
-content/02.EDA.md:7:ppb
-content/02.EDA.md:7:ppb
-content/02.EDA.md:17:CSV
-content/02.EDA.md:30:dataset
-content/02.EDA.md:30:dataset
-content/02.EDA.md:80:dataset
-content/02.EDA.md:93:Heatmap
-content/02.EDA.md:108:Heatmap
-content/02.EDA.md:112:ppb
-content/02.EDA.md:112:ppb
-content/02.EDA.md:123:Heatmap
-content/02.EDA.md:138:Heatmap
-content/02.EDA.md:150:dataset
-content/02.EDA.md:153:dimensionality
-content/02.EDA.md:153:PCA
 content/02.introduction.md:5:dataset
 content/02.introduction.md:5:dataset
 content/02.introduction.md:5:LUR
@@ -26,58 +5,79 @@ content/02.introduction.md:8:dataset
 content/02.introduction.md:11:CSV
 content/02.introduction.md:11:dataset
 content/02.introduction.md:16:dataset
-content/03.Predictive Modeling.md:6:dataset
-content/03.Predictive Modeling.md:6:MSE
-content/03.Predictive Modeling.md:6:RMSE
-content/03.Predictive Modeling.md:11:bewteen
-content/03.Predictive Modeling.md:11:dataset
-content/03.Predictive Modeling.md:28:dataset
-content/03.Predictive Modeling.md:38:Sl
-content/03.Predictive Modeling.md:54:dataset
-content/03.Predictive Modeling.md:58:Dataset
-content/03.Predictive Modeling.md:71:devloping
-content/03.Predictive Modeling.md:74:dataset
-content/03.Predictive Modeling.md:74:dataset
-content/03.Predictive Modeling.md:74:polymodel
-content/03.Predictive Modeling.md:78:omparison
-content/03.Predictive Modeling.md:83:dataset
-content/03.Predictive Modeling.md:83:dataset
-content/03.Predictive Modeling.md:83:Dependeing
-content/03.Predictive Modeling.md:83:gini
-content/03.Predictive Modeling.md:83:gini
-content/03.Predictive Modeling.md:83:ppb
-content/03.Predictive Modeling.md:83:ppb
-content/03.Predictive Modeling.md:92:Gini
-content/03.Predictive Modeling.md:102:overfitting
-content/03.Predictive Modeling.md:108:overfitting
-content/03.Predictive Modeling.md:111:overfitting
-content/03.Predictive Modeling.md:118:devloping
-content/03.Predictive Modeling.md:118:Regressor
-content/03.Predictive Modeling.md:121:DecisionTree
-content/03.Predictive Modeling.md:121:MSE
-content/03.Predictive Modeling.md:121:RMSE
-content/03.Predictive Modeling.md:125:Regressor
-content/03.Predictive Modeling.md:128:hyperparameteres
-content/03.Predictive Modeling.md:128:MSE
-content/03.Predictive Modeling.md:128:RMSE
-content/03.Predictive Modeling.md:132:dataset
-content/03.Predictive Modeling.md:135:MSE
-content/03.Predictive Modeling.md:135:overfitting
-content/03.Predictive Modeling.md:135:ReLU
-content/03.Predictive Modeling.md:142:devloping
-content/03.Predictive Modeling.md:145:generalizability
-content/03.Predictive Modeling.md:145:MSE
-content/03.Predictive Modeling.md:145:PCA
-content/03.Predictive Modeling.md:145:RMSE
-content/03.Predictive Modeling.md:154:dataset
-content/03.Predictive Modeling.md:154:dataset
-content/03.Predictive Modeling.md:154:dataset
-content/03.Predictive Modeling.md:154:demonstratiing
-content/03.Predictive Modeling.md:154:generalizability
-content/03.Predictive Modeling.md:154:overfitting
-content/03.Predictive Modeling.md:157:MSE
-content/03.Predictive Modeling.md:157:RMSE
-content/03.Predictive Modeling.md:157:Sl
+content/03.EDA.md:7:Bechle
+content/03.EDA.md:7:dataset
+content/03.EDA.md:7:dataset
+content/03.EDA.md:7:dataset
+content/03.EDA.md:7:dataset
+content/03.EDA.md:7:GIS
+content/03.EDA.md:7:ppb
+content/03.EDA.md:7:ppb
+content/03.EDA.md:17:CSV
+content/03.EDA.md:30:dataset
+content/03.EDA.md:30:dataset
+content/03.EDA.md:80:dataset
+content/03.EDA.md:93:Heatmap
+content/03.EDA.md:108:Heatmap
+content/03.EDA.md:112:ppb
+content/03.EDA.md:112:ppb
+content/03.EDA.md:123:Heatmap
+content/03.EDA.md:138:Heatmap
+content/03.EDA.md:150:dataset
+content/03.EDA.md:153:dimensionality
+content/03.EDA.md:153:PCA
+content/04.Predictive Modeling.md:6:dataset
+content/04.Predictive Modeling.md:6:MSE
+content/04.Predictive Modeling.md:6:RMSE
+content/04.Predictive Modeling.md:11:bewteen
+content/04.Predictive Modeling.md:11:dataset
+content/04.Predictive Modeling.md:28:dataset
+content/04.Predictive Modeling.md:38:Sl
+content/04.Predictive Modeling.md:54:dataset
+content/04.Predictive Modeling.md:58:Dataset
+content/04.Predictive Modeling.md:71:devloping
+content/04.Predictive Modeling.md:74:dataset
+content/04.Predictive Modeling.md:74:dataset
+content/04.Predictive Modeling.md:74:polymodel
+content/04.Predictive Modeling.md:78:omparison
+content/04.Predictive Modeling.md:83:dataset
+content/04.Predictive Modeling.md:83:dataset
+content/04.Predictive Modeling.md:83:Dependeing
+content/04.Predictive Modeling.md:83:gini
+content/04.Predictive Modeling.md:83:gini
+content/04.Predictive Modeling.md:83:ppb
+content/04.Predictive Modeling.md:83:ppb
+content/04.Predictive Modeling.md:92:Gini
+content/04.Predictive Modeling.md:102:overfitting
+content/04.Predictive Modeling.md:108:overfitting
+content/04.Predictive Modeling.md:111:overfitting
+content/04.Predictive Modeling.md:118:devloping
+content/04.Predictive Modeling.md:118:Regressor
+content/04.Predictive Modeling.md:121:DecisionTree
+content/04.Predictive Modeling.md:121:MSE
+content/04.Predictive Modeling.md:121:RMSE
+content/04.Predictive Modeling.md:125:Regressor
+content/04.Predictive Modeling.md:128:hyperparameteres
+content/04.Predictive Modeling.md:128:MSE
+content/04.Predictive Modeling.md:128:RMSE
+content/04.Predictive Modeling.md:132:dataset
+content/04.Predictive Modeling.md:135:MSE
+content/04.Predictive Modeling.md:135:overfitting
+content/04.Predictive Modeling.md:135:ReLU
+content/04.Predictive Modeling.md:142:devloping
+content/04.Predictive Modeling.md:145:generalizability
+content/04.Predictive Modeling.md:145:MSE
+content/04.Predictive Modeling.md:145:PCA
+content/04.Predictive Modeling.md:145:RMSE
+content/04.Predictive Modeling.md:154:dataset
+content/04.Predictive Modeling.md:154:dataset
+content/04.Predictive Modeling.md:154:dataset
+content/04.Predictive Modeling.md:154:demonstratiing
+content/04.Predictive Modeling.md:154:generalizability
+content/04.Predictive Modeling.md:154:overfitting
+content/04.Predictive Modeling.md:157:MSE
+content/04.Predictive Modeling.md:157:RMSE
+content/04.Predictive Modeling.md:157:Sl
 content/2.back-matter.md:6:Bechle
 content/2.back-matter.md:6:Environ
 content/2.back-matter.md:6:Spatiotemporal

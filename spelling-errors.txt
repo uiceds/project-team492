@@ -7,7 +7,7 @@ Bushehr
 Champaign
 Clin
 CSV
-Dataset
+dataset
 DecisionTree
 demonstratiing
 Dependeing
@@ -21,7 +21,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-gini
+Gini
 GIS
 Goudarzi
 Heatmap
@@ -57,7 +57,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-Siyoung
+siyoung
 Sl
 Spatiotemporal
 Stallings
