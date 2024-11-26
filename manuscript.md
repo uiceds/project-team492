@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-26T20:53:57+00:00" />
-  <meta property="article:modified_time" content="2024-11-26T20:53:57+00:00" />
+  <meta name="dc.modified" content="2024-11-26T21:10:32+00:00" />
+  <meta property="article:modified_time" content="2024-11-26T21:10:32+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/21e4b156731ac2db095c1969bce9eddd981c393f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/21e4b156731ac2db095c1969bce9eddd981c393f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/21e4b156731ac2db095c1969bce9eddd981c393f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d/))
+([permalink](https://uiceds.github.io/project-team492/v/21e4b156731ac2db095c1969bce9eddd981c393f/))
 was automatically generated
-from [uiceds/project-team492@96a2ab7](https://github.com/uiceds/project-team492/tree/96a2ab7d04fbf6b11c6913ef031ad51401c02c1d)
+from [uiceds/project-team492@21e4b15](https://github.com/uiceds/project-team492/tree/21e4b156731ac2db095c1969bce9eddd981c393f)
 on November 26, 2024.
 </em></small>
 
@@ -374,6 +374,7 @@ __Machine learning methods__
 <p style="text-align:justify;">
    Predictive modeling using machine learning was performed using four methods: linear regression, decision tree, random forest regression, and neural network. The dataset, which has 369 data in eight variables, was used for training. The validity of the model was confirmed visually by plotting it linearly and checking the RMSE and R2 values.
    RMSE is a root mean square error, in which the best value is 0 and the worst value is near infinite [7-8]. As the range of the criteria is infinite, it is difficult to say at which point the data has a good prediction. However, the data is well-trained when the value is near 0. R2 is the proportion of the variance in the dependent variable that is predictable from the independent variables [7-8]. R2 is best when close to 1 and worst in - infinite. Each machine learning method was compared with these criteria to show their effectiveness.
+
 
 __1. Linear regression__  
 <p style="text-align:justify;">

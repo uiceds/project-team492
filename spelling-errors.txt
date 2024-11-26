@@ -23,7 +23,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-gini
+Gini
 GIS
 Goudarzi
 Gurel
@@ -63,7 +63,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-Siyoung
+siyoung
 Sl
 SMAPE
 Spatiotemporal
