@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-27T23:03:15+00:00" />
-  <meta property="article:modified_time" content="2024-11-27T23:03:15+00:00" />
+  <meta name="dc.modified" content="2024-11-27T23:12:52+00:00" />
+  <meta property="article:modified_time" content="2024-11-27T23:12:52+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/a11c1c02dc7cea22ec476f0152ce9955955539bd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/a11c1c02dc7cea22ec476f0152ce9955955539bd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/a11c1c02dc7cea22ec476f0152ce9955955539bd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/3056d356d229495944e55ea60550737b876f4b91/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/3056d356d229495944e55ea60550737b876f4b91/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/3056d356d229495944e55ea60550737b876f4b91/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/a11c1c02dc7cea22ec476f0152ce9955955539bd/))
+([permalink](https://uiceds.github.io/project-team492/v/3056d356d229495944e55ea60550737b876f4b91/))
 was automatically generated
-from [uiceds/project-team492@a11c1c0](https://github.com/uiceds/project-team492/tree/a11c1c02dc7cea22ec476f0152ce9955955539bd)
+from [uiceds/project-team492@3056d35](https://github.com/uiceds/project-team492/tree/3056d356d229495944e55ea60550737b876f4b91)
 on November 27, 2024.
 </em></small>
 
@@ -383,17 +383,18 @@ The first method used for machine learning was the linear regression model. A si
 </p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pic_1.png?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure XX:</strong> Comparison between the NO2 values predicted from Linear Regression model and the observed NO2 values </figcaption>
+    <figcaption><strong>Figure XX1:</strong> Comparison between the NO2 values predicted from Linear Regression model and the observed NO2 values </figcaption>
 </figure>
 
 
+</p>
 __2. Decision tree__
 <p style="text-align:justify;">
 
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_6.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 8:</strong> Gini plot shown for selected six variables </figcaption>
+    <figcaption><strong>Figure XX2:</strong> Gini plot shown for selected six variables </figcaption>
 </figure>
 
 
@@ -414,12 +415,12 @@ c) min_samples_split: It is the value of minimum number of samples that are requ
 d) min_samples_leaf: The minimum number of samples required to be at a leaf node which ensures that leaf nodes represent significant data, improving model generalization. 
 
 <p style="text-align:justify;">  
-Firstly, the features were standardized by subtracting the mean and dividing by the standard deviation for each column. This ensures that all features are on the same scale, preventing the dominance of features with large numerical ranges during model training. Julia's DecisionTree package was used for the analysis. A typical 80/20 split for training and testing is used to evaluate the model's generalization on unseen data. As an evaluation metric, means squared error (MSE), root mean squared error (RMSE), and R2 score were used to assess the accuracy of the predictive modeling. For the random forest regression model, the RMSE value was 3.58, and the R2 value was 0.54.
+The features were standardized by subtracting the mean and dividing by the standard deviation for each column. This ensures that all features are on the same scale, preventing the dominance of features with large numerical ranges during model training. Julia's DecisionTree package was used for the analysis. A typical 80/20 split for training and testing is used to evaluate the model's generalization on unseen data. As an evaluation metric, means squared error (MSE), root mean squared error (RMSE), and R2 score were used to assess the accuracy of the predictive modeling. For the random forest regression model, the RMSE value was 3.58, and the R2 value was 0.54.
 </p>
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Random%20Forest%201.png?raw=true">
-    <figcaption><strong>Figure 10:</strong> Comparison between the NO2 values predicted from Random Forest Regressor model and the observed NO2 values for all the training and test data.  </figcaption>
+    <figcaption><strong>Figure XX3:</strong> Comparison between the NO2 values predicted from Random Forest Regressor model and the observed NO2 values for all the training and test data.  </figcaption>
 </figure>
 
 <p style="text-align:justify;">  
@@ -428,25 +429,24 @@ Firstly, the features were standardized by subtracting the mean and dividing by 
 __4. Neural Network Algorithm__
 <p style="text-align:justify;">     
 A neural network is a computational model inspired by the human brain, consisting of layers of interconnected neurons. It is commonly used to learn patterns and relationships in a dataset. This model has been applied to explore its predictive capability compared to other techniques. 
-</p>
-
 <p style="text-align:justify;">  
 The main neural network architecture has been defined using the chain structure, which takes 12 features as input and passes them to the first hidden layer. Three hidden layers have been added with 128, 64, and 32 neurons, along with ReLU activation. A dropout of 0.5 has been kept to drop 50% of the neurons randomly to prevent overfitting. A single neuron outputs the predicted NO2 value. MSE and L1 regularization have been incorporated into the code to minimize the loss function. L1 regularization penalty adds a penalty proportional to the absolute values of the model’s weights. For this predictive model, RMSE value was 3.12 and R2 value was 0.61.
 </p>
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Neural%20Network.png?raw=true">
-    <figcaption><strong>Figure 12:</strong> Comparison between the NO2 values predicted from Neural Network model and the observed NO2 values for all the training and test data. </figcaption>
+    <figcaption><strong>Figure XX4:</strong> Comparison between the NO2 values predicted from Neural Network model and the observed NO2 values for all the training and test data. </figcaption>
 </figure>
+</p>
 
 __Comparison Among Different Predictive Models__
 <p style="text-align:justify;">  
-The analysis utilized four predictive modeling techniques to predict NO2 concentrations using a dataset of various land use pattern in different locations across US. The evaluation metrics of all the predictive models used in the analysis are summarized in the table below. The accuracy of the predictive model is as follows: Neural Network model > Random Forest Regression > Linear Regression. A decision tree classifying technique has been also explored which had a precision of 0.08 indicating the effectiveness of this technique in classifying the NO2 concentrations into three categories-high, medium and low. It is expected that linear regression will be poor fit for this dataset because of the complexity of the dataset and non-linear correlation between the independent variables and NO2 concentrations. Random Forest model with R2 value of 0.54 suggested a moderate predictive capability whereas R2 value of Neural Network model indicates that it explained 61% of the variance in NO2 concentration. These results highlight the importance of accounting for the non-linear interactions and feature complexities  when modeling NO2 concentrations, with Neural Network demonstratiing their strength in capturing such patterns. In the current analysis, Neural network model did not enhance the predictive capability that much and the reason could be due to highly non-linear relationships between the features which reduced the advantage of applying neural network model. Moreover, the number of observation ~370 might not be enough data to effectively learn complex patterns and even with L1 penalties, overfitting might be an issue. However, further improvements could be made in optimizing the predictive model specially in terms of feature selections and explore other advanced ensemble methods to enhance predictive accuracy and generalizability.
+The analysis utilized four predictive modeling techniques to predict NO2 concentrations using a dataset of various land use patterns in different locations across the US. The evaluation metrics of all the predictive models used in the analysis are summarized in the table below. The accuracy of the predictive model is as follows: Neural Network model > Random Forest Regression > Decision tree > Linear Regression. Although the linear regression modeling had the least accuracy, the value was still comparably low, which is also considered accurate. Random Forest model with an R2 value of 0.54 suggested a moderate predictive capability, whereas the R2 value of the Neural Network model indicates that it explained 61% of the variance in NO2 concentration. These results highlight the importance of accounting for the non-linear interactions and feature complexities when modeling NO2 concentrations, with Neural Networks demonstrating their strength in capturing such patterns. In the current analysis, the Neural network model did not enhance the predictive capability that much, and the reason could be due to highly non-linear relationships between the features, which reduced the advantage of applying the neural network model. Moreover, the number of observations ~370 may not be enough data to effectively learn complex patterns, and even with L1 penalties, overfitting is an issue. However, further improvements could be made in optimizing the predictive model, especially regarding feature selections, and exploring other advanced ensemble methods to enhance predictive accuracy and generalizability.
 </p>
 
 | Sl. No |   Technique of the Predictive Model  | RMSE | R2 |
 |:-------|:-------------------------------------|:-----|:---|
-|    1   |            Linear Regression         | 4.30 |0.41|
+|    1   |            Linear Regression         | 4.30 |-3.4|
 |    2   |             Decision Tree            |  --  | -- |
 |    3   |        Random Forest Regression      | 3.58 |0.54| 
 |    4   |             Neural Network           | 3.12 |0.61|

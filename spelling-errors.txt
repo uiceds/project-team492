@@ -10,9 +10,8 @@ Champaign
 Chicco
 Clin
 CSV
-Dataset
+dataset
 DecisionTree
-demonstratiing
 dimensionality
 Dockery
 Elahi
@@ -59,7 +58,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-Siyoung
+siyoung
 Sl
 SMAPE
 Spatiotemporal
