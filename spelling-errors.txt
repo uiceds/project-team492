@@ -23,7 +23,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-Gini
+gini
 GIS
 Goudarzi
 Gurel
