@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-27T21:36:03+00:00" />
-  <meta property="article:modified_time" content="2024-11-27T21:36:03+00:00" />
+  <meta name="dc.modified" content="2024-11-27T21:45:32+00:00" />
+  <meta property="article:modified_time" content="2024-11-27T21:45:32+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/b7658efc98fec05e3ba4bb6f67bb4af88956f279/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/b7658efc98fec05e3ba4bb6f67bb4af88956f279/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/b7658efc98fec05e3ba4bb6f67bb4af88956f279/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/ad005aafb16dc2312d98df5adb42f2a3a771a187/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/ad005aafb16dc2312d98df5adb42f2a3a771a187/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/ad005aafb16dc2312d98df5adb42f2a3a771a187/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/b7658efc98fec05e3ba4bb6f67bb4af88956f279/))
+([permalink](https://uiceds.github.io/project-team492/v/ad005aafb16dc2312d98df5adb42f2a3a771a187/))
 was automatically generated
-from [uiceds/project-team492@b7658ef](https://github.com/uiceds/project-team492/tree/b7658efc98fec05e3ba4bb6f67bb4af88956f279)
+from [uiceds/project-team492@ad005aa](https://github.com/uiceds/project-team492/tree/ad005aafb16dc2312d98df5adb42f2a3a771a187)
 on November 27, 2024.
 </em></small>
 
@@ -378,14 +378,12 @@ __Machine learning methods__
 
 __1. Linear regression__  
 <p style="text-align:justify;">
-The first method used for prediction was linear regression model. This method is quite simple but it would give us a sense of machine learning and the complexity needed for training data. Mean squared error was used to minimize the error and in the linear model and independent variable and gradient descent parameter was used in the model structure. The training set was standardized and normalized to enhance the accuracy of prediction. Figure 5 shows the main flow of the coding.
+The first method used for machine learning was the linear regression model. A simple linear relationship was used for training, which gave a sense of data analysis and assisted in planning future machine learning methods. The mean squared error was used to minimize the error, and with seven variables used, each variable was multiplied by a random seed and added with random bias initially. The training was performed and plotted using the normalized data, as shown in Figure XX. The procedure for coding is shown in the appendix. The accuracy of the machine learning was validated by calculating R2 and RMSE values. The values are later provided in the table when compared to other methods.
 
-<p style="text-align:justify;">
-After training, the dataset was trained as shown in Figure 6. By performing root mean square error, the scoring was 4.3. Still, it is not as low as expected. For future modeling, more dataset could be used for higher accuracy, polymodel rather than linear model can be tried.
 </p>
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_5.jpg?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 6:</strong> omparison between the NO2 values predicted from Linear Regression model and the observed NO2 values for all the data. </figcaption>
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pic_1.png?raw=true" alt="Sample Image">
+    <figcaption><strong>Figure XX:</strong> Comparison between the NO2 values predicted from Linear Regression model and the observed NO2 values </figcaption>
 </figure>
 
 __2. Decision tree__
