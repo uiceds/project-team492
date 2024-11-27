@@ -10,10 +10,9 @@ Champaign
 Chicco
 Clin
 CSV
-dataset
+Dataset
 DecisionTree
 demonstratiing
-Dependeing
 dimensionality
 Dockery
 Elahi
@@ -23,7 +22,7 @@ Farhadi
 Garshick
 generalizability
 Geravandi
-gini
+Gini
 GIS
 Goudarzi
 Gurel
@@ -31,7 +30,6 @@ Heatmap
 Hoek
 Hoogh
 Hudgens
-hyperparameteres
 Jalali
 Jurman
 Kovalcik
@@ -61,7 +59,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-siyoung
+Siyoung
 Sl
 SMAPE
 Spatiotemporal
