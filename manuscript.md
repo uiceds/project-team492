@@ -180,7 +180,7 @@ Distance_to_coast (kilometers): The distance from the measuring station to the n
 </p>
 
 <p style="text-align:justify;">
-By modeling NO2 concentrations using land-use variables, we can determine which land-use factors influence NO2 levels the most. The predicted model can also estimate NO2 concentration in areas without monitoring stations by applying the model to similar land-use characteristics. Lastly, this model can help us identify high-risk areas for public health interventions based on predicted NO2 levels.
+By modeling NO₂ concentrations using land-use variables, we can determine which land-use factors influence NO₂ levels the most. The predicted model can also estimate NO₂ concentration in areas without monitoring stations by applying the model to similar land-use characteristics. Lastly, this model can help us identify high-risk areas for public health interventions based on predicted NO2 levels.
 </p>
 
 
