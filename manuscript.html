@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T01:26:11+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T01:26:11+00:00" />
+  <meta name="dc.modified" content="2024-12-01T02:06:25+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T02:06:25+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -82,9 +82,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/5aeb66ab891147ae16eb67f906b583df6e7c9b20/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/5aeb66ab891147ae16eb67f906b583df6e7c9b20/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/5aeb66ab891147ae16eb67f906b583df6e7c9b20/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e050005ca33fe04f6c9d07608d8f21a75b3321d7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e050005ca33fe04f6c9d07608d8f21a75b3321d7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e050005ca33fe04f6c9d07608d8f21a75b3321d7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,9 +101,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team492/v/5aeb66ab891147ae16eb67f906b583df6e7c9b20/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team492/v/e050005ca33fe04f6c9d07608d8f21a75b3321d7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team492/tree/5aeb66ab891147ae16eb67f906b583df6e7c9b20">uiceds/project-team492@5aeb66a</a>
+from <a href="https://github.com/uiceds/project-team492/tree/e050005ca33fe04f6c9d07608d8f21a75b3321d7">uiceds/project-team492@e050005</a>
 on December 1, 2024.
 </em></small></p>
 <p>Published: November 18, 2024</p>
@@ -434,60 +434,69 @@ For training and test data distribution, 75/25 ratio was followed where 75% of d
 <strong>Machine learning methods</strong>
 <p style="text-align:justify;">
 Predictive modeling using machine learning was performed using four methods: linear regression, decision tree, random forest regression, and neural network. The dataset, which has 369 data in eight variables, was used for training. The validity of the model was confirmed visually by plotting it linearly and checking the RMSE and R2 values.
+</p>
+<p style="text-align:justify;">
 RMSE is a root mean square error, in which the best value is 0 and the worst value is near infinite [7-8]. As the range of the criteria is infinite, it is difficult to say at which point the data has a good prediction. However, the data is well-trained when the value is near 0. R2 is the proportion of the variance in the dependent variable that is predictable from the independent variables [7-8]. R2 is best when close to 1 and worst in - infinite. Each machine learning method was compared with these criteria to show their effectiveness.
 </p>
 <p style="text-align:justify;">
 <strong>1. Linear regression</strong>
 </p>
 <p style="text-align:justify;">
-The first method used for machine learning was the linear regression model. A simple linear relationship was used for training, which gave a sense of data analysis and assisted in planning future machine learning methods. The mean squared error was used to minimize the error, and with seven variables used, each variable was multiplied by a random seed and added with random bias initially. The training was performed and plotted using the normalized data, as shown in Figure XX. The procedure for coding is shown in the appendix. The accuracy of the machine learning was validated by calculating R2 and RMSE values. R2 value was -3.4 and RMSE value was 4.3.
+The first method used for machine learning was the linear regression model. A simple linear relationship was used for training, which gave a sense of data analysis and assisted in planning future machine learning methods. The mean squared error was used to minimize the error, and with seven variables used, each variable was multiplied by a random seed and added with random bias initially. The training was performed and plotted using the normalized data, as shown in Figure 4.1. The procedure for coding is shown in the appendix. The accuracy of the machine learning was validated by calculating R2 and RMSE values. R2 value was -3.4 and RMSE value was 4.3.
 </p>
 <figure style="text-align: center;">
-<img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pic_1.png?raw=true" alt="Sample Image">
+<img src="https://github.com/uiceds/project-team492/blob/main/content/images/S_linear.png?raw=true" alt="Sample Image">
 <figcaption>
-<strong>Figure XX1:</strong> Comparison between the NO2 values predicted from Linear Regression model and the observed NO2 values
+<strong>Figure 4.1:</strong> Comparison between the NO2 values predicted from Linear Regression model and the observed NO2 values
 </figcaption>
 </figure>
 <p style="text-align:justify;">
-<strong>2. Decision tree</strong>
+<strong>2. Decision tree regression</strong>
 </p>
-<figure style="text-align: center;">
-<img src="https://github.com/uiceds/project-team492/blob/main/content/images/Pro3_6.jpg?raw=true" alt="Sample Image">
-<figcaption>
-<strong>Figure XX2:</strong> Gini plot shown for selected six variables
-</figcaption>
-</figure>
-<strong>3. Random forest Regressor</strong>
 <p style="text-align:justify;">
-Random forest is an ensemble learning method that aggregates predictions from multiple decision trees to reduce overfitting and improve generalization. Some key parameters of this algorithm are:
+A decision tree is one of the most popular machine learning algorithms, and it is done in either classification or regression. The method is used to create a model that predicts the value of a target variable by learning simple decision rules. Some critical parameters of this algorithm are:
 </p>
 <p style="text-align:justify;">
 <ol type="a">
-<li>n_trees: It specifies the number of trees in the forest. A large number improves the stability and reduces variance but increases computational cost. Considering all these factors, the value of n_trees were considered 200 in this project.</li>
+<li>n_trees: It specifies the number of trees in the forest. A large number improves the stability and reduces variance but increases computational cost. Considering all these factors, the value of n_trees was considered 369 in this project.</li>
 </ol>
 </p>
 <p style="text-align:justify;">
 <ol start="2" type="a">
-<li>max_depth: It limits the minimum number of samples required to split and internal node. A depth of 20 is considered in this study which is suitable for capturing complex pattern of land use pattern and correlation with NO2 data without overfitting.</li>
+<li>max_depth: It limits the minimum number of samples required to split an internal node. This study considers a depth of 20, which is suitable for capturing the complex land use patterns and correlation with NO2 data without overfitting.</li>
 </ol>
 </p>
 <p style="text-align:justify;">
 <ol start="3" type="a">
-<li>min_samples_split: It is the value of minimum number of samples that are required to split an internal node. The large values prevent overfitting by avoiding overly specific splits. A value of 15 was considered in the model.</li>
+<li>min_samples_split: It is the minimum number of samples required to split an internal node. The large values prevent overfitting by avoiding overly specific splits. A value of 2 was considered in the model.</li>
 </ol>
+</p>
 </p>
 <p style="text-align:justify;">
 <ol start="4" type="a">
-<li>min_samples_leaf: The minimum number of samples required to be at a leaf node which ensures that leaf nodes represent significant data, improving model generalization.</li>
+<li>min_samples_leaf: The minimum number of samples required to be at a leaf node ensures that leaf nodes represent significant data, improving model generalization.</li>
 </ol>
 </p>
 <p style="text-align:justify;">
-The features were standardized by subtracting the mean and dividing by the standard deviation for each column. This ensures that all features are on the same scale, preventing the dominance of features with large numerical ranges during model training. Julia’s DecisionTree package was used for the analysis. A typical 80/20 split for training and testing is used to evaluate the model’s generalization on unseen data. As an evaluation metric, means squared error (MSE), root mean squared error (RMSE), and R2 score were used to assess the accuracy of the predictive modeling. For the random forest regression model, the RMSE value was 3.58, and the R2 value was 0.54.
+Figure 4.2 shows the machine learning result. A typical 80/20 split for training and testing was used to evaluate the model’s generalization on unseen data. The detailed code is attached in the appendix. As in linear regression, the accuracy was checked by R2 and RMSE values, which are -0.0 and 5.55, respectively.
+</p>
+<figure style="text-align: center;">
+<img src="https://github.com/uiceds/project-team492/blob/main/content/images/Decision_regression.png?raw=true" alt="Sample Image">
+<figcaption>
+<strong>Figure 4.2:</strong> Comparison between the NO2 values predicted from Decision Tree Regression and the observed NO2 valuess
+</figcaption>
+</figure>
+<strong>3. Random forest Regressor</strong>
+<p style="text-align:justify;">
+Random forest is an ensemble learning method that aggregates predictions from multiple decision trees to reduce overfitting and improve generalization. As in decision tree regression, the variables were set as n_trees:200, max_depth: 20, and min_samples_split: 15.
+</p>
+<p style="text-align:justify;">
+A typical 80/20 split for training and testing was used to evaluate the model’s generalization on unseen data. The accuracy was checked by R2 and RMSE values, which are 0.5 and 3.58, respectively.
 </p>
 <figure style="text-align: center;">
 <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Random%20Forest%201.png?raw=true">
 <figcaption>
-<strong>Figure XX3:</strong> Comparison between the NO2 values predicted from Random Forest Regressor model and the observed NO2 values for all the training and test data.
+<strong>Figure 4.3:</strong> Comparison between the NO2 values predicted from Random Forest Regressor model and the observed NO2 values for all the training and test data.
 </figcaption>
 </figure>
 <p style="text-align:justify;">
@@ -497,7 +506,7 @@ The features were standardized by subtracting the mean and dividing by the stand
 A neural network is a computational model inspired by the human brain, consisting of layers of interconnected neurons. It is commonly used to learn patterns and relationships in a dataset. This model has been applied to explore its predictive capability compared to other techniques.
 </p>
 <p style="text-align:justify;">
-The main neural network architecture has been defined using the chain structure, which takes 12 features as input and passes them to the first hidden layer. Three hidden layers have been added with 128, 64, and 32 neurons, along with ReLU activation. A dropout of 0.5 has been kept to drop 50% of the neurons randomly to prevent overfitting. A single neuron outputs the predicted NO2 value. MSE and L1 regularization have been incorporated into the code to minimize the loss function. L1 regularization penalty adds a penalty proportional to the absolute values of the model’s weights. For this predictive model, RMSE value was 3.12 and R2 value was 0.61.
+The main neural network architecture has been defined using the chain structure, which takes 12 features as input and passes them to the first hidden layer. Three hidden layers have been added with 128, 64, and 32 neurons, along with ReLU activation. A dropout of 0.5 has been kept to drop 50% of the neurons randomly to prevent overfitting. A single neuron outputs the predicted NO2 value. For this predictive model, R2 value was 0.6 and RMSE value was 3.12.
 </p>
 <figure style="text-align: center;">
 <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Neural%20Network.png?raw=true">
@@ -530,20 +539,20 @@ The analysis utilized four predictive modeling techniques to predict NO2 concent
 <tr class="even">
 <td style="text-align: left;">2</td>
 <td style="text-align: left;">Decision Tree</td>
-<td style="text-align: left;">–</td>
-<td style="text-align: left;">–</td>
+<td style="text-align: left;">5.55</td>
+<td style="text-align: left;">-0.0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
 <td style="text-align: left;">Random Forest Regression</td>
 <td style="text-align: left;">3.58</td>
-<td style="text-align: left;">0.54</td>
+<td style="text-align: left;">0.5</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
 <td style="text-align: left;">Neural Network</td>
 <td style="text-align: left;">3.12</td>
-<td style="text-align: left;">0.61</td>
+<td style="text-align: left;">0.6</td>
 </tr>
 </tbody>
 </table>
