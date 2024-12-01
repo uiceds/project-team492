@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T23:28:52+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T23:28:52+00:00" />
+  <meta name="dc.modified" content="2024-12-01T23:30:02+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T23:30:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e637b101c1f978436d16261f1f13ade9993f285e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e637b101c1f978436d16261f1f13ade9993f285e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e637b101c1f978436d16261f1f13ade9993f285e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/8dca39efa608031f2a3dba3d659621b0b5b1c838/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/8dca39efa608031f2a3dba3d659621b0b5b1c838/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/8dca39efa608031f2a3dba3d659621b0b5b1c838/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/e637b101c1f978436d16261f1f13ade9993f285e/))
+([permalink](https://uiceds.github.io/project-team492/v/8dca39efa608031f2a3dba3d659621b0b5b1c838/))
 was automatically generated
-from [uiceds/project-team492@e637b10](https://github.com/uiceds/project-team492/tree/e637b101c1f978436d16261f1f13ade9993f285e)
+from [uiceds/project-team492@8dca39e](https://github.com/uiceds/project-team492/tree/8dca39efa608031f2a3dba3d659621b0b5b1c838)
 on December 1, 2024.
 </em></small>
 
@@ -430,7 +430,17 @@ As a next step to improve the accuracy of the models, we will do a more comprehe
 </p>
 
 
+## 5. Conclusion {.page_break_before}
 
+<p style="text-align:justify;">
+This study aimed to predict NO₂ concentrations using machine learning models informed by land-use patterns. The dataset was analyzed through exploratory data analysis and feature engineering, identifying key land-use characteristics that influence NO₂ levels. Four machine learning techniques—Linear Regression, Decision Tree Regression, Random Forest Regression, and Neural Networks—were implemented and systematically compared.
+</p>
+<p style="text-align:justify;">
+Linear Regression served as a baseline model, achieving moderate accuracy (R² = 0.49), indicating its limitations in capturing complex relationships. Decision Tree Regression showed poor performance (R² = 0.35, RMSE = 5.55), highlighting its susceptibility to overfitting as a standalone method. Random Forest Regression significantly improved generalization, achieving an R² of 0.54 and RMSE of 3.58, thanks to its ensemble learning approach. Neural Networks outperformed all models, achieving the highest R² of 0.62 and the lowest RMSE of 3.12, demonstrating their ability to capture non-linear relationships and complex patterns.
+</p>
+<p style="text-align:justify;">
+The findings align with previous studies, validating the potential of advanced machine learning models for air quality prediction. Future work will focus on enhancing model accuracy through hyperparameter tuning, deeper architectures, and exploring additional features such as meteorological data. These predictive models offer valuable tools for urban planners and policymakers to mitigate air pollution and protect public health.
+</p>
 
 
 ## References {.page_break_before}
