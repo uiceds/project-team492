@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T12:36:27+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T12:36:27+00:00" />
+  <meta name="dc.modified" content="2024-12-01T12:43:12+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T12:43:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/8044defc54e7ac5cffd789335736efb7c3c5f40f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/8044defc54e7ac5cffd789335736efb7c3c5f40f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/8044defc54e7ac5cffd789335736efb7c3c5f40f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/3a5114669949561474477ce6523b7324bd081a6f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/3a5114669949561474477ce6523b7324bd081a6f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/3a5114669949561474477ce6523b7324bd081a6f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/8044defc54e7ac5cffd789335736efb7c3c5f40f/))
+([permalink](https://uiceds.github.io/project-team492/v/3a5114669949561474477ce6523b7324bd081a6f/))
 was automatically generated
-from [uiceds/project-team492@8044def](https://github.com/uiceds/project-team492/tree/8044defc54e7ac5cffd789335736efb7c3c5f40f)
+from [uiceds/project-team492@3a51146](https://github.com/uiceds/project-team492/tree/3a5114669949561474477ce6523b7324bd081a6f)
 on December 1, 2024.
 </em></small>
 
@@ -140,7 +140,7 @@ Rauf Momina \<momina2@illinois.edu\>.
 
 
 
-## 1. Introduction {.page_break_before}
+## 2. Introduction {.page_break_before}
 
 <p style="text-align:justify;">
 Nitrogen dioxide (NO₂) is a significant air pollutant primarily produced through the combustion of fossil fuels in transportation, industrial activities, and commercial processes[1]. Recognized for its adverse health effects, including respiratory issues and contribution to atmospheric pollution, NO₂ has emerged as one of the most critical ambient air pollutants requiring attention [2]. Typically, urban areas exhibit higher concentrations of NO₂ compared to rural regions due to denser populations and increased anthropogenic activities.
