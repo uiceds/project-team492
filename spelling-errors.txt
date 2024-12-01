@@ -3,7 +3,6 @@ Atmos
 Barzegar
 Bechle
 Beelen
-bewteen
 Bicen
 Bushehr
 Champaign
@@ -11,7 +10,6 @@ Chicco
 Clin
 CSV
 dataset
-dimensionality
 Dockery
 Elahi
 Environ
@@ -21,7 +19,6 @@ Garshick
 Geravandi
 Goudarzi
 Gurel
-Heatmap
 Hoek
 Hoogh
 Hudgens
@@ -42,7 +39,6 @@ Neas
 Novotny
 overfitting
 Parseh
-PCA
 PeerJ
 Perspect
 Pollut
@@ -54,7 +50,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-Siyoung
+siyoung
 Sl
 SMAPE
 Spatiotemporal
