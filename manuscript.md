@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T22:22:07+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T22:22:07+00:00" />
+  <meta name="dc.modified" content="2024-12-01T23:11:33+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T23:11:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/43be1c3b835048982d425a3eac22e9781e083a2c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/43be1c3b835048982d425a3eac22e9781e083a2c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/43be1c3b835048982d425a3eac22e9781e083a2c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/014d1372ec686604140f023ddb9ea4709091f362/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/014d1372ec686604140f023ddb9ea4709091f362/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/014d1372ec686604140f023ddb9ea4709091f362/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/43be1c3b835048982d425a3eac22e9781e083a2c/))
+([permalink](https://uiceds.github.io/project-team492/v/014d1372ec686604140f023ddb9ea4709091f362/))
 was automatically generated
-from [uiceds/project-team492@43be1c3](https://github.com/uiceds/project-team492/tree/43be1c3b835048982d425a3eac22e9781e083a2c)
+from [uiceds/project-team492@014d137](https://github.com/uiceds/project-team492/tree/014d1372ec686604140f023ddb9ea4709091f362)
 on December 1, 2024.
 </em></small>
 
@@ -161,26 +161,26 @@ NO2_Concentration (ppb): The measured concentration of NO₂ at each monitoring 
 Impervious_100 (%): The percentage of impervious surfaces, such as roads and buildings, within a 100-meter buffer zone around the measuring station. This variable indicates the extent of urban development immediately surrounding the monitoring site.
 </p>
 <p style="text-align:justify;">
-Major_100 (meters): The total length of major roads within a 100 meters radius of the measuring location. Major roads are significant sources of NO₂ due to high traffic volumes and heavy-duty vehicle emissions.
+Major_100: The total length of major roads within a 100 meters radius of the measuring location in km. Major roads are significant sources of NO₂ due to high traffic volumes and heavy-duty vehicle emissions.
 </p>
 <p style="text-align:justify;">
-Resident_100 (meters): The total length of residential roads within a 100 meters radius around the measuring station. 
+Resident_100: The total length of residential roads within a 100 meters radius around the measuring station in km. 
 </p>
 <p style="text-align:justify;">
-Total_100 (meters): The combined length of all roads—including major, minor, and residential—within a 100-meter buffer zone around the measuring station.
+Total_100: The combined length of all roads—including major, minor, and residential—within a 100-meter buffer zone around the measuring station in km.
 </p>
 <p style="text-align:justify;">
-Population_100 (people per square kilometer): The population density within the 100-meter buffer area around the measuring station. Higher population densities often correlate with increased vehicular traffic and energy consumption, leading to higher NO₂ emissions.
+Population_100: The number of population within the 100-meter buffer area around the measuring station. Higher population densities often correlate with increased vehicular traffic and energy consumption, leading to higher NO₂ emissions.
 </p>
 <p style="text-align:justify;">
-Elevation (meters above sea level): The elevation of the measuring station, which can influence atmospheric dispersion and concentration of pollutants due to changes in air pressure and temperature gradients.
+Elevation: The elevation of the measuring station in km, which can influence atmospheric dispersion and concentration of pollutants due to changes in air pressure and temperature gradients.
 </p>
 <p style="text-align:justify;">
-Distance_to_coast (kilometers): The distance from the measuring station to the nearest coastline. Proximity to the coast can affect NO₂ levels due to maritime activities and meteorological conditions like sea breezes that influence pollutant dispersion.
+Distance_to_coast: The distance from the measuring station to the nearest coastline in km. Proximity to the coast can affect NO₂ levels due to maritime activities and meteorological conditions like sea breezes that influence pollutant dispersion.
 </p>
 
 <p style="text-align:justify;">
-By modeling NO2 concentrations using land-use variables, we can determine which land-use factors influence NO2 levels the most. The predicted model can also estimate NO2 concentration in areas without monitoring stations by applying the model to similar land-use characteristics. Lastly, this model can help us identify high-risk areas for public health interventions based on predicted NO2 levels.
+Overall, the goal of this study is to develop predictive model to estimate NO2 concentrations using land-use variables. To achieve this objective, we performed preliminary exploratory data analysis (EDA) and feature engineering to see dataset trend. Based on EDA and feature analysis, we selected the most relevant parameters for modeling and we employed linear regression, decision tree regression, random forest regression and neural network models. Finally, we report a comparison between the models to see the efficacy of each model and propose future plans for optimizing the model accuracy. The predictive models developed in this study will be estimate NO2 concentration in areas without monitoring stations based on land-use characteristics. Such predictive model based on land use will be valuable for understanding pollution patterns, urban planning, and mitigating health risks.
 </p>
 
 
