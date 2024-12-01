@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T23:27:24+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T23:27:24+00:00" />
+  <meta name="dc.modified" content="2024-12-01T23:28:52+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T23:28:52+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/9af78958be1232df3a62d3bb742f5b796ff11455/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/9af78958be1232df3a62d3bb742f5b796ff11455/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/9af78958be1232df3a62d3bb742f5b796ff11455/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e637b101c1f978436d16261f1f13ade9993f285e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e637b101c1f978436d16261f1f13ade9993f285e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e637b101c1f978436d16261f1f13ade9993f285e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/9af78958be1232df3a62d3bb742f5b796ff11455/))
+([permalink](https://uiceds.github.io/project-team492/v/e637b101c1f978436d16261f1f13ade9993f285e/))
 was automatically generated
-from [uiceds/project-team492@9af7895](https://github.com/uiceds/project-team492/tree/9af78958be1232df3a62d3bb742f5b796ff11455)
+from [uiceds/project-team492@e637b10](https://github.com/uiceds/project-team492/tree/e637b101c1f978436d16261f1f13ade9993f285e)
 on December 1, 2024.
 </em></small>
 
@@ -137,7 +137,11 @@ Rauf Momina \<momina2@illinois.edu\>.
 :::
 
 
+## 1. Abstract {.page_break_before}
 
+<p style="text-align:justify;">
+Nitrogen dioxide (NO₂) is a critical air pollutant primarily produced from fossil fuel combustion, with significant health and environmental impacts. Accurate prediction of NO₂ concentrations based on land-use patterns is essential for effective air quality management. This study utilizes a dataset comprising NO₂ measurements and land-use characteristics from different U.S. states to develop predictive models using four machine learning techniques: Linear Regression, Decision Tree Regression, Random Forest Regression, and Neural Networks. After exploratory data analysis and feature selection using Lasso Regularization and correlation plots, predictive models were trained and evaluated based on R² and RMSE metrics. Neural Networks emerged as the best-performing model, with an R² of 0.62 and RMSE of 3.12, followed by Random Forest Regression with an R² of 0.54. These models demonstrate the potential for accurately estimating NO₂ concentrations in areas without monitoring stations, supporting urban planning and pollution mitigation strategies.
+</p>
 
 
 ## 2. Introduction {.page_break_before}
