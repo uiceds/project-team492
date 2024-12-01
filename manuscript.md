@@ -173,7 +173,7 @@ Total_100 (meters): The combined length of all roads—including major, minor, a
 Population_100 (people per square kilometer): The population density within the 100-meter buffer area around the measuring station. Higher population densities often correlate with increased vehicular traffic and energy consumption, leading to higher NO₂ emissions.
 </p>
 <p style="text-align:justify;">
-Elevation (meters above sea level): The elevation of the measuring station, which can influence atmospheric dispersion and concentration of pollutants due to changes in air pressure and temperature gradients.
+Elevation (kilometers above sea level): The elevation of the measuring station, which can influence atmospheric dispersion and concentration of pollutants due to changes in air pressure and temperature gradients.
 </p>
 <p style="text-align:justify;">
 Distance_to_coast (kilometers): The distance from the measuring station to the nearest coastline. Proximity to the coast can affect NO₂ levels due to maritime activities and meteorological conditions like sea breezes that influence pollutant dispersion.
