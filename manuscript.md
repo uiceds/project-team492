@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T21:01:34+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T21:01:34+00:00" />
+  <meta name="dc.modified" content="2024-12-01T22:22:07+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T22:22:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e85f9de01874dcef1f080a0cbfd15da4dd4d4d4f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e85f9de01874dcef1f080a0cbfd15da4dd4d4d4f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e85f9de01874dcef1f080a0cbfd15da4dd4d4d4f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/43be1c3b835048982d425a3eac22e9781e083a2c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/43be1c3b835048982d425a3eac22e9781e083a2c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/43be1c3b835048982d425a3eac22e9781e083a2c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/e85f9de01874dcef1f080a0cbfd15da4dd4d4d4f/))
+([permalink](https://uiceds.github.io/project-team492/v/43be1c3b835048982d425a3eac22e9781e083a2c/))
 was automatically generated
-from [uiceds/project-team492@e85f9de](https://github.com/uiceds/project-team492/tree/e85f9de01874dcef1f080a0cbfd15da4dd4d4d4f)
+from [uiceds/project-team492@43be1c3](https://github.com/uiceds/project-team492/tree/43be1c3b835048982d425a3eac22e9781e083a2c)
 on December 1, 2024.
 </em></small>
 
@@ -422,7 +422,9 @@ Although there is no universal value of R2 and other error metrics to determine 
 <p style="text-align:justify;"> 
 __4.3 Future Plan to Improve Accuracy of the Predictive Models__
 </p>
-As a next step to improve the accuracy of the models, we will do a more comprehensive feature importance analysis to include only the most relevant predictors simplifying the the model and improving interpretability. We will explore the potential of hyperparameter tuning such as n_trees, max_depth, min_samples_split and min_samples_leaf to improve the accuracy of our decision tree and random forest regression. 
+<p style="text-align:justify;"> 
+As a next step to improve the accuracy of the models, we will do a more comprehensive feature importance analysis to include only the most relevant predictors simplifying the the model and improving interpretability. We will explore the potential of hyperparameter tuning such as n_trees, max_depth, min_samples_split and min_samples_leaf to improve the accuracy of our decision tree and random forest regression. Although Neural Network provided the highest accuracy among the four models that we developed, we will try to enhance the model accuracy by experimenting with deeper architectures, hyperparameter tuning for learning rate, dropout rate, batch size etc and regularizing with dropout, early stopping etc. to optimize the model further.
+</p>
 
 
 
