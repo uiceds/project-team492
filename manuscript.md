@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T11:53:10+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T11:53:10+00:00" />
+  <meta name="dc.modified" content="2024-12-01T12:03:58+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T12:03:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/d014cdfaa64fdf4022488da10034e57326fce120/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/d014cdfaa64fdf4022488da10034e57326fce120/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/d014cdfaa64fdf4022488da10034e57326fce120/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/a257937ae75434bc3022853d6ac0f12c63794a49/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/a257937ae75434bc3022853d6ac0f12c63794a49/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/a257937ae75434bc3022853d6ac0f12c63794a49/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/d014cdfaa64fdf4022488da10034e57326fce120/))
+([permalink](https://uiceds.github.io/project-team492/v/a257937ae75434bc3022853d6ac0f12c63794a49/))
 was automatically generated
-from [uiceds/project-team492@d014cdf](https://github.com/uiceds/project-team492/tree/d014cdfaa64fdf4022488da10034e57326fce120)
+from [uiceds/project-team492@a257937](https://github.com/uiceds/project-team492/tree/a257937ae75434bc3022853d6ac0f12c63794a49)
 on December 1, 2024.
 </em></small>
 
@@ -163,7 +163,7 @@ The main goal of this project will be to develop a predictive model which will p
    
 __3.1 Preliminary Analysis and Plots__ 
 <p style="text-align:justify;">
-To understand our selected dataset, we did some preliminary analysis to visualize the dataset which enabled us to learn some of the patterns of different land use features with NO2 concentration. First, we tried find out if there is any direct relationship between any of the land use characteristics and NO2 concentrations measured at the monitor station. For this preliminary analysis, we considered the effect of this land use pattern within 100m, 5000m and 10000m radius of the station. The reason for selecting these three radii was to cover short, medium and long-distance land use behavior around the station. Figure 1-6 presents the effect of different land-use characteristics on the NO2 concentration. 
+To understand our selected dataset, we did some preliminary analysis to visualize the dataset which enabled us to learn some of the patterns of different land use features with NO2 concentration. First, we tried find out if there is any direct relationship between any of the land use characteristics and NO2 concentrations measured at the monitor station. For this preliminary analysis, we considered the effect of this land use pattern within 100m, 5000m and 10000m radius of the station. The reason for selecting these three radii was to cover short, medium and long-distance land use behavior around the station. Figure 3.1-3.5 presents the effect of different land-use characteristics on the NO2 concentration. 
 </p>
 <p style="text-align:justify;">
 For impervious surfaces, for all three cases, we can clearly see there is a trend that with the increase of impervious surfaces around the station, the concentration of NO2 increases gradually (Figure 3.1). As the impervious surface increases, it indicates there is increase in roads, sidewalks, parking lots, buildings, traffic and also there is decrease in vegetation areas and soil surface. Therefore, all these impervious surfaces are kind of indicator of high volume of vehicles, high population density which contributes to high NO2 emission and also the absence of natural filtration effect with the absence of vegetation is another major source of NO2 emission.
@@ -209,7 +209,7 @@ As a next step, we also investigated the scenario of NO<sub>2</sub> concentratio
 </p>
 
 <p style="text-align:justify;">
-For CA state, visually we can clearly see there exists a correlation among impervious surface, population, length of the roads and NO2 concentration (Figure 8-9). Interesting to see, although some of the places are very closer to the coast but it has significant concentration of NO<sub>2</sub>. As discussed earlier, although the coastal distance is lower but other factors such as impervious area, population and length of the roads are so high that it affects the NO<sub>2</sub> significantly compared to the coastal distance from measuring station. 
+For CA state, visually we can clearly see there exists a correlation among impervious surface, population, length of the roads and NO2 concentration (Figure 3.7). Interesting to see, although some of the places are very closer to the coast but it has significant concentration of NO<sub>2</sub>. As discussed earlier, although the coastal distance is lower but other factors such as impervious area, population and length of the roads are so high that it affects the NO<sub>2</sub> significantly compared to the coastal distance from measuring station. 
 </p>
 
 <figure style="text-align: center;">
@@ -218,7 +218,7 @@ For CA state, visually we can clearly see there exists a correlation among imper
 </figure>
 
 <p style="text-align:justify;">
-For IL state, there were only 6 stations, and the results suggests that there is a good relationship between impervious surface and NO<sub>2</sub> concentrations (Figure 10-11) . Also, since IL is far away from the coast it is clearly seen that NO<sub>2</sub> concentration has kind of linear relationship with coastal distance. Population and residential roads don’t reveal any clear pattern but with the major roads, it is clearly visible that increase in the length of major roads correlates well with the increase in NO<sub>2</sub> concentrations. 
+For IL state, there were only 6 stations, and the results suggests that there is a good relationship between impervious surface and NO<sub>2</sub> concentrations (Figure 3.8) . Also, since IL is far away from the coast it is clearly seen that NO<sub>2</sub> concentration has kind of linear relationship with coastal distance. Population and residential roads don’t reveal any clear pattern but with the major roads, it is clearly visible that increase in the length of major roads correlates well with the increase in NO<sub>2</sub> concentrations. 
 </p>
 
 <figure style="text-align: center;">
@@ -227,7 +227,7 @@ For IL state, there were only 6 stations, and the results suggests that there is
 </figure>
 
 <p style="text-align:justify;">
-For FL state, impervious surface, population, roads all these parameters have kind of steady linear relationship with NO2 concentration and with the increase in these parameters NO<sub>2</sub> increase is not that significant (Figure 12-13). For example, in IL state, some of the places with 70-80% impervious area has around 30 ppb NO<sub>2</sub> concentration whereas in FL, places with 60-80% impervious area has around 12 ppb NO<sub>2</sub>. One of the major reason of this observed lower values could be due to the fact that all the stations in FL area are very close to the coast showing the noticeable effect of it on NO<sub>2</sub>.
+For FL state, impervious surface, population, roads all these parameters have kind of steady linear relationship with NO2 concentration and with the increase in these parameters NO<sub>2</sub> increase is not that significant (Figure 3.9). For example, in IL state, some of the places with 70-80% impervious area has around 30 ppb NO<sub>2</sub> concentration whereas in FL, places with 60-80% impervious area has around 12 ppb NO<sub>2</sub>. One of the major reason of this observed lower values could be due to the fact that all the stations in FL area are very close to the coast showing the noticeable effect of it on NO<sub>2</sub>.
 </p>
 
 <figure style="text-align: center;">
@@ -236,7 +236,7 @@ For FL state, impervious surface, population, roads all these parameters have ki
 </figure>
 
 <p style="text-align:justify;">
-In case of ND state, although it is very far from the coast but still it has very low concentration of NO<sub>2</sub> (highest being ~6%) (Figure 14-15). It could be attributed to the fact that all the stations had very low population and the length of the roads are the lowest among all the four states considered in the preliminary analysis. Overall, it is seen that out of all the land use characteristic considered, all of the factors do not have similar effect on NO2 concentration, and the effect varies from state to state.   
+In case of ND state, although it is very far from the coast but still it has very low concentration of NO<sub>2</sub> (highest being ~6%) (Figure 3.10). It could be attributed to the fact that all the stations had very low population and the length of the roads are the lowest among all the four states considered in the preliminary analysis. Overall, it is seen that out of all the land use characteristic considered, all of the factors do not have similar effect on NO2 concentration, and the effect varies from state to state.   
 </p>
 
 <figure style="text-align: center;">
@@ -247,7 +247,7 @@ In case of ND state, although it is very far from the coast but still it has ver
 
 __3.2 Data selection and Feature Engineering__
 <p style="text-align:justify;">
-Based on the above plots, although we can see some correlation between few parameters but it is difficult to select the important feature to be considered for predictive modelling. Therefore, as a next step we tried correlation plots and Lasso regularization to find out the most relevant parameters for predictive modelling. Since there were numerous variables in the dataset, initially selective dependent variables at 100, 5000 and 1000m considered. Typical correlation plot of impervious_100, impervious_5000 and impervious_10000 are shown in Figure 10. Similarly, we explored all other variables and analyzed their correlation plots and finally selected the most important features based on this analysis for predictive modelling. The correlation plot of some of the final selected features are shown in Figure 11 and it is clear that these features exhibited lower inter correlations among themselves.
+Based on the above plots, although we can see some correlation between few parameters but it is difficult to select the important feature to be considered for predictive modelling. Therefore, as a next step we tried correlation plots and Lasso regularization to find out the most relevant parameters for predictive modelling. Since there were numerous variables in the dataset, initially selective dependent variables at 100, 5000 and 1000m considered. Typical correlation plot of impervious_100, impervious_5000 and impervious_10000 are shown in Figure 3.11. Similarly, we explored all other variables and analyzed their correlation plots and finally selected the most important features based on this analysis for predictive modelling. The correlation plot of some of the final selected features are shown in Figure 3.12 and it is clear that these features exhibited lower inter correlations among themselves.
 </p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Cor_I_TEE.png?raw=true">
