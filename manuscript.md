@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T10:35:39+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T10:35:39+00:00" />
+  <meta name="dc.modified" content="2024-12-01T10:37:05+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T10:37:05+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/97feb7eda4d19cd2c12d1e44cc3d33652325e317/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/97feb7eda4d19cd2c12d1e44cc3d33652325e317/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/97feb7eda4d19cd2c12d1e44cc3d33652325e317/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/3649521a5b9466a934b331b0e12181aa38eb9a62/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/3649521a5b9466a934b331b0e12181aa38eb9a62/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/3649521a5b9466a934b331b0e12181aa38eb9a62/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/97feb7eda4d19cd2c12d1e44cc3d33652325e317/))
+([permalink](https://uiceds.github.io/project-team492/v/3649521a5b9466a934b331b0e12181aa38eb9a62/))
 was automatically generated
-from [uiceds/project-team492@97feb7e](https://github.com/uiceds/project-team492/tree/97feb7eda4d19cd2c12d1e44cc3d33652325e317)
+from [uiceds/project-team492@3649521](https://github.com/uiceds/project-team492/tree/3649521a5b9466a934b331b0e12181aa38eb9a62)
 on December 1, 2024.
 </em></small>
 
@@ -159,37 +159,21 @@ The main goal of this project will be to develop a predictive model which will p
 </p>
 
 
-## Exploratory Data Analysis {.page_break_before}
+## 3. Exploratory Data Analysis {.page_break_before}
    
-__Characterization of Dataset__ 
-
+__3.1 Preliminary Analysis and Plots__ 
 <p style="text-align:justify;">
-
-The dataset we are going to use is obtained from Bechle et al. [1] which was used for estimating air pollution in terms of NO<sub>2</sub> from 2000 to 2010. The dataset contains spatial and temporal concentration of NO<sub>2</sub> in ppb at different locations of the different states in US. It also contains Geographic Information System (GIS) data on land-use features such as impervious surfaces, population density, length of different types of roads-residential, major and total etc. These are commonly used as proxies for different pollution sources [2-4]. Based on the dataset, NO<sub>2</sub> concentration varies significantly from state to state depending on different land-use pattern and the value range between 0.31~34.21 ppb for different states. The distribution of the NO<sub>2</sub> pollutants across the US based on location are shown in Figure 1. Some of the explanations of the dataset are provided below:
+To understand our selected dataset, we did some preliminary analysis to visualize the dataset which enabled us to learn some of the patterns of different land use features with NO2 concentration. First, we tried find out if there is any direct relationship between any of the land use characteristics and NO2 concentrations measured at the monitor station. For this preliminary analysis, we considered the effect of this land use pattern within 100m, 5000m and 10000m radius of the station. The reason for selecting these three radii was to cover short, medium and long-distance land use behavior around the station. Figure 1-6 presents the effect of different land-use characteristics on the NO2 concentration. 
 </p>
 <p style="text-align:justify;">
-Impervious_100: This represents the percentage of impervious surfaces such as roads, buildings etc. within a 100-meter buffer around the measuring station.
-Major_1000: It refers to the length of the major roads within a 1-kilometer radius around the measuring location.
-Resident_500: This indicates length of the roads within 500-meter radius of the monitoring station.
-Total_100: It represents the length of all the roads including major, minor and residential within a 100-meter buffer zone around the measuring station.
-Population_100: It denotes the population density within the 100-meter buffer area around the measuring station.
-</p>
-
-_Dataset CSV file:_
-https://docs.google.com/spreadsheets/d/1yo3cL23279-qwrjHSDbHc1e4t_8yl6h8CfVrMX-PIS4/edit?usp=drive_web&ouid=116140173519287299300
-
-# {.page_break_before}
-__Preliminary Analysis and Plots__ 
-<p style="text-align:justify;">
-From the given dataset, we did some preliminary analysis to visualize the dataset and the summary of the observations are described briefly:
-First, we tried to find out if there is any direct relationship between any of the land use characteristics and NO<sub>2</sub> concentrations measured at the monitor station. For this preliminary analysis, we considered the effect of this land use pattern within 100m, 5000m and 10000m radius of the station. The reason for selecting these three radii was to cover short, medium and long-distance land use behavior around the station. Figure 2-7 presents the effect of different land-use characteristic on the NO<sub>2</sub> concentration.
+For impervious surfaces, for all three cases, we can clearly see there is a trend that with the increase of impervious surfaces around the station, the concentration of NO2 increases gradually (Figure 2). As the impervious surface increases, it indicates there is increase in roads, sidewalks, parking lots, buildings, traffic and also there is decrease in vegetation areas and soil surface. Therefore, all these impervious surfaces are kind of indicator of high volume of vehicles, high population density which contributes to high NO2 emission and also the absence of natural filtration effect with the absence of vegetation is another major source of NO2 emission.
 </p>
 <p style="text-align:justify;">
-For impervious surfaces, for all three cases, we can clearly see there is a trend that with the increase of impervious surfaces around the station, the concentration of NO<sub>2</sub> increases gradually (Figure 2). As the impervious surface increases, it indicates there is increase in roads, sidewalks, parking lots, buildings, traffic and also there is decrease in vegetation areas and soil surface. Therefore, all these impervious surfaces are kind of indicator of high volume of vehicles, high population density which contributes to high NO<sub>2</sub> emission and also the absence of natural filtration effect with the absence of vegetation is another major source of NO<sub>2</sub> emission.
+In case of Major roads, we clearly see with the increasing length of major roads, there is clear increase in the concentration of NO2 (Figure 3). Moreover, visually, it looks like there is a steep increase in the concentration of NO2 initially with the increase of major roads, but the rate of increase slows down as the length of major roads increases further. The reason for such an increase is understandable since the production of NO2 is directly influenced by the volume of traffic, and high-traffic areas will release more NO2 as more diesel vehicles will be on the road, contributing to high NO2 emissions. 
 </p>
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%202.PNG?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 2:</strong> Variation of measured NO<sub>2</sub> concentration with the impervious surface at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Fig%203.1%20Imp%20and%20Maj.png?raw=true">
+    <figcaption><strong>Figure 3.1:</strong> Variation of measured NO<sub>2</sub> concentration with the (a) impervious surface and (b) major roads at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
 </figure>
 
 <p style="text-align:justify;">

@@ -10,7 +10,7 @@ Champaign
 Chicco
 Clin
 CSV
-Dataset
+dataset
 dimensionality
 Dockery
 Elahi
@@ -19,7 +19,6 @@ Epidemiol
 Farhadi
 Garshick
 Geravandi
-GIS
 Goudarzi
 Gurel
 Heatmap
@@ -55,7 +54,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-siyoung
+Siyoung
 Sl
 SMAPE
 Spatiotemporal
