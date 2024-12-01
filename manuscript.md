@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T02:06:25+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T02:06:25+00:00" />
+  <meta name="dc.modified" content="2024-12-01T02:10:10+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T02:10:10+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/e050005ca33fe04f6c9d07608d8f21a75b3321d7/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/e050005ca33fe04f6c9d07608d8f21a75b3321d7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/e050005ca33fe04f6c9d07608d8f21a75b3321d7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/54bd2dfaa2dc775252490dcd88986c63dd86b651/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/54bd2dfaa2dc775252490dcd88986c63dd86b651/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/54bd2dfaa2dc775252490dcd88986c63dd86b651/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/e050005ca33fe04f6c9d07608d8f21a75b3321d7/))
+([permalink](https://uiceds.github.io/project-team492/v/54bd2dfaa2dc775252490dcd88986c63dd86b651/))
 was automatically generated
-from [uiceds/project-team492@e050005](https://github.com/uiceds/project-team492/tree/e050005ca33fe04f6c9d07608d8f21a75b3321d7)
+from [uiceds/project-team492@54bd2df](https://github.com/uiceds/project-team492/tree/54bd2dfaa2dc775252490dcd88986c63dd86b651)
 on December 1, 2024.
 </em></small>
 
