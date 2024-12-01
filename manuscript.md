@@ -212,29 +212,29 @@ Overall, all of these land-use characteristics have their own effect on the NO�
 </p>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%205.PNG?raw=true">
-    <figcaption><strong>Figure 3.3:</strong> Variation of measured NO<sub>2</sub> concentration with the length of residential roads at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
+    <figcaption><strong>Figure 3.3:</strong> Variation of measured NO₂ concentration with the length of residential roads at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
 </figure>
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%204.PNG?raw=true">
-    <figcaption><strong>Figure 3.4:</strong> Variation of measured NO<sub>2</sub> concentration with the length of total roads at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
+    <figcaption><strong>Figure 3.4:</strong> Variation of measured NO₂ concentration with the length of total roads at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
 </figure>
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%206.PNG?raw=true">
-    <figcaption><strong>Figure 3.5:</strong> Variation of measured NO<sub>2</sub> concentration with the population at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
+    <figcaption><strong>Figure 3.5:</strong> Variation of measured NO₂ concentration with the population at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
 </figure>
 
 <figure style="text-align: center;">
     <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%207.PNG?raw=true" alt="Sample Image">
-    <figcaption><strong>Figure 3.6:</strong> Variation of measured NO<sub>2</sub> concentration with the distance to coast from the monitor station.</figcaption>
+    <figcaption><strong>Figure 3.6:</strong> Variation of measured NO₂ concentration with the distance to coast from the monitor station.</figcaption>
 </figure>
 
 <p style="text-align:justify;">
-As a next step, we also investigated the scenario of NO<sub>2</sub> concentration at individual state level and for the preliminary analysis we selected two states- IL, CA, FL and ND. The reason of selecting these four states was to capture the diverse representation of factors that might influence the NO<sub>2</sub> level which might be helpful for generalizing our analysis in future. CA is a highly urbanized and densely populated state with around 94 station available at the given dataset which is the reason we considered CA for our analysis. IL offers a perspective in the NO<sub>2</sub> pattern of Midwest’s urban and suburban areas whereas FL is a coastal state which might help to understand the effect of breeze and humidity on NO<sub>2</sub>. Lastly, ND is a low-population and rural environment with minimal urbanization which might help us to understand the effect of such characteristics on NO<sub>2</sub>. The effect of the land use characteristics described earlier on NO<sub>2</sub> concentrations are summarized in Figure 3.7-3.10.   
+As a next step, we also investigated the scenario of NO₂ concentration at the individual state level and for the preliminary analysis, we selected four states- IL, CA, FL, and ND. The reason of selecting these four states was to capture the diverse representation of factors that might influence the NO₂ levels. This can be helpful for generalizing the analysis in the future. CA is a highly urbanized and densely populated state with around 94 stations available at the given dataset and therefore, it was chosen for analysis. IL offers a perspective in the NO₂ pattern of Midwest’s urban and suburban areas whereas, FL is a coastal state which might help to understand the effect of breeze and humidity on NO₂. Lastly, ND is a low-population and rural environment with minimal urbanization. The effect of the land use characteristics described earlier on NO₂ concentrations are summarized in Figure 3.7-3.10.   
 </p>
 
 <p style="text-align:justify;">
-For CA state, visually we can clearly see there exists a correlation among impervious surface, population, length of the roads and NO2 concentration (Figure 3.7). Interesting to see, although some of the places are very closer to the coast but it has significant concentration of NO<sub>2</sub>. As discussed earlier, although the coastal distance is lower but other factors such as impervious area, population and length of the roads are so high that it affects the NO<sub>2</sub> significantly compared to the coastal distance from measuring station. 
+For CA state, visually we can clearly see there exists a correlation among impervious surface, population, length of the roads and NO₂ concentration (Figure 3.7). Interestingly, although some of the places are very closer to the coast but have significant concentrations of NO₂. This indicates that other factors such as impervious area, population, and length of the roads are so high that they affect the NO₂ significantly compared to the coastal distance from the measuring station. 
 </p>
 
 <figure style="text-align: center;">
@@ -243,7 +243,7 @@ For CA state, visually we can clearly see there exists a correlation among imper
 </figure>
 
 <p style="text-align:justify;">
-For IL state, there were only 6 stations, and the results suggests that there is a good relationship between impervious surface and NO<sub>2</sub> concentrations (Figure 3.8) . Also, since IL is far away from the coast it is clearly seen that NO<sub>2</sub> concentration has kind of linear relationship with coastal distance. Population and residential roads don’t reveal any clear pattern but with the major roads, it is clearly visible that increase in the length of major roads correlates well with the increase in NO<sub>2</sub> concentrations. 
+For IL state, there were only 6 stations, and the results suggest that there is a good relationship between impervious surface and NO₂ concentrations (Figure 3.8). Also, since IL is far away from the coast it is clearly seen that NO₂ concentration has an approximate linear relationship with coastal distance. Population and residential roads don’t reveal any clear pattern but with the major roads, it is clearly visible that the increase in the length of major roads correlates well with the increase in NO₂ concentrations. 
 </p>
 
 <figure style="text-align: center;">
@@ -252,7 +252,7 @@ For IL state, there were only 6 stations, and the results suggests that there is
 </figure>
 
 <p style="text-align:justify;">
-For FL state, impervious surface, population, roads all these parameters have kind of steady linear relationship with NO2 concentration and with the increase in these parameters NO<sub>2</sub> increase is not that significant (Figure 3.9). For example, in IL state, some of the places with 70-80% impervious area has around 30 ppb NO<sub>2</sub> concentration whereas in FL, places with 60-80% impervious area has around 12 ppb NO<sub>2</sub>. One of the major reason of this observed lower values could be due to the fact that all the stations in FL area are very close to the coast showing the noticeable effect of it on NO<sub>2</sub>.
+For FL state, parameters like impervious surface, population, roads have almost a steady linear relationship with NO₂ concentration and with the increase in these parameters, NO₂ increase is not that significant (Figure 3.9). For example, in IL state, some of the places with 70-80% impervious area has around 30 ppb NO₂ concentration whereas in FL, places with 60-80% impervious area has around 12 ppb NO₂. One of the major reason of this observed lower values could be due to the fact that all the stations in FL area are very close to the coast showing the noticeable effect of it on NO<sub>2</sub>.
 </p>
 
 <figure style="text-align: center;">
@@ -261,7 +261,7 @@ For FL state, impervious surface, population, roads all these parameters have ki
 </figure>
 
 <p style="text-align:justify;">
-In case of ND state, although it is very far from the coast but still it has very low concentration of NO<sub>2</sub> (highest being ~6%) (Figure 3.10). It could be attributed to the fact that all the stations had very low population and the length of the roads are the lowest among all the four states considered in the preliminary analysis. Overall, it is seen that out of all the land use characteristic considered, all of the factors do not have similar effect on NO2 concentration, and the effect varies from state to state.   
+In case of ND state, although it is very far from the coast but still it has very low concentration of NO<sub>2</sub> (highest being ~6%) (Figure 3.10). It could be attributed to the fact that all the stations had very low population and the length of the roads are the lowest among all the four states considered in the preliminary analysis. Overall, it is seen that out of all the land use characteristics considered, all of the factors do not have a similar effect on NO2 concentration, and the effect varies from state to state.   
 </p>
 
 <figure style="text-align: center;">
