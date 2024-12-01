@@ -52,8 +52,8 @@ content/04.Predictive Modeling.md:81:overfitting
 content/04.Predictive Modeling.md:81:ReLU
 content/04.Predictive Modeling.md:81:RMSE
 content/04.Predictive Modeling.md:94:dataset
-content/04.Predictive Modeling.md:94:generalizability
-content/04.Predictive Modeling.md:94:overfitting
+content/04.Predictive Modeling.md:94:dataset
+content/04.Predictive Modeling.md:94:RMSE
 content/04.Predictive Modeling.md:97:RMSE
 content/04.Predictive Modeling.md:97:Sl
 content/06.back-matter.md:6:Bechle

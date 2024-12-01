@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T02:10:10+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T02:10:10+00:00" />
+  <meta name="dc.modified" content="2024-12-01T02:16:33+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T02:16:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/54bd2dfaa2dc775252490dcd88986c63dd86b651/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/54bd2dfaa2dc775252490dcd88986c63dd86b651/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/54bd2dfaa2dc775252490dcd88986c63dd86b651/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/52c41256a9688c28ecb6cacb34e57a30bcedd3cf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/52c41256a9688c28ecb6cacb34e57a30bcedd3cf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/52c41256a9688c28ecb6cacb34e57a30bcedd3cf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/54bd2dfaa2dc775252490dcd88986c63dd86b651/))
+([permalink](https://uiceds.github.io/project-team492/v/52c41256a9688c28ecb6cacb34e57a30bcedd3cf/))
 was automatically generated
-from [uiceds/project-team492@54bd2df](https://github.com/uiceds/project-team492/tree/54bd2dfaa2dc775252490dcd88986c63dd86b651)
+from [uiceds/project-team492@52c4125](https://github.com/uiceds/project-team492/tree/52c41256a9688c28ecb6cacb34e57a30bcedd3cf)
 on December 1, 2024.
 </em></small>
 
@@ -461,13 +461,13 @@ __Comparison Among Different Predictive Models__
 </p>
 
 <p style="text-align:justify;">  
-The analysis utilized four predictive modeling techniques to predict NO2 concentrations using a dataset of various land use patterns in different locations across the US. The evaluation metrics of all the predictive models used in the analysis are summarized in the table below. The accuracy of the predictive model is as follows: Neural Network model > Random Forest Regression > Decision tree > Linear Regression. Although the linear regression modeling had the least accuracy, the value was still comparably low, which is also considered accurate. Random Forest model with an R2 value of 0.54 suggested a moderate predictive capability, whereas the R2 value of the Neural Network model indicates that it explained 61% of the variance in NO2 concentration. These results highlight the importance of accounting for the non-linear interactions and feature complexities when modeling NO2 concentrations, with Neural Networks demonstrating their strength in capturing such patterns. In the current analysis, the Neural network model did not enhance the predictive capability that much, and the reason could be due to highly non-linear relationships between the features, which reduced the advantage of applying the neural network model. Moreover, the number of observations ~370 may not be enough data to effectively learn complex patterns, and even with L1 penalties, overfitting is an issue. However, further improvements could be made in optimizing the predictive model, especially regarding feature selections, and exploring other advanced ensemble methods to enhance predictive accuracy and generalizability.
+The analysis utilized four predictive modeling techniques to predict NO2 concentrations using a dataset of various land use patterns in different locations across the US. The evaluation metrics of all the predictive models used in the analysis are summarized in the table below. The accuracy of the predictive model is as follows: Neural Network model > Random Forest Regression > Linear Regression > Decision Tree Regression. Although the Decision Tree Regression modeling had the least accuracy, the value was still comparably low, which is also considered accurate. Random Forest model with an R2 value of 0.54 suggested a moderate predictive capability. These results highlight the importance of accounting for the non-linear interactions and feature complexities when modeling NO2 concentrations, with Neural Networks demonstrating their strength in capturing such patterns. Plenty of data was used for machine learning in the dataset. The algorithm could be more tuned to enhance the accuracy; currently, simple regression models are utilized without passing complex filters. Also, the methods could be combined, not only training with one method. Still, the R2 and RMSE values are showing promising results. 
 </p>
 
 | Sl. No |   Technique of the Predictive Model  | RMSE | R2 |
 |:-------|:-------------------------------------|:-----|:---|
 |    1   |            Linear Regression         | 4.30 |-3.4|
-|    2   |             Decision Tree            | 5.55 |-0.0|
+|    2   |        Decision Tree Regression      | 5.55 |-0.0|
 |    3   |        Random Forest Regression      | 3.58 |0.5 | 
 |    4   |             Neural Network           | 3.12 |0.6 |
 

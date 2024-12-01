@@ -18,7 +18,6 @@ Environ
 Epidemiol
 Farhadi
 Garshick
-generalizability
 Geravandi
 GIS
 Goudarzi
@@ -56,7 +55,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-siyoung
+Siyoung
 Sl
 SMAPE
 Spatiotemporal
