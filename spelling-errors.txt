@@ -10,7 +10,7 @@ Champaign
 Chicco
 Clin
 CSV
-dataset
+Dataset
 dimensionality
 Dockery
 Elahi
