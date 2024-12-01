@@ -45,6 +45,7 @@ content/04.Predictive Modeling.md:42:overfitting
 content/04.Predictive Modeling.md:50:RMSE
 content/04.Predictive Modeling.md:55:valuess
 content/04.Predictive Modeling.md:60:overfitting
+content/04.Predictive Modeling.md:64:Regressor
 content/04.Predictive Modeling.md:64:RMSE
 content/04.Predictive Modeling.md:69:Regressor
 content/04.Predictive Modeling.md:77:dataset

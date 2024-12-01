@@ -55,7 +55,7 @@ ReLU
 RMSE
 Salmanzadeh
 Sams
-Siyoung
+siyoung
 Sl
 SMAPE
 Spatiotemporal

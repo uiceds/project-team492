@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T02:16:33+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T02:16:33+00:00" />
+  <meta name="dc.modified" content="2024-12-01T02:18:50+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T02:18:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -82,9 +82,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/52c41256a9688c28ecb6cacb34e57a30bcedd3cf/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/52c41256a9688c28ecb6cacb34e57a30bcedd3cf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/52c41256a9688c28ecb6cacb34e57a30bcedd3cf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/47888fdb753e6323eb8cc19646cae986cf9aa1d0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/47888fdb753e6323eb8cc19646cae986cf9aa1d0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/47888fdb753e6323eb8cc19646cae986cf9aa1d0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,9 +101,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team492/v/52c41256a9688c28ecb6cacb34e57a30bcedd3cf/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team492/v/47888fdb753e6323eb8cc19646cae986cf9aa1d0/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team492/tree/52c41256a9688c28ecb6cacb34e57a30bcedd3cf">uiceds/project-team492@52c4125</a>
+from <a href="https://github.com/uiceds/project-team492/tree/47888fdb753e6323eb8cc19646cae986cf9aa1d0">uiceds/project-team492@47888fd</a>
 on December 1, 2024.
 </em></small></p>
 <p>Published: November 18, 2024</p>
@@ -491,7 +491,7 @@ Figure 4.2 shows the machine learning result. A typical 80/20 split for training
 Random forest is an ensemble learning method that aggregates predictions from multiple decision trees to reduce overfitting and improve generalization. As in decision tree regression, the variables were set as n_trees:200, max_depth: 20, and min_samples_split: 15.
 </p>
 <p style="text-align:justify;">
-A typical 80/20 split for training and testing was used to evaluate the model’s generalization on unseen data. The accuracy was checked by R2 and RMSE values, which are 0.5 and 3.58, respectively.
+A typical 80/20 split for training and testing was used to evaluate the model’s generalization on unseen data. The accuracy was checked by R2 and RMSE values, which are 0.5 and 3.58, respectively. Figure 4.3 shows the relationship between trained NO2 values and observed NO2 values using Random Forest Regressor model.
 </p>
 <figure style="text-align: center;">
 <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Random%20Forest%201.png?raw=true">
@@ -506,12 +506,12 @@ A typical 80/20 split for training and testing was used to evaluate the model’
 A neural network is a computational model inspired by the human brain, consisting of layers of interconnected neurons. It is commonly used to learn patterns and relationships in a dataset. This model has been applied to explore its predictive capability compared to other techniques.
 </p>
 <p style="text-align:justify;">
-The main neural network architecture has been defined using the chain structure, which takes 12 features as input and passes them to the first hidden layer. Three hidden layers have been added with 128, 64, and 32 neurons, along with ReLU activation. A dropout of 0.5 has been kept to drop 50% of the neurons randomly to prevent overfitting. A single neuron outputs the predicted NO2 value. For this predictive model, R2 value was 0.6 and RMSE value was 3.12.
+The main neural network architecture has been defined using the chain structure, which takes 12 features as input and passes them to the first hidden layer. Three hidden layers have been added with 128, 64, and 32 neurons, along with ReLU activation. A dropout of 0.5 has been kept to drop 50% of the neurons randomly to prevent overfitting. A single neuron outputs the predicted NO2 value. For this predictive model, R2 value was 0.6 and RMSE value was 3.12. Figure 4.4 shows the relationship between trained NO2 values and observed NO2 values using neural network model.
 </p>
 <figure style="text-align: center;">
 <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Neural%20Network.png?raw=true">
 <figcaption>
-<strong>Figure XX4:</strong> Comparison between the NO2 values predicted from Neural Network model and the observed NO2 values for all the training and test data.
+<strong>Figure 4.44:</strong> Comparison between the NO2 values predicted from Neural Network model and the observed NO2 values for all the training and test data.
 </figcaption>
 </figure>
 <p style="text-align:justify;">
