@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-01T12:15:57+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T12:15:57+00:00" />
+  <meta name="dc.modified" content="2024-12-01T12:21:38+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T12:21:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/37aa2ada4ee3f087b72b85e6fd11d8ae029247c1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/37aa2ada4ee3f087b72b85e6fd11d8ae029247c1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/37aa2ada4ee3f087b72b85e6fd11d8ae029247c1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/5dd0a1cebf1f060b60b2612a5b5a3e5a2aa547ca/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/5dd0a1cebf1f060b60b2612a5b5a3e5a2aa547ca/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/5dd0a1cebf1f060b60b2612a5b5a3e5a2aa547ca/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/37aa2ada4ee3f087b72b85e6fd11d8ae029247c1/))
+([permalink](https://uiceds.github.io/project-team492/v/5dd0a1cebf1f060b60b2612a5b5a3e5a2aa547ca/))
 was automatically generated
-from [uiceds/project-team492@37aa2ad](https://github.com/uiceds/project-team492/tree/37aa2ada4ee3f087b72b85e6fd11d8ae029247c1)
+from [uiceds/project-team492@5dd0a1c](https://github.com/uiceds/project-team492/tree/5dd0a1cebf1f060b60b2612a5b5a3e5a2aa547ca)
 on December 1, 2024.
 </em></small>
 
@@ -289,9 +289,9 @@ Based on the preliminary analysis of our dataset, it is evident that all these l
   
 
 
-## Predictive Modeling {.page_break_before}
+## 4. Predictive Modeling {.page_break_before}
    
-__Machine learning methods__ 
+__4.1 Machine learning methods__ 
 <p style="text-align:justify;">
 Predictive modeling using machine learning was performed using four methods: linear regression, decision tree, random forest regression, and neural network. The dataset, which has 369 data in eight variables, was used for training. The validity of the model was confirmed visually by plotting it linearly and checking the RMSE and R2 values.
 </p>
@@ -301,20 +301,20 @@ RMSE is a root mean square error, in which the best value is 0 and the worst val
 </p>
 
 <p style="text-align:justify;">
-__1. Linear regression__  
+__4.1.1. Linear regression__  
 </p>
 
 <p style="text-align:justify;">
-The first method used for machine learning was the linear regression model. A simple linear relationship was used for training, which gave a sense of data analysis and assisted in planning future machine learning methods. The mean squared error was used to minimize the error, and with seven variables used, each variable was multiplied by a random seed and added with random bias initially. The training was performed and plotted using the normalized data, as shown in Figure 4.1. The procedure for coding is shown in the appendix. The accuracy of the machine learning was validated by calculating R2 and RMSE values. R2 value was -3.4 and RMSE value was 4.3.
+The first method used for machine learning was the linear regression model. A simple linear relationship was used for training, which gave a sense of data analysis and assisted in planning future machine learning methods. The mean squared error was used to minimize the error, and with seven variables used, each variable was multiplied by a random seed and added with random bias initially. The training was performed and plotted using the normalized data, as shown in Figure 4.1. The procedure for coding is shown in the appendix. The accuracy of the machine learning was estimated by calculating R2 and RMSE values. R2 value was 0.49 and RMSE value was 4.3.
 </p>
 
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/S_linear.png?raw=true" alt="Sample Image">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Linear%20Regression.png?raw=true">
     <figcaption><strong>Figure 4.1:</strong> Comparison between the NO2 values predicted from Linear Regression model and the observed NO2 values </figcaption>
 </figure>
 
 <p style="text-align:justify;">
-__2. Decision tree regression__
+__4.1.2. Decision tree regression__
 </p>
 
 <p style="text-align:justify;">
@@ -346,7 +346,7 @@ Figure 4.2 shows the machine learning result. A typical 80/20 split for training
     <figcaption><strong>Figure 4.2:</strong> Comparison between the NO2 values predicted from Decision Tree Regression and the observed NO2 valuess </figcaption>
 </figure>
 
-__3. Random forest Regressor__
+__4.1.3. Random forest Regressor__
 <p style="text-align:justify;">   
 Random forest is an ensemble learning method that aggregates predictions from multiple decision trees to reduce overfitting and improve generalization. As in decision tree regression, the variables were set as n_trees:200, max_depth: 20, and min_samples_split: 15.
 </p>
@@ -361,7 +361,7 @@ A typical 80/20 split for training and testing was used to evaluate the model's 
 </figure>
  
 <p style="text-align:justify;"> 
-__4. Neural Network Algorithm__
+__4.1.4 Neural Network Algorithm__
 </p>
    
 <p style="text-align:justify;">     
@@ -379,7 +379,7 @@ The main neural network architecture has been defined using the chain structure,
 
 
 <p style="text-align:justify;"> 
-__Comparison Among Different Predictive Models__
+__4.2 Comparison Among Different Predictive Models__
 </p>
 
 
