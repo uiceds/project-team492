@@ -155,7 +155,7 @@ Accurately predicting NO₂ concentrations can help identify areas that require 
 The dataset attributes (columns) are as follows:
 </p>
 <p style="text-align:justify;">
-NO2_Concentration (ppb): The measured concentration of NO₂ at each monitoring station, with values ranging from 0.31 to 34.21 ppb across different states.
+NO₂_Concentration (ppb): The measured concentration of NO₂ at each monitoring station, with values ranging from 0.31 to 34.21 ppb across different states.
 </p>
 <p style="text-align:justify;">
 Impervious_100 (%): The percentage of impervious surfaces, such as roads and buildings, within a 100-meter buffer zone around the measuring station. This variable indicates the extent of urban development immediately surrounding the monitoring site.
