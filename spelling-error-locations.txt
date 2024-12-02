@@ -130,3 +130,13 @@ content/06.back-matter.md:18:SMAPE
 content/06.back-matter.md:20:Agbulut
 content/06.back-matter.md:20:Bicen
 content/06.back-matter.md:20:Gurel
+content/06.back-matter.md:22:Environ
+content/06.back-matter.md:22:Knibbs
+content/06.back-matter.md:22:Morawska
+content/06.back-matter.md:22:NOx
+content/06.back-matter.md:22:Rahman
+content/06.back-matter.md:22:Softw
+content/06.back-matter.md:22:Yeganeh
+content/06.back-matter.md:24:Bai
+content/06.back-matter.md:24:Environ
+content/06.back-matter.md:24:Liu
