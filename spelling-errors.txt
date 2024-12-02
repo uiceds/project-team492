@@ -57,12 +57,12 @@ Pollut
 ppb
 Puett
 Rauf
-Regressor
+regressor
 ReLU
 RMSE
 Salmanzadeh
 Sams
-siyoung
+Siyoung
 Sl
 SMAPE
 Spatiotemporal
