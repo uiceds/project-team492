@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-02T02:13:24+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T02:13:24+00:00" />
+  <meta name="dc.modified" content="2024-12-02T02:20:42+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T02:20:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/7b193521555ec6d229a3219f5a49084ac86575fd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/7b193521555ec6d229a3219f5a49084ac86575fd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/7b193521555ec6d229a3219f5a49084ac86575fd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/6737e70597c57567c066b8980d07a7fe96067926/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/6737e70597c57567c066b8980d07a7fe96067926/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/6737e70597c57567c066b8980d07a7fe96067926/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/7b193521555ec6d229a3219f5a49084ac86575fd/))
+([permalink](https://uiceds.github.io/project-team492/v/6737e70597c57567c066b8980d07a7fe96067926/))
 was automatically generated
-from [uiceds/project-team492@7b19352](https://github.com/uiceds/project-team492/tree/7b193521555ec6d229a3219f5a49084ac86575fd)
+from [uiceds/project-team492@6737e70](https://github.com/uiceds/project-team492/tree/6737e70597c57567c066b8980d07a7fe96067926)
 on December 2, 2024.
 </em></small>
 
@@ -206,7 +206,7 @@ In case of Major roads, we clearly see with the increasing length of major roads
 </figure>
 
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%203.PNG?raw=true">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/EDA_Major%20ROads.png?raw=true">
     <figcaption><strong>Figure 3.2:</strong> Variation of measured NO<sub>2</sub> concentration with the major roads at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
 </figure>
 
@@ -215,11 +215,11 @@ Similar trend is observed for the relationship between NO2 concentration and res
 Overall, all of these land-use characteristics have their own effect on the NO2 concentration and in some cases, there is strong relationship with NO2. 
 </p>
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%205.PNG?raw=true">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/EDA_Resident%20ROads.png?raw=true">
     <figcaption><strong>Figure 3.3:</strong> Variation of measured NO<sub>2</sub> concentration with the length of residential roads at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
 </figure>
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%204.PNG?raw=true">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/EDA_Total%20road.png?raw=true">
     <figcaption><strong>Figure 3.4:</strong> Variation of measured NO<sub>2</sub> concentration with the length of total roads at 100m, 5000m and 10000m radius around the monitor station.</figcaption>
 </figure>
 
@@ -242,7 +242,7 @@ For CA state, visually we can clearly see there exists a correlation among imper
 </p>
 
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%208.PNG?raw=true" alt="Sample Image">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/EDA_CA.png?raw=true">
     <figcaption><strong>Figure 3.7:</strong> Effect of different land use characteristics on NO<sub>2</sub> concentration of CA state.</figcaption>
 </figure>
 
@@ -251,7 +251,7 @@ For IL state, there were only 6 stations, and the results suggests that there is
 </p>
 
 <figure style="text-align: center;">
-    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/Figure%2010.PNG?raw=true" alt="Sample Image">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/EDA_IL.png?raw=true">
     <figcaption><strong>Figure 3.8:</strong> Effect of different land use characteristics on NO<sub>2</sub> concentration of IL state.</figcaption>
 </figure>
 
@@ -260,7 +260,7 @@ For FL state, impervious surface, population, roads all these parameters have ki
 </p>
 
 <figure style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/uiceds/project-team492/refs/heads/main/content/images/Figure%2012.PNG" alt="Sample Image">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/EDA_FL.png?raw=true">
     <figcaption><strong>Figure 3.9:</strong> Effect of different land use characteristics on NO<sub>2</sub> concentration of FL state. </figcaption>
 </figure>
 
@@ -269,7 +269,7 @@ In case of ND state, although it is very far from the coast but still it has ver
 </p>
 
 <figure style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/uiceds/project-team492/refs/heads/main/content/images/Figure%2014.PNG" alt="Sample Image">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/EDA_ND.png?raw=true">
     <figcaption><strong>Figure 3.10:</strong>  Effect of different land use characteristics on NO<sub>2</sub> concentration of ND state. </figcaption>
 </figure>
 
