@@ -57,7 +57,7 @@ Pollut
 ppb
 Puett
 Rauf
-regressor
+Regressor
 ReLU
 RMSE
 Salmanzadeh

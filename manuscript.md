@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-02T00:07:07+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T00:07:07+00:00" />
+  <meta name="dc.modified" content="2024-12-02T00:31:28+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T00:31:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/1cbe2d5f08a232c08477ee58aba5a79ab05573b0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/1cbe2d5f08a232c08477ee58aba5a79ab05573b0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/1cbe2d5f08a232c08477ee58aba5a79ab05573b0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/dd664213ab584749304959e9bf06fcfe8ca7979b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/dd664213ab584749304959e9bf06fcfe8ca7979b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/dd664213ab584749304959e9bf06fcfe8ca7979b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/1cbe2d5f08a232c08477ee58aba5a79ab05573b0/))
+([permalink](https://uiceds.github.io/project-team492/v/dd664213ab584749304959e9bf06fcfe8ca7979b/))
 was automatically generated
-from [uiceds/project-team492@1cbe2d5](https://github.com/uiceds/project-team492/tree/1cbe2d5f08a232c08477ee58aba5a79ab05573b0)
+from [uiceds/project-team492@dd66421](https://github.com/uiceds/project-team492/tree/dd664213ab584749304959e9bf06fcfe8ca7979b)
 on December 2, 2024.
 </em></small>
 
@@ -465,5 +465,28 @@ The findings align with previous studies, validating the potential of advanced m
 [8] U. Agbulut, A.E. Gurel, Y. Bicen, Prediction of daily global solar radiation using different machine learning algorithms: Evaluation and comparison, Renewable and Sustainable Energy Reviews. 135 (2021) 110114. https://doi.org/10.1016/j.rser.2020.110114
 
 
+## 7. Appendix {.page_break_before}
 
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/linear%20model%20code_A1.png?raw=true">
+    <figcaption><strong>Figure A1:</strong> Julia code used for developing the linear model to predict NO2 concentration .</figcaption>
+</figure>
+
+
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/decision%20tree_Siyoung_A2.png?raw=true">
+    <figcaption><strong>Figure A2:</strong> Julia code used for developing the decision tree regression model to predict NO2 concentration .</figcaption>
+</figure>
+
+
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/RF%20code.png?raw=true">
+    <figcaption><strong>Figure A3:</strong> Julia code used for developing the Random Forest regression model to predict NO2 concentration .</figcaption>
+</figure>
+
+
+<figure style="text-align: center;">
+    <img src="https://github.com/uiceds/project-team492/blob/main/content/images/nn%20code_new.png?raw=true">
+    <figcaption><strong>Figure A4:</strong> Julia code used for developing the Neural Network model to predict NO2 concentration .</figcaption>
+</figure>
 
