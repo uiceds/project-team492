@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-11-18'
+date-meta: '2024-12-01'
 author-meta:
 - Siyoung Park
 - Tausif E Elahi
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content=" Evaluation of NO2 emission with different land-use pattern within different states in the US" />
   <meta property="og:title" content=" Evaluation of NO2 emission with different land-use pattern within different states in the US" />
   <meta property="twitter:title" content=" Evaluation of NO2 emission with different land-use pattern within different states in the US" />
-  <meta name="dc.date" content="2024-11-18" />
-  <meta name="citation_publication_date" content="2024-11-18" />
-  <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-12-02T02:32:27+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T02:32:27+00:00" />
+  <meta name="dc.date" content="2024-12-01" />
+  <meta name="citation_publication_date" content="2024-12-01" />
+  <meta property="article:published_time" content="2024-12-01" />
+  <meta name="dc.modified" content="2024-12-02T02:38:38+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T02:38:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team492/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team492/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team492/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/08debcb64919ceaa0b852f8fa21b864ffc03293b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/08debcb64919ceaa0b852f8fa21b864ffc03293b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/08debcb64919ceaa0b852f8fa21b864ffc03293b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team492/v/af016894219b9c98bf0490deb92d12b98c0cc40c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team492/v/af016894219b9c98bf0490deb92d12b98c0cc40c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team492/v/af016894219b9c98bf0490deb92d12b98c0cc40c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,13 +75,13 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team492/v/08debcb64919ceaa0b852f8fa21b864ffc03293b/))
+([permalink](https://uiceds.github.io/project-team492/v/af016894219b9c98bf0490deb92d12b98c0cc40c/))
 was automatically generated
-from [uiceds/project-team492@08debcb](https://github.com/uiceds/project-team492/tree/08debcb64919ceaa0b852f8fa21b864ffc03293b)
+from [uiceds/project-team492@af01689](https://github.com/uiceds/project-team492/tree/af016894219b9c98bf0490deb92d12b98c0cc40c)
 on December 2, 2024.
 </em></small>
 
-Published: November 18, 2024
+Published: December 1, 2024
 
 
 ## Authors
